@@ -475,7 +475,7 @@
                 <br>контролируют, чтобы паспорта учитывали требования
                 <br>законодательства и профессиональных стандартов
             </p>
-            <div class="flex mx-150 mb-150" style="justify-content: space-between">
+            <div class="flex-wrap mx-150 mb-150" style="justify-content: space-between">
                 <article class="w-px-300 border-radius-10 flex-column" style="background-color: rgba(249, 248, 244, 1);">
                     <div class="flex-center p-10">
                         <div class="w-px-280">
