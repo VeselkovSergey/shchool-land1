@@ -31,6 +31,16 @@
             height: 100%;
         }
 
+        a {
+            color: #2386ff;
+            transition: color 0.3s ease;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #f79a15;
+        }
+
         .hide {
             display: none;
         }
@@ -110,123 +120,123 @@
         }
 
         @for($i = 0; $i <= 500; $i++)
-        .p-{{$i}}       {
+        .p-{{$i}}              {
             padding: {{$i}}px;
         }
 
-        .px-{{$i}}       {
+        .px-{{$i}}              {
             padding-left: {{$i}}px;
             padding-right: {{$i}}px;
         }
 
-        .py-{{$i}}       {
+        .py-{{$i}}              {
             padding-top: {{$i}}px;
             padding-bottom: {{$i}}px;
         }
 
-        .pl-{{$i}}       {
+        .pl-{{$i}}              {
             padding-left: {{$i}}px;
         }
 
-        .pr-{{$i}}       {
+        .pr-{{$i}}              {
             padding-right: {{$i}}px;
         }
 
-        .pt-{{$i}}       {
+        .pt-{{$i}}              {
             padding-top: {{$i}}px;
         }
 
-        .pb-{{$i}}       {
+        .pb-{{$i}}              {
             padding-bottom: {{$i}}px;
         }
 
-        .m-{{$i}}       {
+        .m-{{$i}}              {
             margin: {{$i}}px;
         }
 
-        .mx-{{$i}}       {
+        .mx-{{$i}}              {
             margin-left: {{$i}}px;
             margin-right: {{$i}}px;
         }
 
-        .my-{{$i}}       {
+        .my-{{$i}}              {
             margin-top: {{$i}}px;
             margin-bottom: {{$i}}px;
         }
 
-        .ml-{{$i}}       {
+        .ml-{{$i}}              {
             margin-left: {{$i}}px;
         }
 
-        .mr-{{$i}}       {
+        .mr-{{$i}}              {
             margin-right: {{$i}}px;
         }
 
-        .mt-{{$i}}       {
+        .mt-{{$i}}              {
             margin-top: {{$i}}px;
         }
 
-        .mb-{{$i}}       {
+        .mb-{{$i}}              {
             margin-bottom: {{$i}}px;
         }
 
-        .w-{{$i}}       {
+        .w-{{$i}}              {
             width: {{$i}}%;
         }
 
-        .w-px-{{$i}}      {
+        .w-px-{{$i}}             {
             width: {{$i}}px;
         }
 
-        .h-{{$i}}       {
+        .h-{{$i}}              {
             height: {{$i}}%;
         }
 
-        .h-px-{{$i}}      {
+        .h-px-{{$i}}             {
             height: {{$i}}px;
         }
 
-        .top-{{$i}}      {
+        .top-{{$i}}             {
             top: {{$i}}px;
         }
 
-        .top--{{$i}}      {
+        .top--{{$i}}             {
             top: -{{$i}}px;
         }
 
-        .left-{{$i}}      {
+        .left-{{$i}}             {
             left: {{$i}}px;
         }
 
-        .right-{{$i}}      {
+        .right-{{$i}}             {
             right: {{$i}}px;
         }
 
-        .bottom-{{$i}}      {
+        .bottom-{{$i}}             {
             bottom: {{$i}}px;
         }
 
-        .opacity-{{$i}}      {
+        .opacity-{{$i}}             {
             opacity: {{$i}}%;
         }
 
-        .z-{{$i}}      {
+        .z-{{$i}}             {
             z-index: {{$i}};
         }
 
-        .z-{{$i}}      {
+        .z-{{$i}}             {
             z-index: {{$i}};
         }
 
-        .z--{{$i}}      {
+        .z--{{$i}}             {
             z-index: -{{$i}};
         }
 
-        .font-size-{{$i}}     {
+        .font-size-{{$i}}            {
             font-size: {{$i}}px;
         }
 
-        .border-radius-{{$i}}  {
+        .border-radius-{{$i}}         {
             border-radius: {{$i}}px;
         }
 
@@ -237,93 +247,93 @@
             width: {{$i}}%;
         }
 
-        .p-{{$i}}-0       {
+        .p-{{$i}}-0 {
             padding: {{$i}}px;
         }
 
-        .px-{{$i}}-0       {
+        .px-{{$i}}-0 {
             padding-left: {{$i}}px;
             padding-right: {{$i}}px;
         }
 
-        .py-{{$i}}-0       {
+        .py-{{$i}}-0 {
             padding-top: {{$i}}px;
             padding-bottom: {{$i}}px;
         }
 
-        .pl-{{$i}}-0       {
+        .pl-{{$i}}-0 {
             padding-left: {{$i}}px;
         }
 
-        .pr-{{$i}}-0       {
+        .pr-{{$i}}-0 {
             padding-right: {{$i}}px;
         }
 
-        .pt-{{$i}}-0       {
+        .pt-{{$i}}-0 {
             padding-top: {{$i}}px;
         }
 
-        .pb-{{$i}}-0       {
+        .pb-{{$i}}-0 {
             padding-bottom: {{$i}}px;
         }
 
-        .p-0-{{$i}}       {
-             padding: 0;
-         }
+        .p-0-{{$i}}              {
+            padding: 0;
+        }
 
-        .px-0-{{$i}}       {
+        .px-0-{{$i}}              {
             padding-left: 0;
             padding-right: 0;
         }
 
-        .py-0-{{$i}}       {
+        .py-0-{{$i}}              {
             padding-top: 0;
             padding-bottom: 0;
         }
 
-        .pl-0-{{$i}}       {
+        .pl-0-{{$i}}              {
             padding-left: 0;
         }
 
-        .pr-0-{{$i}}       {
+        .pr-0-{{$i}}              {
             padding-right: 0;
         }
 
-        .pt-0-{{$i}}       {
+        .pt-0-{{$i}}              {
             padding-top: 0;
         }
 
-        .pb-0-{{$i}}       {
+        .pb-0-{{$i}}              {
             padding-bottom: 0;
         }
 
-        .m-{{$i}}-0       {
+        .m-{{$i}}-0 {
             margin: {{$i}}px;
         }
 
-        .mx-{{$i}}-0       {
+        .mx-{{$i}}-0 {
             margin-left: {{$i}}px;
             margin-right: {{$i}}px;
         }
 
-        .my-{{$i}}-0       {
+        .my-{{$i}}-0 {
             margin-top: {{$i}}px;
             margin-bottom: {{$i}}px;
         }
 
-        .ml-{{$i}}-0       {
+        .ml-{{$i}}-0 {
             margin-left: {{$i}}px;
         }
 
-        .mr-{{$i}}-0       {
+        .mr-{{$i}}-0 {
             margin-right: {{$i}}px;
         }
 
-        .mt-{{$i}}-0       {
+        .mt-{{$i}}-0 {
             margin-top: {{$i}}px;
         }
 
-        .mb-{{$i}}-0       {
+        .mb-{{$i}}-0 {
             margin-bottom: {{$i}}px;
         }
 
@@ -332,98 +342,102 @@
                 width: 100%;
             }
 
-            .p-{{$i}}-0       {
+            .p-{{$i}}-0 {
                 padding: 0;
             }
 
-            .px-{{$i}}-0       {
+            .px-{{$i}}-0 {
                 padding-left: 0;
                 padding-right: 0;
             }
 
-            .py-{{$i}}-0       {
+            .py-{{$i}}-0 {
                 padding-top: 0;
                 padding-bottom: 0;
             }
 
-            .pl-{{$i}}-0       {
+            .pl-{{$i}}-0 {
                 padding-left: 0;
             }
 
-            .pr-{{$i}}-0       {
+            .pr-{{$i}}-0 {
                 padding-right: 0;
             }
 
-            .pt-{{$i}}-0       {
+            .pt-{{$i}}-0 {
                 padding-top: 0;
             }
 
-            .pb-{{$i}}-0       {
+            .pb-{{$i}}-0 {
                 padding-bottom: 0;
             }
 
-            .p-0-{{$i}}       {
-                 padding: {{$i}}px;
-             }
+            .p-0-{{$i}}              {
+                padding: {{$i}}px;
+            }
 
-            .px-0-{{$i}}       {
+            .px-0-{{$i}}              {
                 padding-left: {{$i}}px;
                 padding-right: {{$i}}px;
             }
 
-            .py-0-{{$i}}       {
+            .py-0-{{$i}}              {
                 padding-top: {{$i}}px;
                 padding-bottom: {{$i}}px;
             }
 
-            .pl-0-{{$i}}       {
+            .pl-0-{{$i}}              {
                 padding-left: {{$i}}px;
             }
 
-            .pr-0-{{$i}}       {
+            .pr-0-{{$i}}              {
                 padding-right: {{$i}}px;
             }
 
-            .pt-0-{{$i}}       {
+            .pt-0-{{$i}}              {
                 padding-top: {{$i}}px;
             }
 
-            .pb-0-{{$i}}       {
+            .pb-0-{{$i}}              {
                 padding-bottom: {{$i}}px;
             }
 
-            .m-{{$i}}-0       {
+            .m-{{$i}}-0 {
                 margin: 0;
             }
 
-            .mx-{{$i}}-0       {
+            .mx-{{$i}}-0 {
                 margin-left: 0;
                 margin-right: 0;
             }
 
-            .my-{{$i}}-0       {
+            .my-{{$i}}-0 {
                 margin-top: 0;
                 margin-bottom: 0;
             }
 
-            .ml-{{$i}}-0       {
+            .ml-{{$i}}-0 {
                 margin-left: 0;
             }
 
-            .mr-{{$i}}-0       {
+            .mr-{{$i}}-0 {
                 margin-right: 0;
             }
 
-            .mt-{{$i}}-0       {
+            .mt-{{$i}}-0 {
                 margin-top: 0;
             }
 
-            .mb-{{$i}}-0       {
+            .mb-{{$i}}-0 {
                 margin-bottom: 0;
             }
         }
 
         @endfor
+
+        .m-a {
+            margin: auto;
+        }
 
         .mr-a {
             margin-right: auto;
@@ -446,9 +460,11 @@
         .form_radio {
             margin-bottom: 10px;
         }
+
         .form_radio input[type=radio] {
             display: none;
         }
+
         .form_radio label {
             display: inline-block;
             cursor: pointer;
@@ -493,6 +509,11 @@
             filter: grayscale(100%);
         }
 
+        button {
+            border-radius: 10px;
+            padding: 10px 40px;
+        }
+
         .button-1 {
             border-radius: 10px;
             padding: 10px 40px;
@@ -503,6 +524,17 @@
         .button-1:hover {
             background-color: rgba(196, 200, 212, 1);
             color: black;
+        }
+
+        .button-2 {
+            border-radius: 10px;
+            padding: 10px 40px;
+            background-color: rgba(255, 159, 54, 1);
+            color: white;
+        }
+
+        .button-2:hover {
+            background-color: rgb(189, 111, 27);
         }
 
         .button-slider-1.--active {
@@ -526,8 +558,6 @@
             display: none;
         }
     </style>
-
-
 
 </head>
 <body class="p-0-10" style="background-color: rgba(69, 65, 60, 0.03);">
@@ -607,8 +637,10 @@
                 </div>
             </article>
         </div>
-        <span style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(7, 108, 123, 1); border-radius: 50px; top: -20px;left: 50px;"></span>
-        <span style="display: inline-block; width: 20px; height: 20px; position: absolute; background-color: rgba(236, 139, 0, 1); border-radius: 50px; top: 220px;left: -10px;"></span>
+        <span
+            style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(7, 108, 123, 1); border-radius: 50px; top: -20px;left: 50px;"></span>
+        <span
+            style="display: inline-block; width: 20px; height: 20px; position: absolute; background-color: rgba(236, 139, 0, 1); border-radius: 50px; top: 220px;left: -10px;"></span>
     </section>
     <section class="mb-80 px-150-0 py-100 pos-relative" style="background-color: rgba(74, 144, 226, 1); color: white;">
         <h3 class="font-size-36 text-center mb-90" style="text-transform: uppercase;">
@@ -630,9 +662,12 @@
                 </div>
             </div>
         </div>
-        <span style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(243, 228, 181, 1); border-radius: 0 0 50px 50px; top: 0;right: 10px; rotate: -40deg;"></span>
-        <span style="display: inline-block; width: 15px; height: 15px; position: absolute; background-color: rgba(249, 249, 249, 1); border-radius: 50px; top: 220px;left: 50px;"></span>
-        <span style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(7, 108, 123, 1); border-radius: 50px; bottom: -15px;left: 200px;"></span>
+        <span
+            style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(243, 228, 181, 1); border-radius: 0 0 50px 50px; top: 0;right: 10px; rotate: -40deg;"></span>
+        <span
+            style="display: inline-block; width: 15px; height: 15px; position: absolute; background-color: rgba(249, 249, 249, 1); border-radius: 50px; top: 220px;left: 50px;"></span>
+        <span
+            style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(7, 108, 123, 1); border-radius: 50px; bottom: -15px;left: 200px;"></span>
     </section>
     <section class="mb-80">
         <h3>Готовый урок</h3>
@@ -667,8 +702,10 @@
                 <h4 class="font-size-36">Новые форматы интерактивных заданий •</h4>
                 <div class="hide pt-35 font-size-20">
                     <p class="mb-35">Сформируйте ваш паспорт навыков профессионального бухгалтера госсектора</p>
-                    <p>Подтвердите свои знания и получите цифровой паспорт профессиональных навыков, одобренный органами власти,
-                        специалистами Минфина и Федерального казначейства. Управляйте своим профессиональным присутствием в
+                    <p>Подтвердите свои знания и получите цифровой паспорт профессиональных навыков, одобренный органами
+                        власти,
+                        специалистами Минфина и Федерального казначейства. Управляйте своим профессиональным
+                        присутствием в
                         интернете, получайте новые навыки и возможности для карьерного роста.</p>
                 </div>
             </div>
@@ -678,8 +715,10 @@
                 <h4 class="font-size-36">Паспорт навыков •</h4>
                 <div class="pt-35 w-75 font-size-20">
                     <p class="mb-35">Сформируйте ваш паспорт навыков профессионального бухгалтера госсектора</p>
-                    <p>Подтвердите свои знания и получите цифровой паспорт профессиональных навыков, одобренный органами власти,
-                        специалистами Минфина и Федерального казначейства. Управляйте своим профессиональным присутствием в
+                    <p>Подтвердите свои знания и получите цифровой паспорт профессиональных навыков, одобренный органами
+                        власти,
+                        специалистами Минфина и Федерального казначейства. Управляйте своим профессиональным
+                        присутствием в
                         интернете, получайте новые навыки и возможности для карьерного роста.</p>
                 </div>
             </div>
@@ -697,7 +736,8 @@
                 <br>законодательства и профессиональных стандартов
             </p>
             <div class="flex-wrap mx-150-0 mb-150" style="justify-content: space-around;">
-                <article class="w-px-300 border-radius-10 flex-column" style="background-color: rgba(249, 248, 244, 1);">
+                <article class="w-px-300 border-radius-10 flex-column"
+                         style="background-color: rgba(249, 248, 244, 1);">
                     <div class="flex-center p-10">
                         <div class="w-px-280">
                             <img src="{{asset('assets/imgs/exp_1.svg')}}" alt="">
@@ -713,17 +753,20 @@
                         <div class="font-size-14 mb-10 mt-a" style="color: rgba(166, 162, 153, 1);">Бухгалтерия</div>
                     </div>
                 </article>
-                <article class="w-px-300 border-radius-10 flex-column" style="background-color: rgba(249, 248, 244, 1);">
+                <article class="w-px-300 border-radius-10 flex-column"
+                         style="background-color: rgba(249, 248, 244, 1);">
                     <div class="w-px-280 p-10">
                         <img src="{{asset('assets/imgs/exp_2.svg')}}" alt="">
                     </div>
                     <div class="p-10 flex-column h-100">
                         <h4 class="font-size-24">Алексей Сосновский</h4>
-                        <p class="font-size-18 mb-10">начальник отдела бухгалтерского учета и отчетности Министерства финансов Архангельской области</p>
+                        <p class="font-size-18 mb-10">начальник отдела бухгалтерского учета и отчетности Министерства
+                            финансов Архангельской области</p>
                         <div class="font-size-14 mb-10 mt-a" style="color: rgba(166, 162, 153, 1);">Бухгалтерия</div>
                     </div>
                 </article>
-                <article class="w-px-300 border-radius-10 flex-column" style="background-color: rgba(249, 248, 244, 1);">
+                <article class="w-px-300 border-radius-10 flex-column"
+                         style="background-color: rgba(249, 248, 244, 1);">
                     <div class="w-px-280 p-10">
                         <img src="{{asset('assets/imgs/exp_3.svg')}}" alt="">
                     </div>
@@ -739,36 +782,43 @@
                 <div class="w-50-100">
                     <div class="pr-150-0">
                         <h3 class="font-size-54 mb-15">Цифровой паспорт ключевых навыков</h3>
-                        <div class="p-15 mb-5 border-radius-10 button-slider-1 --active cp" data-img="1" data-img-src="{{asset('assets/imgs/passport1.gif')}}">
+                        <div class="p-15 mb-5 border-radius-10 button-slider-1 --active cp" data-img="1"
+                             data-img-src="{{asset('assets/imgs/passport1.gif')}}">
                             <p class="font-size-18">
                                 Для каждого специалиста разрабатываем паспорт навыков и вектор карьерного роста
                             </p>
                         </div>
-                        <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="2" data-img-src="{{asset('assets/imgs/passport2.gif')}}">
+                        <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="2"
+                             data-img-src="{{asset('assets/imgs/passport2.gif')}}">
                             <p class="font-size-18">
                                 Учитываем должность, специфику работы, размер и тип учреждения
                             </p>
                         </div>
-                        <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="3" data-img-src="{{asset('assets/imgs/passport3.gif')}}">
+                        <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="3"
+                             data-img-src="{{asset('assets/imgs/passport3.gif')}}">
                             <p class="font-size-18">
-                                Паспорт ежемесячно показывает, какие компетенции начинают устаревать из-за прошедших изменений
+                                Паспорт ежемесячно показывает, какие компетенции начинают устаревать из-за прошедших
+                                изменений
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="w-50-100" style="overflow: hidden;">
                     <div class="slider-1 --active --current" data-img="1">
-                        <div class="border-radius-20" style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
+                        <div class="border-radius-20"
+                             style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
                             <img src="{{asset('assets/imgs/passport1.gif')}}" alt="">
                         </div>
                     </div>
                     <div class="slider-1" data-img="2">
-                        <div class="border-radius-20" style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
+                        <div class="border-radius-20"
+                             style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
                             <img src="{{asset('assets/imgs/passport2.gif')}}" alt="">
                         </div>
                     </div>
                     <div class="slider-1" data-img="3">
-                        <div class="border-radius-20" style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
+                        <div class="border-radius-20"
+                             style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
                             <img src="{{asset('assets/imgs/passport3.gif')}}" alt="">
                         </div>
                     </div>
@@ -782,7 +832,8 @@
             <h3 class="font-size-36 mb-40">НОВЫЕ ПРОГРАММЫ<br>в Школе Главбуха госучреждения в 2024</h3>
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Продвинутый •</div>
-                <h4 class="font-size-26 w-90">Основные средства и материальные запасы: кейсы по приему имущества к бухучету</h4>
+                <h4 class="font-size-26 w-90">Основные средства и материальные запасы: кейсы по приему имущества к
+                    бухучету</h4>
             </article>
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Продвинутый •</div>
@@ -790,11 +841,13 @@
             </article>
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Продвинутый •</div>
-                <h4 class="font-size-26 w-90">Новая цифровая бухгалтерия в бюджетной сфере: планирование, отчетность, контроль</h4>
+                <h4 class="font-size-26 w-90">Новая цифровая бухгалтерия в бюджетной сфере: планирование, отчетность,
+                    контроль</h4>
             </article>
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Базовый •</div>
-                <h4 class="font-size-26 w-90">Безвозмездная передача имущества: учет у передающей и принимающей стороны в программе 1С</h4>
+                <h4 class="font-size-26 w-90">Безвозмездная передача имущества: учет у передающей и принимающей стороны
+                    в программе 1С</h4>
             </article>
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Продвинутый •</div>
@@ -805,9 +858,12 @@
                 <h4 class="font-size-26 w-90">Бухгалтер госсектора (код А) - 2024</h4>
             </article>
         </div>
-        <span style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(236, 139, 0, 1); border-radius: 0 0 50px 50px; top: -15px;left: 10px; rotate: 130deg;"></span>
-        <span style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(240, 237, 203, 1); border-radius: 50px; top: 1020px;right: 50px;"></span>
-        <span style="display: inline-block; width: 15px; height: 15px; position: absolute; background-color: rgba(224, 25, 24, 1); border-radius: 50px; bottom: -8px;right: 350px; z-index: 1;"></span>
+        <span
+            style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(236, 139, 0, 1); border-radius: 0 0 50px 50px; top: -15px;left: 10px; rotate: 130deg;"></span>
+        <span
+            style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(240, 237, 203, 1); border-radius: 50px; top: 1020px;right: 50px;"></span>
+        <span
+            style="display: inline-block; width: 15px; height: 15px; position: absolute; background-color: rgba(224, 25, 24, 1); border-radius: 50px; bottom: -8px;right: 350px; z-index: 1;"></span>
     </section>
     <section class="w-100 py-100 pos-relative" style="background-color: white;">
         <div class="px-150-0">
@@ -816,11 +872,13 @@
                 <article class="w-50-100" style="background-color: rgba(249, 249, 249, 1);">
                     <div class="py-50 px-100-0">
                         <div class="mb-20">1 вопрос из 3</div>
-                        <h4 class="mb-40">Нужно ли включать положение о комиссии по поступлению и выбытию активов в учетную политику?</h4>
+                        <h4 class="mb-40">Нужно ли включать положение о комиссии по поступлению и выбытию активов в
+                            учетную политику?</h4>
                         <div class="mb-50 p-0" style="list-style-type: none;">
                             <div class="form_radio">
                                 <input id="radio-1" type="radio" name="radio">
-                                <label for="radio-1" class="font-size-20" style="color: rgba(11, 7, 8, 1);">Да, обязательно</label>
+                                <label for="radio-1" class="font-size-20" style="color: rgba(11, 7, 8, 1);">Да,
+                                    обязательно</label>
                             </div>
                             <div class="form_radio">
                                 <input id="radio-2" type="radio" name="radio">
@@ -828,7 +886,8 @@
                             </div>
                             <div class="form_radio">
                                 <input id="radio-3" type="radio" name="radio">
-                                <label for="radio-3" class="font-size-20" style="color: rgba(11, 7, 8, 1);">Затрудняюсь ответить</label>
+                                <label for="radio-3" class="font-size-20" style="color: rgba(11, 7, 8, 1);">Затрудняюсь
+                                    ответить</label>
                             </div>
                         </div>
                         <button class="button-1">Следующий вопрос</button>
@@ -836,29 +895,32 @@
                 </article>
             </div>
         </div>
-        <span style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(219, 25, 13, 1); border-radius: 0 0 50px 50px; top: 70px;left: 80px; rotate: 130deg;"></span>
-        <span style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(236, 139, 0, 1); border-radius: 50px; top: 520px;right: 100px;"></span>
-        <span style="display: inline-block;width: 15px;height: 15px;position: absolute;background-color: rgba(11, 7, 8, 1);border-radius: 50px;bottom: 50px;left: 300px;"></span>
+        <span
+            style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(219, 25, 13, 1); border-radius: 0 0 50px 50px; top: 70px;left: 80px; rotate: 130deg;"></span>
+        <span
+            style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(236, 139, 0, 1); border-radius: 50px; top: 520px;right: 100px;"></span>
+        <span
+            style="display: inline-block;width: 15px;height: 15px;position: absolute;background-color: rgba(11, 7, 8, 1);border-radius: 50px;bottom: 50px;left: 300px;"></span>
     </section>
     <section class="h-px-300 w-100" style="background-color: rgba(56, 52, 48, 1);">
 
     </section>
 </main>
 <script>
-    document.body.querySelectorAll('.button-slider-1').forEach((buttonSlider1) => {
-        buttonSlider1.addEventListener('click', () => {
-            document.body.querySelectorAll('.button-slider-1').forEach((buttonSlider1Inside) => {
-                buttonSlider1Inside.classList.remove('--active')
+    document.body.querySelectorAll(".button-slider-1").forEach((buttonSlider1) => {
+        buttonSlider1.addEventListener("click", () => {
+            document.body.querySelectorAll(".button-slider-1").forEach((buttonSlider1Inside) => {
+                buttonSlider1Inside.classList.remove("--active")
             })
-            document.body.querySelectorAll('.slider-1').forEach((slider1Inside) => {
-                slider1Inside.classList.remove('--active')
-                slider1Inside.classList.remove('--current')
+            document.body.querySelectorAll(".slider-1").forEach((slider1Inside) => {
+                slider1Inside.classList.remove("--active")
+                slider1Inside.classList.remove("--current")
             })
-            buttonSlider1.classList.add('--active')
-            document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"]`).classList.add('--active')
+            buttonSlider1.classList.add("--active")
+            document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"]`).classList.add("--active")
             document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"] img`).setAttribute("src", buttonSlider1.dataset.imgSrc + "?" + Date.now())
             setTimeout(() => {
-                document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"]`).classList.add('--current')
+                document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"]`).classList.add("--current")
             }, 10)
         })
     })
