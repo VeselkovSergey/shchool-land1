@@ -315,9 +315,9 @@
         <div class="pl-50 pt-50 flex"
              style="max-width: 1240px; background-color: rgba(69, 65, 60, 1); border-radius: 0 0 50px 50px;">
             <div class="w-50 mr-a">
-                <div class="mb-60">
+                <div class="mb-60 font-size-24">
                     <div>Школа</div>
-                    <div>Главбуха госучреждения</div>
+                    <div><b>Главбуха госучреждения</b></div>
                 </div>
                 <h1 class="mb-35 font-size-20">Новые программы для учеников Школы Главбуха госучреждения</h1>
                 <h2 class="mb-90 font-size-42">Новинка августа — программа «Главный бухгалтер госсектора (код В) —
