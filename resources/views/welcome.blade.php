@@ -856,9 +856,9 @@
             })
             buttonSlider1.classList.add('--active')
             document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"]`).classList.add('--active')
+            document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"] img`).setAttribute("src", buttonSlider1.dataset.imgSrc + "?" + Date.now())
             setTimeout(() => {
                 document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"]`).classList.add('--current')
-                document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"] img`).setAttribute("src", buttonSlider1.dataset.imgSrc + "?" + Date.now())
             }, 10)
         })
     })
