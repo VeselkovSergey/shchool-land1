@@ -35,6 +35,10 @@
             display: none;
         }
 
+        .cp {
+            cursor: pointer;
+        }
+
         .text-center {
             text-align: center;
         }
@@ -500,7 +504,30 @@
             background-color: rgba(196, 200, 212, 1);
             color: black;
         }
+
+        .button-slider-1.--active {
+            background-color: rgba(239, 238, 234, 1);
+        }
+
+        .button-slider-1:hover {
+            background-color: rgba(250, 248, 245, 1);
+        }
+
+        .slider-1 {
+            transition: transform 300ms;
+            transform: translateY(100%);
+        }
+
+        .slider-1.--current {
+            transform: translateY(0);
+        }
+
+        .slider-1:not(.--active) {
+            display: none;
+        }
     </style>
+
+
 
 </head>
 <body class="p-0-10" style="background-color: rgba(69, 65, 60, 0.03);">
@@ -712,26 +739,38 @@
                 <div class="w-50-100">
                     <div class="pr-150-0">
                         <h3 class="font-size-54 mb-15">Цифровой паспорт ключевых навыков</h3>
-                        <div class="p-15 mb-5 border-radius-10" style="background-color: rgba(239, 238, 234, 1);">
+                        <div class="p-15 mb-5 border-radius-10 button-slider-1 --active cp" data-img="1" data-img-src="{{asset('assets/imgs/passport1.gif')}}">
                             <p class="font-size-18">
                                 Для каждого специалиста разрабатываем паспорт навыков и вектор карьерного роста
                             </p>
                         </div>
-                        <div class="p-15 mb-5 border-radius-10" style="background-color: rgba(239, 238, 234, 1);">
+                        <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="2" data-img-src="{{asset('assets/imgs/passport2.gif')}}">
                             <p class="font-size-18">
                                 Учитываем должность, специфику работы, размер и тип учреждения
                             </p>
                         </div>
-                        <div class="p-15 mb-5 border-radius-10" style="background-color: rgba(239, 238, 234, 1);">
+                        <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="3" data-img-src="{{asset('assets/imgs/passport3.gif')}}">
                             <p class="font-size-18">
                                 Паспорт ежемесячно показывает, какие компетенции начинают устаревать из-за прошедших изменений
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="w-50-100">
-                    <div class="border-radius-20" style="border: 1px solid rgba(217, 217, 217, 1);">
-                        <img src="{{asset('assets/imgs/pasports1.svg')}}" alt="">
+                <div class="w-50-100" style="overflow: hidden;">
+                    <div class="slider-1 --active --current" data-img="1">
+                        <div class="border-radius-20" style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
+                            <img src="{{asset('assets/imgs/passport1.gif')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="slider-1" data-img="2">
+                        <div class="border-radius-20" style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
+                            <img src="{{asset('assets/imgs/passport2.gif')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="slider-1" data-img="3">
+                        <div class="border-radius-20" style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
+                            <img src="{{asset('assets/imgs/passport3.gif')}}" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -805,5 +844,24 @@
 
     </section>
 </main>
+<script>
+    document.body.querySelectorAll('.button-slider-1').forEach((buttonSlider1) => {
+        buttonSlider1.addEventListener('click', () => {
+            document.body.querySelectorAll('.button-slider-1').forEach((buttonSlider1Inside) => {
+                buttonSlider1Inside.classList.remove('--active')
+            })
+            document.body.querySelectorAll('.slider-1').forEach((slider1Inside) => {
+                slider1Inside.classList.remove('--active')
+                slider1Inside.classList.remove('--current')
+            })
+            buttonSlider1.classList.add('--active')
+            document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"]`).classList.add('--active')
+            setTimeout(() => {
+                document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"]`).classList.add('--current')
+                document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"] img`).setAttribute("src", buttonSlider1.dataset.imgSrc + "?" + Date.now())
+            }, 10)
+        })
+    })
+</script>
 </body>
 </html>
