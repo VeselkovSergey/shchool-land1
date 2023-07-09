@@ -558,11 +558,11 @@
             display: none;
         }
 
-        .open-list-wrapper {
+        .open-list {
             transition: transform 200ms;
         }
 
-        .open-list-wrapper:hover {
+        .open-list:hover {
             transform: scale(1.02);
         }
     </style>
