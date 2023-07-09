@@ -309,8 +309,8 @@
     </style>
 
 </head>
-<body class="flex-column-center-y" style="background-color: rgba(69, 65, 60, 0.03);">
-<main class="flex-column-center-y" style="max-width: 1440px;">
+<body class="" style="background-color: rgba(69, 65, 60, 0.03);">
+<main class="" style="max-width: 1440px; margin: auto;">
     <section class="mb-100 pos-relative w-100 flex-column-center-y" style="color: white;">
         <div class="pl-50 pt-50 flex"
              style="max-width: 1240px; background-color: rgba(69, 65, 60, 1); border-radius: 0 0 50px 50px;">
