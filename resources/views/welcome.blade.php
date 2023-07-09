@@ -7,6 +7,17 @@
     <title>{{env("APP_NAME")}}</title>
 
     <style>
+        @font-face {
+            font-family: "ProximaNovaBold";
+            src: url("{{asset('assets/fonts/ProximaNovaBold.eot')}}");
+            url("{{asset('assets/fonts/ProximaNovaBold.woff')}}") format("woff"),
+            url("{{asset('assets/fonts/ProximaNovaBold.truetype')}}") format("truetype"),
+            font-style: normal;
+            font-weight: 400;
+        }
+    </style>
+
+    <style>
         body, h1, h2, h3, h4, h5, p {
             padding: 0;
             margin: 0;
@@ -23,6 +34,7 @@
         }
 
         body {
+            font-family: "ProximaNovaBold", sans-serif;
             color: rgba(69, 65, 60, 1);
         }
 
@@ -478,8 +490,8 @@
         .form_radio label:before {
             content: "";
             display: inline-block;
-            width: 17px;
-            height: 17px;
+            width: 18px;
+            height: 18px;
             position: absolute;
             left: 0;
             border-radius: 50px;
@@ -494,7 +506,7 @@
             height: 12px;
             position: absolute;
             left: 4px;
-            bottom: 3px;
+            bottom: 2px;
             background-color: rgba(69, 65, 60, 1);
             border-radius: 50px;
         }
@@ -587,7 +599,7 @@
                     получите официальное удостоверение и (тут про аттестат навыков)</p>
 
             </div>
-            <div class="w-40-100 mt-50">
+            <div class="w-40-100 mt-130">
                 <img src="{{asset('assets/imgs/main-block.svg')}}" alt="">
             </div>
         </div>
