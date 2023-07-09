@@ -27,9 +27,9 @@ Route::group(['prefix' => 'github'], function () {
         echo shell_exec('git pull');
         echo 'git pull complete' . PHP_EOL;
 
-        echo 'php artisan migrate start' . PHP_EOL;
-        \Illuminate\Support\Facades\Artisan::call('migrate');
-        echo 'php artisan migrate complete' . PHP_EOL;
-    })->name('github-push');
+//        echo 'php artisan migrate start' . PHP_EOL;
+//        \Illuminate\Support\Facades\Artisan::call('migrate');
+//        echo 'php artisan migrate complete' . PHP_EOL;
+//    })->name('github-push');
 
 });
