@@ -57,6 +57,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
         }
 
         .flex-column-center {
@@ -225,6 +226,16 @@
             border-radius: {{$i}}px;
         }
 
+        .w-{{$i}}-100 {
+            width: {{$i}}%;
+        }
+
+        @media screen and (max-width: 768px) {
+            .w-{{$i}}-100 {
+                width: 100%;
+            }
+        }
+
         @endfor
 
         .mr-a {
@@ -312,9 +323,9 @@
 <body class="" style="background-color: rgba(69, 65, 60, 0.03);">
 <main class="" style="max-width: 1440px; margin: auto;">
     <section class="mb-100 pos-relative w-100 flex-column-center-y" style="color: white;">
-        <div class="pl-50 pt-50 flex"
+        <div class="pl-50 pt-50 flex-wrap"
              style="max-width: 1240px; background-color: rgba(69, 65, 60, 1); border-radius: 0 0 50px 50px;">
-            <div class="w-50 mr-a">
+            <div class="w-50-100 mr-a">
                 <div class="mb-60 font-size-24">
                     <div>Школа</div>
                     <div><b>Главбуха госучреждения</b></div>
@@ -328,7 +339,7 @@
                     получите официальное удостоверение и (тут про аттестат навыков)</p>
 
             </div>
-            <div class="w-40 mt-50">
+            <div class="w-40-100 mt-50">
                 <img src="{{asset('assets/imgs/main-block.svg')}}" alt="">
             </div>
         </div>
@@ -337,7 +348,7 @@
     <section class="mb-80 pos-relative">
         <h3 class="font-size-36 mb-100 ml-150">Какие навыки получите</h3>
         <div class="flex-wrap px-150" style="justify-content: space-between;">
-            <article class="w-33 flex-column">
+            <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
                     <img src="{{asset('assets/imgs/icon1.svg')}}" alt="">
                 </div>
@@ -350,7 +361,7 @@
                     сопоставить стандарты с инструкциями,
                     скорректировать проводки и снизить риск искажения учета</p>
             </article>
-            <article class="w-33 flex-column">
+            <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
                     <img src="{{asset('assets/imgs/icon2.svg')}}" alt="">
                 </div>
@@ -363,7 +374,7 @@
                     внутриформенную проверку, чтобы исключить
                     ошибки</p>
             </article>
-            <article class="w-33 flex-column">
+            <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
                     <img src="{{asset('assets/imgs/icon3.svg')}}" alt="">
                 </div>
@@ -397,12 +408,12 @@
         <div>
             <div class="border-radius-30 px-100 flex-center"
                  style="background-color: white; color: rgba(69, 65, 60, 1);">
-                <div class="w-65 mr-a font-size-24">
+                <div class="w-65-100 mr-a font-size-24">
                     Я — Марина Уткина, руководитель Школы Главбуха госучреждения приглашаю вас на новый урок
                     <br>
                     <b>«Как составить идеальную учетную политику»</b>
                 </div>
-                <div class="w-25 pos-relative h-px-260">
+                <div class="w-25-100 pos-relative h-px-260">
                     <div class="h-px-300 pos-abs top--40">
                         <img src="{{asset('assets/imgs/people1.svg')}}" alt="">
                     </div>
@@ -514,8 +525,8 @@
                 </article>
             </div>
 
-            <div class="flex px-50 pb-100">
-                <div class="w-50">
+            <div class="flex-wrap px-50 pb-100">
+                <div class="w-50-100">
                     <div class="pr-150">
                         <h3 class="font-size-54 mb-15">Цифровой паспорт ключевых навыков</h3>
                         <div class="p-15 mb-5 border-radius-10" style="background-color: rgba(239, 238, 234, 1);">
@@ -535,7 +546,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-50 border-radius-20" style="border: 1px solid rgba(217, 217, 217, 1);">
+                <div class="w-50-100 border-radius-20" style="border: 1px solid rgba(217, 217, 217, 1);">
                     <img src="{{asset('assets/imgs/pasports1.svg')}}" alt="">
                 </div>
             </div>
@@ -578,7 +589,7 @@
         <div class="px-150">
             <h3 class="font-size-36 mb-80 w-50">Пройдите промежуточный тест из аттестации главбухов</h3>
             <div class="flex-center">
-                <article class="w-50" style="background-color: rgba(249, 249, 249, 1);">
+                <article class="w-50-100" style="background-color: rgba(249, 249, 249, 1);">
                     <div class="py-50 px-100">
                         <div class="mb-20">1 вопрос из 3</div>
                         <h4 class="mb-40">Нужно ли включать положение о комиссии по поступлению и выбытию активов в учетную политику?</h4>
