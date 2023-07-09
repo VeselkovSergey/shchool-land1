@@ -67,7 +67,7 @@
             flex-direction: column;
         }
 
-        .flex-center {
+        .flex-center:not(.hide) {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -120,123 +120,123 @@
         }
 
         @for($i = 0; $i <= 500; $i++)
-        .p-{{$i}}              {
+        .p-{{$i}}               {
             padding: {{$i}}px;
         }
 
-        .px-{{$i}}              {
+        .px-{{$i}}               {
             padding-left: {{$i}}px;
             padding-right: {{$i}}px;
         }
 
-        .py-{{$i}}              {
+        .py-{{$i}}               {
             padding-top: {{$i}}px;
             padding-bottom: {{$i}}px;
         }
 
-        .pl-{{$i}}              {
+        .pl-{{$i}}               {
             padding-left: {{$i}}px;
         }
 
-        .pr-{{$i}}              {
+        .pr-{{$i}}               {
             padding-right: {{$i}}px;
         }
 
-        .pt-{{$i}}              {
+        .pt-{{$i}}               {
             padding-top: {{$i}}px;
         }
 
-        .pb-{{$i}}              {
+        .pb-{{$i}}               {
             padding-bottom: {{$i}}px;
         }
 
-        .m-{{$i}}              {
+        .m-{{$i}}               {
             margin: {{$i}}px;
         }
 
-        .mx-{{$i}}              {
+        .mx-{{$i}}               {
             margin-left: {{$i}}px;
             margin-right: {{$i}}px;
         }
 
-        .my-{{$i}}              {
+        .my-{{$i}}               {
             margin-top: {{$i}}px;
             margin-bottom: {{$i}}px;
         }
 
-        .ml-{{$i}}              {
+        .ml-{{$i}}               {
             margin-left: {{$i}}px;
         }
 
-        .mr-{{$i}}              {
+        .mr-{{$i}}               {
             margin-right: {{$i}}px;
         }
 
-        .mt-{{$i}}              {
+        .mt-{{$i}}               {
             margin-top: {{$i}}px;
         }
 
-        .mb-{{$i}}              {
+        .mb-{{$i}}               {
             margin-bottom: {{$i}}px;
         }
 
-        .w-{{$i}}              {
+        .w-{{$i}}               {
             width: {{$i}}%;
         }
 
-        .w-px-{{$i}}             {
+        .w-px-{{$i}}              {
             width: {{$i}}px;
         }
 
-        .h-{{$i}}              {
+        .h-{{$i}}               {
             height: {{$i}}%;
         }
 
-        .h-px-{{$i}}             {
+        .h-px-{{$i}}              {
             height: {{$i}}px;
         }
 
-        .top-{{$i}}             {
+        .top-{{$i}}              {
             top: {{$i}}px;
         }
 
-        .top--{{$i}}             {
+        .top--{{$i}}              {
             top: -{{$i}}px;
         }
 
-        .left-{{$i}}             {
+        .left-{{$i}}              {
             left: {{$i}}px;
         }
 
-        .right-{{$i}}             {
+        .right-{{$i}}              {
             right: {{$i}}px;
         }
 
-        .bottom-{{$i}}             {
+        .bottom-{{$i}}              {
             bottom: {{$i}}px;
         }
 
-        .opacity-{{$i}}             {
+        .opacity-{{$i}}              {
             opacity: {{$i}}%;
         }
 
-        .z-{{$i}}             {
+        .z-{{$i}}              {
             z-index: {{$i}};
         }
 
-        .z-{{$i}}             {
+        .z-{{$i}}              {
             z-index: {{$i}};
         }
 
-        .z--{{$i}}             {
+        .z--{{$i}}              {
             z-index: -{{$i}};
         }
 
-        .font-size-{{$i}}            {
+        .font-size-{{$i}}             {
             font-size: {{$i}}px;
         }
 
-        .border-radius-{{$i}}         {
+        .border-radius-{{$i}}          {
             border-radius: {{$i}}px;
         }
 
@@ -277,33 +277,33 @@
             padding-bottom: {{$i}}px;
         }
 
-        .p-0-{{$i}}              {
+        .p-0-{{$i}}               {
             padding: 0;
         }
 
-        .px-0-{{$i}}              {
+        .px-0-{{$i}}               {
             padding-left: 0;
             padding-right: 0;
         }
 
-        .py-0-{{$i}}              {
+        .py-0-{{$i}}               {
             padding-top: 0;
             padding-bottom: 0;
         }
 
-        .pl-0-{{$i}}              {
+        .pl-0-{{$i}}               {
             padding-left: 0;
         }
 
-        .pr-0-{{$i}}              {
+        .pr-0-{{$i}}               {
             padding-right: 0;
         }
 
-        .pt-0-{{$i}}              {
+        .pt-0-{{$i}}               {
             padding-top: 0;
         }
 
-        .pb-0-{{$i}}              {
+        .pb-0-{{$i}}               {
             padding-bottom: 0;
         }
 
@@ -372,33 +372,33 @@
                 padding-bottom: 0;
             }
 
-            .p-0-{{$i}}              {
+            .p-0-{{$i}}               {
                 padding: {{$i}}px;
             }
 
-            .px-0-{{$i}}              {
+            .px-0-{{$i}}               {
                 padding-left: {{$i}}px;
                 padding-right: {{$i}}px;
             }
 
-            .py-0-{{$i}}              {
+            .py-0-{{$i}}               {
                 padding-top: {{$i}}px;
                 padding-bottom: {{$i}}px;
             }
 
-            .pl-0-{{$i}}              {
+            .pl-0-{{$i}}               {
                 padding-left: {{$i}}px;
             }
 
-            .pr-0-{{$i}}              {
+            .pr-0-{{$i}}               {
                 padding-right: {{$i}}px;
             }
 
-            .pt-0-{{$i}}              {
+            .pt-0-{{$i}}               {
                 padding-top: {{$i}}px;
             }
 
-            .pb-0-{{$i}}              {
+            .pb-0-{{$i}}               {
                 padding-bottom: {{$i}}px;
             }
 
@@ -557,6 +557,14 @@
         .slider-1:not(.--active) {
             display: none;
         }
+
+        .open-list-wrapper {
+            transition: transform 200ms;
+        }
+
+        .open-list-wrapper:hover {
+            transform: scale(1.02);
+        }
     </style>
 
 </head>
@@ -672,7 +680,8 @@
     <section class="mb-80">
         <h3 class="font-size-42 text-center mb-50">Как предостеречь себя от ошибок по инвентаризации</h3>
         <div class="flex-center">
-            <button class="button-2" onclick="ModalWindow(document.getElementById('lesson1').innerHTML)">Пройти урок</button>
+            <button class="button-2" onclick="ModalWindow(document.getElementById('lesson1').innerHTML)">Пройти урок
+            </button>
         </div>
     </section>
     <section class="w-100 mb-100">
@@ -680,23 +689,24 @@
             Что нового в Школе Главбуха госучреждения
             <br>в 2024 году?
         </h3>
-        <article class="w-100 mb-40">
-            <div class="mx-100-0 p-50 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
-                <h4 class="font-size-36">Новые форматы интерактивных заданий •</h4>
-                <div class="hide pt-35 font-size-20">
-                    <p class="mb-35">Сформируйте ваш паспорт навыков профессионального бухгалтера госсектора</p>
-                    <p>Подтвердите свои знания и получите цифровой паспорт профессиональных навыков, одобренный органами
-                        власти,
-                        специалистами Минфина и Федерального казначейства. Управляйте своим профессиональным
-                        присутствием в
-                        интернете, получайте новые навыки и возможности для карьерного роста.</p>
+        <article class="w-100 mb-40 open-list-wrapper cp">
+            <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
+                <h4 class="font-size-36 p-50 open-list" data-open-list="1">Новые форматы интерактивных заданий •</h4>
+                <div class="hide p-50 pt-35 font-size-20 open-list-data flex-center" data-open-list="1">
+                    <iframe
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen="" frameborder="0" height="650" scrolling="no"
+                        src="//e.profkiosk.ru/media/36a6392b-0726-4826-a27f-8d39689c3c31/"
+                        title="video-1d62b6d1-835c-4eeb-95e4-83c8ed260153" width="670" data-gtm-yt-inspected-13="true"
+                        id="iFrameResizer0" style="overflow: auto; height: 705px;"> 
+                    </iframe>
                 </div>
             </div>
         </article>
-        <article class="w-100">
-            <div class="mx-100-0 p-50 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
-                <h4 class="font-size-36">Паспорт навыков •</h4>
-                <div class="pt-35 w-75 font-size-20">
+        <article class="w-100 open-list-wrapper cp">
+            <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
+                <h4 class="font-size-36 p-50 open-list" data-open-list="2">Паспорт навыков •</h4>
+                <div class="hide p-50 pt-35 w-75 font-size-20 open-list-data" data-open-list="2">
                     <p class="mb-35">Сформируйте ваш паспорт навыков профессионального бухгалтера госсектора</p>
                     <p>Подтвердите свои знания и получите цифровой паспорт профессиональных навыков, одобренный органами
                         власти,
@@ -912,6 +922,7 @@
         .lesson1 > * {
             margin-bottom: 20px;
         }
+
         .apple {
             content: '';
             position: absolute;
@@ -1017,6 +1028,7 @@
                 height: 0;
                 padding-bottom: 55%;
             }
+
             .video {
                 position: absolute;
                 top: 0;
@@ -1026,10 +1038,12 @@
             }
         </style>
         <div class="flex-center container">
-            <iframe class="video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            <iframe class="video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen="" frameborder="0" scrolling="yes"
                     src="//e.profkiosk.ru/media/456f6fec-da33-4d05-b523-ed0879132e5f/"
-                    title="video-2f17bff0-d7e7-4add-b31f-6410212b1ffb" width="670" id="iFrameResizer1" style="overflow: auto; min-height: 233px;">
+                    title="video-2f17bff0-d7e7-4add-b31f-6410212b1ffb" width="670" id="iFrameResizer1"
+                    style="overflow: auto; min-height: 233px;">
             </iframe>
         </div>
         <p>
@@ -1322,6 +1336,14 @@
             setTimeout(() => {
                 document.body.querySelector(`.slider-1[data-img="${buttonSlider1.dataset.img}"]`).classList.add("--current")
             }, 10)
+        })
+    })
+</script>
+<script>
+    document.body.querySelectorAll(".open-list").forEach((openList) => {
+        openList.addEventListener("click", () => {
+            console.log(document.body.querySelector(`.open-list-data[data-open-list="${openList.dataset.openList}"]`))
+            document.body.querySelector(`.open-list-data[data-open-list="${openList.dataset.openList}"]`).classList.toggle("hide")
         })
     })
 </script>
