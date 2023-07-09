@@ -20,7 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::group(['prefix' => 'github'], function () {
 
-    Route::post('/push', function () {
+    Route::any('/push', function () {
         // sudo -u www-data ssh-keygen - генерим ssh ключи под www-data
         // chmod 600 /var/www/.ssh/id_rsa - для работы git pull под www-data
         echo 'git pull start' . PHP_EOL;
