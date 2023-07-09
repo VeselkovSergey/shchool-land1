@@ -226,13 +226,136 @@
             border-radius: {{$i}}px;
         }
 
+
+        /* adaptive */
+
         .w-{{$i}}-100 {
             width: {{$i}}%;
+        }
+
+        .p-{{$i}}-0       {
+            padding: {{$i}}px;
+        }
+
+        .px-{{$i}}-0       {
+            padding-left: {{$i}}px;
+            padding-right: {{$i}}px;
+        }
+
+        .py-{{$i}}-0       {
+            padding-top: {{$i}}px;
+            padding-bottom: {{$i}}px;
+        }
+
+        .pl-{{$i}}-0       {
+            padding-left: {{$i}}px;
+        }
+
+        .pr-{{$i}}-0       {
+            padding-right: {{$i}}px;
+        }
+
+        .pt-{{$i}}-0       {
+            padding-top: {{$i}}px;
+        }
+
+        .pb-{{$i}}-0       {
+            padding-bottom: {{$i}}px;
+        }
+
+        .m-{{$i}}-0       {
+            margin: {{$i}}px;
+        }
+
+        .mx-{{$i}}-0       {
+            margin-left: {{$i}}px;
+            margin-right: {{$i}}px;
+        }
+
+        .my-{{$i}}-0       {
+            margin-top: {{$i}}px;
+            margin-bottom: {{$i}}px;
+        }
+
+        .ml-{{$i}}-0       {
+            margin-left: {{$i}}px;
+        }
+
+        .mr-{{$i}}-0       {
+            margin-right: {{$i}}px;
+        }
+
+        .mt-{{$i}}-0       {
+            margin-top: {{$i}}px;
+        }
+
+        .mb-{{$i}}-0       {
+            margin-bottom: {{$i}}px;
         }
 
         @media screen and (max-width: 768px) {
             .w-{{$i}}-100 {
                 width: 100%;
+            }
+
+            .p-{{$i}}-0       {
+                padding: 0;
+            }
+
+            .px-{{$i}}-0       {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .py-{{$i}}-0       {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            .pl-{{$i}}-0       {
+                padding-left: 0;
+            }
+
+            .pr-{{$i}}-0       {
+                padding-right: 0;
+            }
+
+            .pt-{{$i}}-0       {
+                padding-top: 0;
+            }
+
+            .pb-{{$i}}-0       {
+                padding-bottom: 0;
+            }
+
+            .m-{{$i}}-0       {
+                margin: 0;
+            }
+
+            .mx-{{$i}}-0       {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            .my-{{$i}}-0       {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .ml-{{$i}}-0       {
+                margin-left: 0;
+            }
+
+            .mr-{{$i}}-0       {
+                margin-right: 0;
+            }
+
+            .mt-{{$i}}-0       {
+                margin-top: 0;
+            }
+
+            .mb-{{$i}}-0       {
+                margin-bottom: 0;
             }
         }
 
@@ -323,7 +446,7 @@
 <body class="" style="background-color: rgba(69, 65, 60, 0.03);">
 <main class="" style="max-width: 1440px; margin: auto;">
     <section class="mb-100 pos-relative w-100 flex-column-center-y" style="color: white;">
-        <div class="pl-50 pt-50 flex-wrap"
+        <div class="pl-50-0 pt-50-0 flex-wrap"
              style="max-width: 1240px; background-color: rgba(69, 65, 60, 1); border-radius: 0 0 50px 50px;">
             <div class="w-50-100 mr-a">
                 <div class="mb-60 font-size-24">
@@ -347,7 +470,7 @@
     </section>
     <section class="mb-80 pos-relative">
         <h3 class="font-size-36 mb-100 ml-150">Какие навыки получите</h3>
-        <div class="flex-wrap px-150" style="justify-content: space-between;">
+        <div class="flex-wrap px-150-0" style="justify-content: space-between;">
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
                     <img src="{{asset('assets/imgs/icon1.svg')}}" alt="">
@@ -400,7 +523,7 @@
         <span style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(7, 108, 123, 1); border-radius: 50px; top: -20px;left: 50px;"></span>
         <span style="display: inline-block; width: 20px; height: 20px; position: absolute; background-color: rgba(236, 139, 0, 1); border-radius: 50px; top: 220px;left: -10px;"></span>
     </section>
-    <section class="mb-80 px-150 py-100 pos-relative" style="background-color: rgba(74, 144, 226, 1); color: white;">
+    <section class="mb-80 px-150-0 py-100 pos-relative" style="background-color: rgba(74, 144, 226, 1); color: white;">
         <h3 class="font-size-36 text-center mb-90" style="text-transform: uppercase;">
             Урок из новой программы,
             <br>который вам стоит пройти уже сейчас!
@@ -453,7 +576,7 @@
             <br>в 2024 году?
         </h3>
         <article class="w-100 mb-40">
-            <div class="mx-100 p-50 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
+            <div class="mx-100-0 p-50 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
                 <h4 class="font-size-36">Новые форматы интерактивных заданий •</h4>
                 <div class="hide pt-35 font-size-20">
                     <p class="mb-35">Сформируйте ваш паспорт навыков профессионального бухгалтера госсектора</p>
@@ -464,7 +587,7 @@
             </div>
         </article>
         <article class="w-100">
-            <div class="mx-100 p-50 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
+            <div class="mx-100-0 p-50 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
                 <h4 class="font-size-36">Паспорт навыков •</h4>
                 <div class="pt-35 w-75 font-size-20">
                     <p class="mb-35">Сформируйте ваш паспорт навыков профессионального бухгалтера госсектора</p>
@@ -475,10 +598,10 @@
             </div>
         </article>
 
-        <div class="mx-100 pt-100" style="background-color: white; border-radius: 0 0 15px 15px;">
+        <div class="mx-100-0 pt-100" style="background-color: white; border-radius: 0 0 15px 15px;">
             <h3 class="font-size-54 text-center mb-20">
                 Паспорта одобрены экспертами
-                <br>профессионального сообщества
+                <br>професси&shy;онального сообщества
                 <br>бухгалтеров бюджетной сферы
             </h3>
             <p class="font-size-24 text-center mb-40">
@@ -486,7 +609,7 @@
                 <br>контролируют, чтобы паспорта учитывали требования
                 <br>законодательства и профессиональных стандартов
             </p>
-            <div class="flex-wrap mx-150 mb-150" style="justify-content: space-between">
+            <div class="flex-wrap mx-150-0 mb-150" style="justify-content: space-around;">
                 <article class="w-px-300 border-radius-10 flex-column" style="background-color: rgba(249, 248, 244, 1);">
                     <div class="flex-center p-10">
                         <div class="w-px-280">
@@ -525,9 +648,9 @@
                 </article>
             </div>
 
-            <div class="flex-wrap px-50 pb-100">
+            <div class="flex-wrap px-50-0 pb-100">
                 <div class="w-50-100">
-                    <div class="pr-150">
+                    <div class="pr-150-0">
                         <h3 class="font-size-54 mb-15">Цифровой паспорт ключевых навыков</h3>
                         <div class="p-15 mb-5 border-radius-10" style="background-color: rgba(239, 238, 234, 1);">
                             <p class="font-size-18">
@@ -546,15 +669,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-50-100 border-radius-20" style="border: 1px solid rgba(217, 217, 217, 1);">
-                    <img src="{{asset('assets/imgs/pasports1.svg')}}" alt="">
+                <div class="w-50-100">
+                    <div class="border-radius-20" style="border: 1px solid rgba(217, 217, 217, 1);">
+                        <img src="{{asset('assets/imgs/pasports1.svg')}}" alt="">
+                    </div>
                 </div>
             </div>
 
         </div>
     </section>
     <section class="w-100 pos-relative" style="background-color: rgba(56, 52, 48, 1); color: white;">
-        <div class="px-150 py-100">
+        <div class="px-150-0 py-100">
             <h3 class="font-size-36 mb-40">НОВЫЕ ПРОГРАММЫ<br>в Школе Главбуха госучреждения в 2024</h3>
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Продвинутый •</div>
@@ -586,11 +711,11 @@
         <span style="display: inline-block; width: 15px; height: 15px; position: absolute; background-color: rgba(224, 25, 24, 1); border-radius: 50px; bottom: -8px;right: 350px; z-index: 1;"></span>
     </section>
     <section class="w-100 py-100 pos-relative" style="background-color: white;">
-        <div class="px-150">
-            <h3 class="font-size-36 mb-80 w-50">Пройдите промежуточный тест из аттестации главбухов</h3>
+        <div class="px-150-0">
+            <h3 class="font-size-36 mb-80 w-50-100">Пройдите промежуточный тест из аттестации главбухов</h3>
             <div class="flex-center">
                 <article class="w-50-100" style="background-color: rgba(249, 249, 249, 1);">
-                    <div class="py-50 px-100">
+                    <div class="py-50 px-100-0">
                         <div class="mb-20">1 вопрос из 3</div>
                         <h4 class="mb-40">Нужно ли включать положение о комиссии по поступлению и выбытию активов в учетную политику?</h4>
                         <div class="mb-50 p-0" style="list-style-type: none;">
