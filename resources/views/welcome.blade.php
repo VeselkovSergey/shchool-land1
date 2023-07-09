@@ -670,27 +670,10 @@
             style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(7, 108, 123, 1); border-radius: 50px; bottom: -15px;left: 200px;"></span>
     </section>
     <section class="mb-80">
-        <h3>Готовый урок</h3>
-        <p>
-            Устная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними
-            цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные
-            таблички, кору дерева, листы металла и т. п.
-            Таблички
-            Шумерская глиняная табличка с клинописью
-
-            Табличку можно определить как физически прочный, надёжный носитель письменной информации, относительно
-            удобный в повседневном использовании и транспортировке. Пишущим средством в этом случае, как правило,
-            выступало стило. Можно выделить два основных типа табличек: глиняные (например, у населения долины между
-            Тигром и Евфратом), которые часто использовались для письма клинописью[4], и восковые. Последние
-            представляли собой дощечки, покрытые слоем воска, в то время как глиняные полностью состояли из глины и
-            после нанесения надписей часто обжигались для придания им дополнительной прочности. После этой процедуры,
-            соответственно, изменить текст было уже невозможно; напротив, записи на восковых табличках можно было
-            стереть и использовать носитель повторно. В Древнем Риме дощечки часто скрепляли друг с другом. Известно,
-            что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя
-            тем самым своеобразный прототип современной книги — кодекс[6].
-            Свитки
-            Винченцо Фоппа. Юный Цицерон за книгой
-        </p>
+        <h3 class="font-size-42 text-center mb-50">Как предостеречь себя от ошибок по инвентаризации</h3>
+        <div class="flex-center">
+            <button class="button-2" onclick="ModalWindow(document.getElementById('lesson1').innerHTML)">Пройти урок</button>
+        </div>
     </section>
     <section class="w-100 mb-100">
         <h3 class="mb-80 font-size-42 text-center">
@@ -906,6 +889,423 @@
 
     </section>
 </main>
+
+<template id="lesson1">
+    <style>
+        .lesson1 {
+            line-height: 28px;
+            font-size: 18px;
+        }
+
+        .lesson1 h2 {
+            font-size: 24px;
+        }
+
+        .lesson1 h3 {
+            font-size: 22px;
+        }
+
+        .lesson1 h3 {
+            font-size: 20px;
+        }
+
+        .lesson1 > * {
+            margin-bottom: 20px;
+        }
+        .apple {
+            content: '';
+            position: absolute;
+            background-image: url('https://cdn.action-mcfr.ru/editor/schools/ic-apple.svg');
+            width: 85px;
+            height: 106px;
+            left: -42px;
+            bottom: calc(100% - 57px);
+            top: 50%;
+            margin-top: -53px;
+            background-size: contain;
+        }
+    </style>
+    <div class="lesson1">
+        <h2>Как предостеречь себя от ошибок по инвентаризации</h2>
+        <p>
+            В этом уроке попрактикуетесь формировать порядок инвентаризации с привязкой к своему учреждению. Узнаете,
+            какие опасности кроются в некорректных формулировках по срокам проверок и документальному оформлению
+            операций, как не мучиться с обесценением активов, но выполнить нормы стандарта. Смотрите видеолекцию
+            Александра Опальского и дополнительные вопросы главбуха в телемосте с экспертом.
+        </p>
+        <h3>Теория. Когда и как можно обхитрить контролеров</h3>
+        <p>
+            В первом видео узнаете, что указать в правилах обязательной и дополнительной инвентаризации. А также — как
+            обезопасить себя от претензий контролеров, если в учреждении нечего обесценивать.
+        </p>
+        <h4>Видеолекция Александра Опальского</h4>
+        <div class="flex-center">
+            <iframe id="YT_1688907286156" frameborder="0" allowfullscreen="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    title="Как предостеречь себя от ошибок по инвентаризации" width="688" height="385"
+                    src="https://www.youtube.com/embed/1FKMQmFa78k?wmode=opaque&amp;enablejsapi=1&amp;origin=https%3A%2F%2Ffinacademy.budgetnik.ru&amp;widgetid=1"
+                    data-gtm-yt-inspected-13="true" scrolling="no" style="overflow: auto;"></iframe>
+        </div>
+        <p>
+            <b>Тренировка: заполните правила обесценения активов.</b> Вспомните, что вам рассказал преподаватель, и
+            попробуйте сами сформировать отрывок из правил инвентаризации.
+        </p>
+        <div class="flex-center">
+            <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="" frameborder="0" height="680" scrolling="no"
+                    src="https://e.profkiosk.ru/media/d0334c27-4fb6-4cb1-8b33-7a0d92bf5cbc/"
+                    title="video-a8806404-90f8-428b-8a99-977da5b9d873" width="670" data-gtm-yt-inspected-13="true"
+                    id="iFrameResizer0" style="overflow: auto; height: 867px;"> 
+            </iframe>
+        </div>
+        <p>
+            <b>Повторим главное по теме.</b> Не пишите в учетной политике обязательные случаи инвентаризации. Ведь они
+            уже утверждены в СГС «Концептуальные основы бухучета и отчетности» (утв. <a target="_blank"
+                                                                                        href="https://finacademy.budgetnik.ru/programs/208177/f5ec472f-d3d6-4285-a1e9-f7aa330eee78/15a2bbae-5eba-4fb0-860c-10a93d3b930b">приказом
+                Минфина от 31.12.2016 №
+                256н</a>). В учетке укажите, как будете действовать в своем учреждении.
+            Если описали определенную процедуру, связанную с инвентаризацией, подтверждайте ее первичными учетными
+            документами.Если будут расхождения между порядком инвентаризации и документальным оформлением операций,
+            контролеры могут указать на нарушения учетки.
+        </p>
+        <div class="flex">
+            <div class="m-a w-75 p-50 pos-relative" style="border: solid 2px #474d5e;">
+                <span class="apple"></span>
+                <h3>Пример, как подтвердить порядок инвентаризации документами</h3>
+                <p>
+                    Бухгалтерия прописала в учетной политике, что каждый месяц проводит инвентаризацию кассы. В этом
+                    случае необходимо ежемесячно оформлять
+                    <a target="_blank"
+                       href="https://finacademy.budgetnik.ru/storage/text/3f3e660d-6205-473f-8ebf-2a25ea13ee88.xlsx">инвентаризационную
+                        опись бланков строгой отчетности и денежных документов (ф. 0504086)</a>. Описи могут затребовать
+                    ревизоры во время проверки.
+                </p>
+            </div>
+        </div>
+        <p>
+            Во время годовой инвентаризации применяйте стандарт «Обесценение активов» (утв. <a target="_blank"
+                                                                                               href="https://finacademy.budgetnik.ru/programs/208177/f5ec472f-d3d6-4285-a1e9-f7aa330eee78/15a2bbae-5eba-4fb0-860c-10a93d3b930b">приказом
+                Минфина от 31.12.2016 № 259н</a>). Если нет объектов, которые нужно обесценивать, пропишите в
+            инвентаризационной описи, что признаков обесценения не обнаружено.
+        </p>
+        <h3>Практика. Телемост эксперта и главбуха</h3>
+        <p>Смотрите, какие вопросы по инвентаризации волнуют практиков в телемосте между автором курса Александром
+            Опальским (Москва) и главбухом Юлией Казанцевой (Челябинск). В конце урока пишите в комментариях, какие еще
+            вопросы остались у вас к эксперту. Разберем их на школьном онлайн-уроке.</p>
+        <h4>Видео. Вопросы главбуха по теме урока</h4>
+        <div class="flex-center">
+            <iframe id="YT_1688907286160" frameborder="0" allowfullscreen="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    title="Как прописать правила о событиях после отчетной даты, чтобы избежать противоречий"
+                    width="688"
+                    height="315"
+                    src="https://www.youtube.com/embed/tMgdEhlS3fM?wmode=opaque&amp;enablejsapi=1&amp;origin=https%3A%2F%2Ffinacademy.budgetnik.ru&amp;widgetid=2"
+                    data-gtm-yt-inspected-13="true" scrolling="no" style="overflow: auto;"></iframe>
+        </div>
+        <p>
+            <b>Тренировка: сформируйте свой пакет документов.</b> Во втором тренажере попытайтесь самостоятельно
+            составить полный порядок инвентаризации.
+        </p>
+        <p>
+            <i>Вы можете сразу сохранить документ на своем компьютере. Для этого есть кнопка «Загрузить». Или на время
+                свернуть его в уроке и заполнить позже. Тогда нажмите на кнопку «Закрыть».</i>
+        </p>
+        <style>
+            .container {
+                position: relative;
+                width: 100%;
+                height: 0;
+                padding-bottom: 55%;
+            }
+            .video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        <div class="flex-center container">
+            <iframe class="video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="" frameborder="0" scrolling="yes"
+                    src="//e.profkiosk.ru/media/456f6fec-da33-4d05-b523-ed0879132e5f/"
+                    title="video-2f17bff0-d7e7-4add-b31f-6410212b1ffb" width="670" id="iFrameResizer1" style="overflow: auto; min-height: 233px;">
+            </iframe>
+        </div>
+        <p>
+            Подкрепите скорректированные правила инвентаризации к документам, которые сделали на предыдущих уроках.
+        </p>
+    </div>
+</template>
+<style>
+    /* модальное окно */
+    .modal-window-component-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+
+    .modal-window-component-container .modal-window-component {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-window-component-container .modal-window-component .modal-window-shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0 0 0 / 70%);
+        backdrop-filter: blur(12px);
+    }
+
+    .modal-window-component-container .modal-window-component .modal-window-content-container {
+        z-index: 1;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        transition: transform 500ms;
+        background-color: #FFFFFF;
+        max-width: 900px;
+    }
+
+    @media only screen and (max-width: 540px) {
+        .modal-window-component-container .modal-window-component .modal-window-content-container {
+            width: 100%;
+            height: 100%;
+            border: unset;
+            border-radius: unset;
+        }
+    }
+
+    .modal-window-component-container .modal-window-component .modal-window-content-container .modal-window-close-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        display: flex;
+        padding: 8px;
+    }
+
+    @media only screen and (max-width: 540px) {
+        .modal-window-component-container .modal-window-component .modal-window-content-container .modal-window-close-button {
+            padding-left: 10px;
+            padding-bottom: 10px;
+        }
+    }
+
+    .modal-window-component-container .modal-window-component .modal-window-content-container .modal-window-close-button path {
+        /*fill: black;*/
+    }
+
+    .modal-window-component-container .modal-window-component .modal-window-content-container .modal-window-content {
+        overflow-y: auto;
+        overflow-x: hidden;
+        /*max-height: 80vh;*/
+        max-height: calc(100vh - 25px - 125px);
+        margin: 25px 25px 25px 25px;
+        min-width: 150px;
+        max-width: 80vw;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    @media only screen and (max-width: 540px) {
+        .modal-window-component-container .modal-window-component .modal-window-content-container .modal-window-content {
+            height: 100%;
+            padding-bottom: 75px;
+            max-width: unset;
+        }
+    }
+</style>
+<script>
+    /* JS add helpers */
+    function ModalWindow(content, closingCallback, flash) {
+        let documentBody = document.body
+        !flash ? documentBody.classList.add("scroll-off") : ""
+        let closeButtonSVG = "<svg width=\"46\" height=\"46\" viewBox=\"0 0 46 46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">" +
+            "<circle cx=\"22.9995\" cy=\"23\" r=\"16\" transform=\"rotate(-45 22.9995 23)\" fill=\"black\"/>" +
+            "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.8283 16.8288C16.2603 17.3969 16.2603 18.3178 16.8283 18.8859L20.9425 23L16.8284 27.114C16.2604 27.6821 16.2604 28.603 16.8284 29.1711C17.3965 29.7391 18.3174 29.7391 18.8855 29.1711L22.9995 25.0571L27.1135 29.171C27.6815 29.7391 28.6025 29.7391 29.1705 29.171C29.7386 28.603 29.7386 27.682 29.1705 27.114L25.0565 23L29.1707 18.8859C29.7387 18.3179 29.7387 17.3969 29.1707 16.8289C28.6026 16.2608 27.6817 16.2608 27.1136 16.8289L22.9995 20.943L18.8853 16.8288C18.3173 16.2608 17.3963 16.2608 16.8283 16.8288Z\" fill=\"white\"/>" +
+            "</svg>"
+
+        let modalWindowComponentContainer = CreateElement("div", {
+            attr: {
+                class: "modal-window-component-container",
+            },
+        })
+
+        let modalWindowComponent = CreateElement("div", {attr: {class: "modal-window-component"}}, modalWindowComponentContainer)
+
+        CreateElement("div", {
+            attr: {class: "modal-window-shadow"}, events: {
+                click: () => {
+                    closingCallback ? closingCallback() : ""
+                    modalWindowComponentContainer.remove()
+                    ScrollOff(flash)
+                },
+            },
+        }, modalWindowComponent)
+
+        let modalWindowContainer = CreateElement("div", {
+            attr: {
+                class: "modal-window-content-container",
+            },
+        }, modalWindowComponent)
+
+        CreateElement("div", {
+            attr: {
+                class: "modal-window-close-button",
+            },
+            content: closeButtonSVG,
+            events: {
+                click: () => {
+                    closingCallback ? closingCallback() : ""
+                    modalWindowComponentContainer.remove()
+                    ScrollOff(flash)
+                },
+            },
+        }, modalWindowContainer)
+
+        let modalWindowContent = CreateElement("div", {
+            attr: {
+                class: "modal-window-content",
+            },
+        }, modalWindowContainer)
+
+        if (typeof content === "string") {
+            content = CreateElement("div", {
+                content: content,
+            })
+        }
+
+        modalWindowContent.append(content)
+
+        document.body.append(modalWindowComponentContainer)
+
+        CloseByScroll(modalWindowComponentContainer, modalWindowContainer, modalWindowContent, () => {
+            closingCallback ? closingCallback() : ""
+            modalWindowComponentContainer.remove()
+            ScrollOff(flash)
+        })
+
+        return modalWindowComponentContainer
+
+        function ScrollOff(flash) {
+            if (document.querySelectorAll(".modal-window-component-container").length === 1) {
+                setTimeout(() => {
+                    !flash ? documentBody.classList.remove("scroll-off") : ""
+                }, 200)
+            }
+        }
+    }
+
+    function CloseModal(modal) {
+        modal.remove()
+        if (document.querySelectorAll(".modal-window-component-container").length === 0) {
+            document.body.classList.remove("scroll-off")
+        }
+    }
+
+    function CloseByScroll(modalWindowComponentContainer, container, content, closingCallback) {
+        let widthClientScreen = document.documentElement.clientWidth
+        if (widthClientScreen < 768) {
+
+            let containerModalWindow = container
+
+            let startTouchY = 0
+            // let startTouchX = 0;
+            let correctionCoefficientY = 0
+            // let correctionCoefficientX = 0;
+            containerModalWindow.addEventListener("touchstart", (event) => {
+                containerModalWindow.style.transition = "transform 0ms ease-out"
+                if (content.getBoundingClientRect().top >= 0) {
+                    startTouchY = event.changedTouches[0].clientY
+                    correctionCoefficientY = content.getBoundingClientRect().top
+                }
+                // if (content.getBoundingClientRect().right >= 0) {
+                //     startTouchX = event.changedTouches[0].clientX;
+                //     correctionCoefficientX = content.getBoundingClientRect().right;
+                // }
+            })
+
+            let lengthSwipeY = 0
+            // let lengthSwipeX = 0;
+            containerModalWindow.addEventListener("touchmove", (event) => {
+                if (content.getBoundingClientRect().top <= content.firstChild.getBoundingClientRect().top && content.getBoundingClientRect().top >= (-1 + correctionCoefficientY)) {
+                    lengthSwipeY = event.changedTouches[0].clientY - startTouchY
+                    if (lengthSwipeY > 0) {
+                        containerModalWindow.style.transform = "translateY(" + lengthSwipeY + "px)"
+                    }
+                } else {
+                    startTouchY = event.changedTouches[0].clientY
+                }
+
+                // if (content.getBoundingClientRect().right === content.firstChild.getBoundingClientRect().right && content.getBoundingClientRect().right >= (-1 + correctionCoefficientX)) {
+                //     lengthSwipeX = event.changedTouches[0].clientX - startTouchX;
+                //     if (lengthSwipeX < 0) {
+                //         containerModalWindow.style.transform = 'translateX(' + lengthSwipeX + 'px)';
+                //     }
+                // } else {
+                //     startTouchX = event.changedTouches[0].clientX;
+                // }
+            })
+
+            let heightClientScreen = document.documentElement.clientHeight
+            // let widthClientScreen = document.documentElement.clientWidth;
+
+            containerModalWindow.addEventListener("touchend", () => {
+                containerModalWindow.style.transition = ""
+                if (lengthSwipeY < (heightClientScreen / 3)) {
+                    containerModalWindow.style.transform = "translateY(0px)"
+                } else {
+                    containerModalWindow.style.transform = "translateY(" + heightClientScreen + "px)"
+                    closingCallback ? closingCallback() : ""
+                }
+
+                // if ((lengthSwipeX * -1) > (widthClientScreen / 2)) {
+                //     containerModalWindow.style.transform = 'translateX(-' + widthClientScreen + 'px)';
+                //     closingCallback ? closingCallback() : '';
+                // } else {
+                //     containerModalWindow.style.transform = 'translateX(0px)';
+                // }
+            })
+        }
+    }
+
+    function CreateElement(tag, params, parent) {
+        const element = document.createElement(tag)
+        if (params.attr) {
+            Object.keys(params.attr).forEach((a) => {
+                element.setAttribute(a, params.attr[a])
+            })
+        }
+        if (params.class) {
+            element.className = params.class
+        }
+        if (params.events) {
+            Object.keys(params.events).forEach((e) => {
+                element.addEventListener(e, params.events[e])
+            })
+        }
+        if (params.content) {
+            element.innerHTML = params.content
+        }
+        if (parent) {
+            parent.appendChild(element)
+        }
+        if (params.childs) {
+            params.childs.forEach((child) => {
+                element.appendChild(child)
+            })
+        }
+        return element
+    }
+</script>
 <script>
     document.body.querySelectorAll(".button-slider-1").forEach((buttonSlider1) => {
         buttonSlider1.addEventListener("click", () => {
