@@ -693,6 +693,11 @@
             <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
                 <h4 class="font-size-36 p-50 open-list" data-open-list="1">Новые форматы интерактивных заданий •</h4>
                 <div class="hide p-50 pt-35 font-size-20 open-list-data flex-center" data-open-list="1">
+                    <p class="mb-35">
+                        <b>Тренировка.</b> Заполните матрицу централизации
+                        Мы составили матрицу централизации для лайтового перехода. Собрали в ней все дела, которые помогут учреждению сохранить работу бухгалтерам. Попытайтесь заполнить матрицу. Разнесите действия по степени важности: красный блок — сделать обязательно, желтый — необходимо для реализации первого блока. Зеленый — действия необязательные, но они помогут легче пережить перемены.
+                        Удачной тренировки!
+                    </p>
                     <iframe
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen="" frameborder="0" height="650" scrolling="no"
