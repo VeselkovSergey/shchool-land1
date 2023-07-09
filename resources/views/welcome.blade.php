@@ -263,6 +263,36 @@
             padding-bottom: {{$i}}px;
         }
 
+        .p-0-{{$i}}       {
+             padding: 0;
+         }
+
+        .px-0-{{$i}}       {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .py-0-{{$i}}       {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .pl-0-{{$i}}       {
+            padding-left: 0;
+        }
+
+        .pr-0-{{$i}}       {
+            padding-right: 0;
+        }
+
+        .pt-0-{{$i}}       {
+            padding-top: 0;
+        }
+
+        .pb-0-{{$i}}       {
+            padding-bottom: 0;
+        }
+
         .m-{{$i}}-0       {
             margin: {{$i}}px;
         }
@@ -326,6 +356,36 @@
 
             .pb-{{$i}}-0       {
                 padding-bottom: 0;
+            }
+
+            .p-0-{{$i}}       {
+                 padding: {{$i}}px;
+             }
+
+            .px-0-{{$i}}       {
+                padding-left: {{$i}}px;
+                padding-right: {{$i}}px;
+            }
+
+            .py-0-{{$i}}       {
+                padding-top: {{$i}}px;
+                padding-bottom: {{$i}}px;
+            }
+
+            .pl-0-{{$i}}       {
+                padding-left: {{$i}}px;
+            }
+
+            .pr-0-{{$i}}       {
+                padding-right: {{$i}}px;
+            }
+
+            .pt-0-{{$i}}       {
+                padding-top: {{$i}}px;
+            }
+
+            .pb-0-{{$i}}       {
+                padding-bottom: {{$i}}px;
             }
 
             .m-{{$i}}-0       {
@@ -443,7 +503,7 @@
     </style>
 
 </head>
-<body class="" style="background-color: rgba(69, 65, 60, 0.03);">
+<body class="p-0-10" style="background-color: rgba(69, 65, 60, 0.03);">
 <main class="" style="max-width: 1440px; margin: auto;">
     <section class="mb-100 pos-relative w-100 flex-column-center-y" style="color: white;">
         <div class="pl-50-0 pt-50-0 flex-wrap"
