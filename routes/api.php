@@ -30,6 +30,6 @@ Route::group(['prefix' => 'github'], function () {
 //        echo 'php artisan migrate start' . PHP_EOL;
 //        \Illuminate\Support\Facades\Artisan::call('migrate');
 //        echo 'php artisan migrate complete' . PHP_EOL;
-//    })->name('github-push');
+    })->name('github-push');
 
 });
