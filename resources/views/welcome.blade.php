@@ -884,34 +884,15 @@
             style="display: inline-block; width: 15px; height: 15px; position: absolute; background-color: rgba(224, 25, 24, 1); border-radius: 50px; bottom: -8px;right: 350px; z-index: 1;"></span>
     </section>
     <section class="w-100 py-100 pos-relative" style="background-color: white;">
-        <div class="px-150-0">
-            <h3 class="font-size-36 mb-80 w-50-100">Пройдите промежуточный тест из аттестации главбухов</h3>
-            <div class="flex-center">
-                <article class="w-50-100" style="background-color: rgba(249, 249, 249, 1);">
-                    <div class="py-50 px-100-0">
-                        <div class="mb-20">1 вопрос из 3</div>
-                        <h4 class="mb-40">Нужно ли включать положение о комиссии по поступлению и выбытию активов в
-                            учетную политику?</h4>
-                        <div class="mb-50 p-0" style="list-style-type: none;">
-                            <div class="form_radio">
-                                <input id="radio-1" type="radio" name="radio">
-                                <label for="radio-1" class="font-size-20" style="color: rgba(11, 7, 8, 1);">Да,
-                                    обязательно</label>
-                            </div>
-                            <div class="form_radio">
-                                <input id="radio-2" type="radio" name="radio">
-                                <label for="radio-2" class="font-size-20" style="color: rgba(11, 7, 8, 1);">Нет</label>
-                            </div>
-                            <div class="form_radio">
-                                <input id="radio-3" type="radio" name="radio">
-                                <label for="radio-3" class="font-size-20" style="color: rgba(11, 7, 8, 1);">Затрудняюсь
-                                    ответить</label>
-                            </div>
-                        </div>
-                        <button class="button-1">Следующий вопрос</button>
+        <div class="px-35-0">
+            <article class="w-100 mb-40 open-list-wrapper cp">
+                <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
+                    <h3 class="font-size-36 p-50 open-list" data-open-list="3">Пройдите тест и мы сформируем индивидуальный план обучения</h3>
+                    <div class="hide p-50 pt-35 font-size-20 open-list-data flex-center" style="background-color: white;" data-open-list="3">
+                        <iframe src="https://academia.school.budgetnik.ru/" frameborder="0" class="w-100" style="height: 1000px" ></iframe>
                     </div>
-                </article>
-            </div>
+                </div>
+            </article>
         </div>
         <span
             style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(219, 25, 13, 1); border-radius: 0 0 50px 50px; top: 70px;left: 80px; rotate: 130deg;"></span>
