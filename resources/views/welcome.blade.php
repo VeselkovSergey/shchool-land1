@@ -901,9 +901,23 @@
         <span
             style="display: inline-block;width: 15px;height: 15px;position: absolute;background-color: rgba(11, 7, 8, 1);border-radius: 50px;bottom: 50px;left: 300px;"></span>
     </section>
-    <section class="h-px-300 w-100" style="background-color: rgba(56, 52, 48, 1);">
-
-    </section>
+    <footer class="h-px-300 w-100 flex-center p-0-20" style="background-color: rgba(56, 52, 48, 1); color: white;">
+        <div class="w-50-100">
+            <div class="pl-100-0">
+                <div class="mb-20">
+                    Нажимая на кнопку, вы даете свое согласие на обработку персональных данных
+                    © НОЧУ ОДПО Актион, медиагруппа Актион-МЦФЭР, 2021
+                </div>
+                <div><a target="_blank" href="https://id2.action-media.ru/l/politika_pd?id=2">Политика обработки персональных данных</a></div>
+            </div>
+        </div>
+        <div class="w-50-100">
+            <p class="pl-100-0">
+                По всем вопросам звонок бесплатный<br>
+                <b>8 (800) 511-76-94</b>
+            </p>
+        </div>
+    </footer>
 </main>
 
 <template id="lesson1">
