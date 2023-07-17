@@ -10,9 +10,8 @@
         @font-face {
             font-family: "ProximaNovaBold";
             src: url("{{asset('assets/fonts/ProximaNovaBold.eot')}}");
-            url("{{asset('assets/fonts/ProximaNovaBold.woff')}}") format("woff"),
-            url("{{asset('assets/fonts/ProximaNovaBold.truetype')}}") format("truetype"),
-            font-style: normal;
+        url("{{asset('assets/fonts/ProximaNovaBold.woff')}}") format("woff"),
+        url("{{asset('assets/fonts/ProximaNovaBold.truetype')}}") format("truetype"), font-style: normal;
             font-weight: 400;
         }
     </style>
@@ -49,7 +48,7 @@
             text-decoration: none;
         }
 
-        a:hover {
+        a:not(.button-2):hover {
             color: #f79a15;
         }
 
@@ -132,123 +131,123 @@
         }
 
         @for($i = 0; $i <= 500; $i++)
-        .p-{{$i}}               {
+        .p-{{$i}} {
             padding: {{$i}}px;
         }
 
-        .px-{{$i}}               {
+        .px-{{$i}} {
             padding-left: {{$i}}px;
             padding-right: {{$i}}px;
         }
 
-        .py-{{$i}}               {
+        .py-{{$i}} {
             padding-top: {{$i}}px;
             padding-bottom: {{$i}}px;
         }
 
-        .pl-{{$i}}               {
+        .pl-{{$i}} {
             padding-left: {{$i}}px;
         }
 
-        .pr-{{$i}}               {
+        .pr-{{$i}} {
             padding-right: {{$i}}px;
         }
 
-        .pt-{{$i}}               {
+        .pt-{{$i}} {
             padding-top: {{$i}}px;
         }
 
-        .pb-{{$i}}               {
+        .pb-{{$i}} {
             padding-bottom: {{$i}}px;
         }
 
-        .m-{{$i}}               {
+        .m-{{$i}} {
             margin: {{$i}}px;
         }
 
-        .mx-{{$i}}               {
+        .mx-{{$i}} {
             margin-left: {{$i}}px;
             margin-right: {{$i}}px;
         }
 
-        .my-{{$i}}               {
+        .my-{{$i}} {
             margin-top: {{$i}}px;
             margin-bottom: {{$i}}px;
         }
 
-        .ml-{{$i}}               {
+        .ml-{{$i}} {
             margin-left: {{$i}}px;
         }
 
-        .mr-{{$i}}               {
+        .mr-{{$i}} {
             margin-right: {{$i}}px;
         }
 
-        .mt-{{$i}}               {
+        .mt-{{$i}} {
             margin-top: {{$i}}px;
         }
 
-        .mb-{{$i}}               {
+        .mb-{{$i}} {
             margin-bottom: {{$i}}px;
         }
 
-        .w-{{$i}}               {
+        .w-{{$i}} {
             width: {{$i}}%;
         }
 
-        .w-px-{{$i}}              {
+        .w-px-{{$i}}               {
             width: {{$i}}px;
         }
 
-        .h-{{$i}}               {
+        .h-{{$i}} {
             height: {{$i}}%;
         }
 
-        .h-px-{{$i}}              {
+        .h-px-{{$i}}               {
             height: {{$i}}px;
         }
 
-        .top-{{$i}}              {
+        .top-{{$i}}               {
             top: {{$i}}px;
         }
 
-        .top--{{$i}}              {
+        .top--{{$i}}               {
             top: -{{$i}}px;
         }
 
-        .left-{{$i}}              {
+        .left-{{$i}}               {
             left: {{$i}}px;
         }
 
-        .right-{{$i}}              {
+        .right-{{$i}}               {
             right: {{$i}}px;
         }
 
-        .bottom-{{$i}}              {
+        .bottom-{{$i}}               {
             bottom: {{$i}}px;
         }
 
-        .opacity-{{$i}}              {
+        .opacity-{{$i}}               {
             opacity: {{$i}}%;
         }
 
-        .z-{{$i}}              {
+        .z-{{$i}}               {
             z-index: {{$i}};
         }
 
-        .z-{{$i}}              {
+        .z-{{$i}}               {
             z-index: {{$i}};
         }
 
-        .z--{{$i}}              {
+        .z--{{$i}}               {
             z-index: -{{$i}};
         }
 
-        .font-size-{{$i}}             {
+        .font-size-{{$i}}              {
             font-size: {{$i}}px;
         }
 
-        .border-radius-{{$i}}          {
+        .border-radius-{{$i}}           {
             border-radius: {{$i}}px;
         }
 
@@ -289,33 +288,33 @@
             padding-bottom: {{$i}}px;
         }
 
-        .p-0-{{$i}}               {
+        .p-0-{{$i}} {
             padding: 0;
         }
 
-        .px-0-{{$i}}               {
+        .px-0-{{$i}} {
             padding-left: 0;
             padding-right: 0;
         }
 
-        .py-0-{{$i}}               {
+        .py-0-{{$i}} {
             padding-top: 0;
             padding-bottom: 0;
         }
 
-        .pl-0-{{$i}}               {
+        .pl-0-{{$i}} {
             padding-left: 0;
         }
 
-        .pr-0-{{$i}}               {
+        .pr-0-{{$i}} {
             padding-right: 0;
         }
 
-        .pt-0-{{$i}}               {
+        .pt-0-{{$i}} {
             padding-top: 0;
         }
 
-        .pb-0-{{$i}}               {
+        .pb-0-{{$i}} {
             padding-bottom: 0;
         }
 
@@ -384,33 +383,33 @@
                 padding-bottom: 0;
             }
 
-            .p-0-{{$i}}               {
+            .p-0-{{$i}} {
                 padding: {{$i}}px;
             }
 
-            .px-0-{{$i}}               {
+            .px-0-{{$i}} {
                 padding-left: {{$i}}px;
                 padding-right: {{$i}}px;
             }
 
-            .py-0-{{$i}}               {
+            .py-0-{{$i}} {
                 padding-top: {{$i}}px;
                 padding-bottom: {{$i}}px;
             }
 
-            .pl-0-{{$i}}               {
+            .pl-0-{{$i}} {
                 padding-left: {{$i}}px;
             }
 
-            .pr-0-{{$i}}               {
+            .pr-0-{{$i}} {
                 padding-right: {{$i}}px;
             }
 
-            .pt-0-{{$i}}               {
+            .pt-0-{{$i}} {
                 padding-top: {{$i}}px;
             }
 
-            .pb-0-{{$i}}               {
+            .pb-0-{{$i}} {
                 padding-bottom: {{$i}}px;
             }
 
@@ -591,12 +590,14 @@
                     <div><b>Главбуха госучреждения</b></div>
                 </div>
                 <h1 class="mb-35 font-size-20">Новые программы для учеников Школы Главбуха госучреждения</h1>
-                <h2 class="mb-90 font-size-42">Новинка августа — программа «Главный бухгалтер госсектора (код В) —
+                <h2 class="mb-90 font-size-42">Новинка осени — программа «Главный бухгалтер госсектора (код В) —
                     2024»</h2>
                 <p class="font-size-20">Финансисты госсектора должны соответствовать профстандарту «Бухгалтер». А
                     профстандарт требует, чтобы
                     главбухи ежегодно повышали квалификацию. Докажите, что выполняете это требование. Пройдите обучение,
-                    получите официальное удостоверение и (тут про аттестат навыков)</p>
+                    получите официальное удостоверение и подтвердите свои знания. Получите цифровой паспорт
+                    профессиональных навыков, одобренный органами власти, специалистами Минфина и Федерального
+                    казначейства. </p>
 
             </div>
             <div class="w-40-100 mt-130">
@@ -707,7 +708,11 @@
                 <div class="hide p-50 pt-35 font-size-20 open-list-data flex-center" data-open-list="1">
                     <p class="mb-35">
                         <b>Тренировка.</b> Заполните матрицу централизации
-                        Мы составили матрицу централизации для лайтового перехода. Собрали в ней все дела, которые помогут учреждению сохранить работу бухгалтерам. Попытайтесь заполнить матрицу. Разнесите действия по степени важности: красный блок — сделать обязательно, желтый — необходимо для реализации первого блока. Зеленый — действия необязательные, но они помогут легче пережить перемены.
+                        Мы составили матрицу централизации для лайтового перехода. Собрали в ней все дела, которые
+                        помогут учреждению сохранить работу бухгалтерам. Попытайтесь заполнить матрицу. Разнесите
+                        действия по степени важности: красный блок — сделать обязательно, желтый — необходимо для
+                        реализации первого блока. Зеленый — действия необязательные, но они помогут легче пережить
+                        перемены.
                         Удачной тренировки!
                     </p>
                     <iframe
@@ -832,6 +837,9 @@
                             <img src="{{asset('assets/imgs/passport3.gif')}}" alt="">
                         </div>
                     </div>
+                </div>
+                <div class="w-100 flex-center mt-100">
+                    <a class="button-2" href="https://profpasport.ru/specialist/" target="_blank">Перейти в паспорт навыков</a>
                 </div>
             </div>
 
