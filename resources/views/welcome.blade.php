@@ -580,6 +580,9 @@
 
 </head>
 <body class="p-0-10" style="background-color: rgba(69, 65, 60, 0.03);">
+<div class="flex pos-abs" style="right: 10px; left: 10px; z-index: 1;">
+    <div class="ml-a p-10" id="containerAuth"></div>
+</div>
 <main class="" style="max-width: 1440px; margin: auto;">
     <section class="mb-100 pos-relative w-100 flex-column-center-y" style="color: white;">
         <div class="pl-50-0 pt-50-0 flex-wrap"
@@ -1362,10 +1365,153 @@
 <script>
     document.body.querySelectorAll(".open-list").forEach((openList) => {
         openList.addEventListener("click", () => {
-            console.log(document.body.querySelector(`.open-list-data[data-open-list="${openList.dataset.openList}"]`))
             document.body.querySelector(`.open-list-data[data-open-list="${openList.dataset.openList}"]`).classList.toggle("hide")
         })
     })
+</script>
+
+<script type="text/javascript">
+    var APP_ID = 174
+    var EMV_ID = 1005
+    window.ID2_SITE_USER_ID = 0
+    var BLOCK_LOGIN = false
+    var senddata_login = false
+    var senddata_logout = false
+
+    //-------
+    var iduser = null
+    var id2user = {}
+
+    function onActionEventsLoad() {
+        window.ActionEvents.init({
+            publicationCode: 1005,
+        })
+    }
+
+    //Подключаем loader
+    function connectLoader() {
+        var script = document.createElement("script")
+
+        script.async = true
+        script.src = "https://cdn.action-mcfr.ru/widgets/loader.js"
+        script.onload = onLoadLoaderScript
+
+        document.getElementsByTagName("head")[0].appendChild(script)
+    }
+
+    //Загружаем виджет
+    function onLoadLoaderScript() {
+        window.WidgetLoader.load({name: "authButtonExternal"}, onAuthButtonLoad) // кнопка
+        window.WidgetLoader.load({name: "marketingLib"}, onActionEventsLoad) // отправка событий
+    }
+
+    //Инициализируем виджет - на момент инициализации html элемент с id передаваемым в loginblock, должен быть доступен
+    function onAuthButtonLoad() {
+        window.ActionAuthButtonExternal.init({
+            appid: APP_ID,
+            emid: EMV_ID,
+            user: iduser,
+            loginblock: "containerAuth",
+            theme: "ss",
+            supportlink: "https://id2.action-media.ru/Feedback",
+            {{--reglink: '<?php echo $reglink;?>',--}}
+            mode: "prod",
+            onUserChange: onUserChange,
+            onTokenChange: onTokenChange,
+
+        })
+
+
+    }
+
+    function onUserChange(a) {
+        // console.log("aaaaa: ", a)
+        // id2user = window.ActionAuthButtonExternal.getUser()
+        // console.log("id2user: ", id2user)
+        // console.log(a["id"])
+
+        window.ID2_SITE_USER_ID = a["id"]
+        // $.session.set("user_id", ID2_SITE_USER_ID)
+        // console.log(window.ID2_SITE_USER_ID)
+
+
+        // document.getElementById("name").value = a["firstName"]
+        // document.getElementById("email").value = a["email"]
+
+        // событие посещения страницы
+        window.ActionEvents.saveaction([window.ID2_SITE_USER_ID, "visit", document.location.href, "", "15", 15])
+    }
+
+    function onTokenChange(a) {
+
+        window.userIdToken = window.ActionAuthButtonExternal.getTokenValue()
+        // window.ActionEvents.saveaction([window.ID2_SITE_USER_ID, "visit", document.location.href, "", "15", 15])
+
+        if (window.userIdToken) {
+            // console.info("111!!!" + window.userIdToken)
+
+            return
+
+            // $.ajax({
+            //     url: "../new-id2/getUserAccess.php",
+            //     headers: {
+            //         "authorization": window.userIdToken,
+            //     },
+            //     data: "rand=" + window.userIdToken,
+            //     dataType: "",
+            //     beforeSend: function (R) {
+            //     },
+            //     success: function (data) {
+            //         var ID2userAccess = jQuery.parseJSON(data)
+            //         console.info(ID2userAccess)
+            //     },
+            //     error: function (R) {
+            //         console.info("SERVER ANSVER ??: ", R)
+            //     },
+            // })
+
+            // $.ajax({
+            //     url: "../new-id2/getUserInfo.php",
+            //     headers: {
+            //         "authorization": window.userIdToken,
+            //     },
+            //     data: "rand=" + window.userIdToken,
+            //     dataType: "",
+            //     beforeSend: function (R) {
+            //     },
+            //     success: function (data) {
+            //         var ID2userIndo = jQuery.parseJSON(data)
+            //         var autosend = 0
+            //         console.info(ID2userIndo)
+            //         sessionStorage.user = ID2userIndo
+            //         $(".userId").val(window.ID2_SITE_USER_ID)
+            //         $("#bitrixid").val(window.ID2_SITE_USER_ID)
+            //
+            //         $("#name").val(ID2userIndo["firstName"] + " " + ID2userIndo["lastName"])
+            //         $(".name_o").text(ID2userIndo["firstName"])
+            //         $("#email").val(ID2userIndo["email"])
+            //         $("#phone").val(ID2userIndo["phone"])
+            //
+            //         $("#bitrixid2").val(window.ID2_SITE_USER_ID)
+            //         $("#name2").val(ID2userIndo["firstName"] + " " + ID2userIndo["lastName"])
+            //         $("#email2").val(ID2userIndo["email"])
+            //         $("#phone2").val(ID2userIndo["phone"])
+            //
+            //         if (autosend & ($(".name").val() != "") & ($(".email").val() != "") & ($(".phone").val() != "")) sendCRM()
+            //
+            //         document.getElementById("name").value = ID2userIndo["firstName"] + " " + ID2userIndo["lastName"]
+            //         document.getElementById("email").value = ID2userIndo["email"]
+            //     },
+            //     error: function (R) {
+            //         console.info("USER INFO ??: ", R)
+            //     },
+            // })
+        }
+
+    }
+
+    connectLoader()
+
 </script>
 </body>
 </html>
