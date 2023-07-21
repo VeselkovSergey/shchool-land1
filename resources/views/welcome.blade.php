@@ -581,7 +581,7 @@
 </head>
 <body class="p-0-10" style="background-color: rgba(69, 65, 60, 0.03);">
 <div class="flex pos-abs" style="right: 10px; left: 10px; z-index: 1;">
-    <div class="ml-a p-10" id="containerAuth"></div>
+    <div class="ml-a p-10" id="panelcontainer"></div>
 </div>
 <main class="" style="max-width: 1440px; margin: auto;">
     <section class="mb-100 pos-relative w-100 flex-column-center-y" style="color: white;">
@@ -1405,7 +1405,7 @@
             appid: APP_ID,
             emid: EMV_ID,
             user: iduser,
-            loginblock: "containerAuth",
+            loginblock: "panelcontainer",
             theme: "ss",
             supportlink: "https://id2.action-media.ru/Feedback",
             {{--reglink: '<?php echo $reglink;?>',--}}
