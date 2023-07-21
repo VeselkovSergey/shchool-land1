@@ -1,20 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{env("APP_NAME")}}</title>
-
-    <style>
-        @font-face {
-            font-family: "ProximaNovaBold";
-            src: url("{{asset('assets/fonts/ProximaNovaBold.eot')}}");
-        url("{{asset('assets/fonts/ProximaNovaBold.woff')}}") format("woff"),
-        url("{{asset('assets/fonts/ProximaNovaBold.truetype')}}") format("truetype"), font-style: normal;
-            font-weight: 400;
-        }
-    </style>
+    <title>Новые программы для учеников Школы Главбуха госучреждения</title>
 
     <style>
         body, h1, h2, h3, h4, h5, p {
@@ -604,7 +594,7 @@
 
             </div>
             <div class="w-40-100 mt-130">
-                <img src="{{asset('assets/imgs/main-block.svg')}}" alt="">
+                <img src="./assets/imgs/main-block.svg" alt="">
             </div>
         </div>
         <div class="pos-abs top-0 w-100 h-80 z--1" style="background-color: rgba(56, 52, 48, 1)">-</div>
@@ -614,7 +604,7 @@
         <div class="flex-wrap px-150-0" style="justify-content: space-between;">
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
-                    <img src="{{asset('assets/imgs/icon1.svg')}}" alt="">
+                    <img src="./assets/imgs/icon1.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">
                     Применение правил новых
@@ -627,7 +617,7 @@
             </article>
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
-                    <img src="{{asset('assets/imgs/icon2.svg')}}" alt="">
+                    <img src="./assets/imgs/icon2.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">
                     Оформление и сверка
@@ -640,7 +630,7 @@
             </article>
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
-                    <img src="{{asset('assets/imgs/icon3.svg')}}" alt="">
+                    <img src="./assets/imgs/icon3.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">Составите первичные учетные документы без ошибок. Проведете
                     внутриформенную проверку, чтобы
@@ -652,7 +642,7 @@
             <article class="w-100 flex-column-center">
                 <div class="w-33">
                     <div class="h-px-175 mb-30">
-                        <img src="{{asset('assets/imgs/icon4.svg')}}" alt="">
+                        <img src="./assets/imgs/icon4.svg" alt="">
                     </div>
                     <h4 class="text-center mb-30 font-size-18">Переход на смарт-контроль</h4>
                     <p class="text-center font-size-15 px-20">Отработаете правила СМАРТ-контроля и сможете подготовить
@@ -681,7 +671,7 @@
                 </div>
                 <div class="w-25-100 pos-relative h-px-260">
                     <div class="h-px-300 pos-abs top--40">
-                        <img src="{{asset('assets/imgs/people1.svg')}}" alt="">
+                        <img src="./assets/imgs/people1.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -758,7 +748,7 @@
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="flex-center p-10">
                         <div class="w-px-280">
-                            <img src="{{asset('assets/imgs/exp_1.svg')}}" alt="">
+                            <img src="./assets/imgs/exp_1.svg" alt="">
                         </div>
                     </div>
                     <div class="p-10 flex-column h-100">
@@ -774,7 +764,7 @@
                 <article class="w-px-300 border-radius-10 flex-column"
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="w-px-280 p-10">
-                        <img src="{{asset('assets/imgs/exp_2.svg')}}" alt="">
+                        <img src="./assets/imgs/exp_2.svg" alt="">
                     </div>
                     <div class="p-10 flex-column h-100">
                         <h4 class="font-size-24">Алексей Сосновский</h4>
@@ -786,7 +776,7 @@
                 <article class="w-px-300 border-radius-10 flex-column"
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="w-px-280 p-10">
-                        <img src="{{asset('assets/imgs/exp_3.svg')}}" alt="">
+                        <img src="./assets/imgs/exp_3.svg" alt="">
                     </div>
                     <div class="p-10 flex-column h-100">
                         <h4 class="font-size-24">Юлия Казанцева</h4>
@@ -801,19 +791,19 @@
                     <div class="pr-150-0">
                         <h3 class="font-size-54 mb-15">Цифровой паспорт ключевых навыков</h3>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 --active cp" data-img="1"
-                             data-img-src="{{asset('assets/imgs/passport1.gif')}}">
+                             data-img-src="./assets/imgs/passport1.gif">
                             <p class="font-size-18">
                                 Для каждого специалиста разрабатываем паспорт навыков и вектор карьерного роста
                             </p>
                         </div>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="2"
-                             data-img-src="{{asset('assets/imgs/passport2.gif')}}">
+                             data-img-src="./assets/imgs/passport2.gif">
                             <p class="font-size-18">
                                 Учитываем должность, специфику работы, размер и тип учреждения
                             </p>
                         </div>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="3"
-                             data-img-src="{{asset('assets/imgs/passport3.gif')}}">
+                             data-img-src="./assets/imgs/passport3.gif">
                             <p class="font-size-18">
                                 Паспорт ежемесячно показывает, какие компетенции начинают устаревать из-за прошедших
                                 изменений
@@ -825,19 +815,19 @@
                     <div class="slider-1 --active --current" data-img="1">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="{{asset('assets/imgs/passport1.gif')}}" alt="">
+                            <img src="./assets/imgs/passport1.gif" alt="">
                         </div>
                     </div>
                     <div class="slider-1" data-img="2">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="{{asset('assets/imgs/passport2.gif')}}" alt="">
+                            <img src="./assets/imgs/passport2.gif" alt="">
                         </div>
                     </div>
                     <div class="slider-1" data-img="3">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="{{asset('assets/imgs/passport3.gif')}}" alt="">
+                            <img src="./assets/imgs/passport3.gif" alt="">
                         </div>
                     </div>
                 </div>
@@ -1074,6 +1064,7 @@
         </p>
     </div>
 </template>
+
 <style>
     /* модальное окно */
     .modal-window-component-container {
@@ -1160,6 +1151,7 @@
         }
     }
 </style>
+
 <script>
     /* JS add helpers */
     function ModalWindow(content, closingCallback, flash) {
@@ -1343,6 +1335,7 @@
         return element
     }
 </script>
+
 <script>
     document.body.querySelectorAll(".button-slider-1").forEach((buttonSlider1) => {
         buttonSlider1.addEventListener("click", () => {
@@ -1362,6 +1355,7 @@
         })
     })
 </script>
+
 <script>
     document.body.querySelectorAll(".open-list").forEach((openList) => {
         openList.addEventListener("click", () => {
@@ -1370,17 +1364,11 @@
     })
 </script>
 
+<!-- ID2 -->
 <script type="text/javascript">
-    var APP_ID = 174
-    var EMV_ID = 1005
-    window.ID2_SITE_USER_ID = 0
-    var BLOCK_LOGIN = false
-    var senddata_login = false
-    var senddata_logout = false
-
-    //-------
-    var iduser = null
-    var id2user = {}
+    var APP_ID = 172
+    var EMV_ID = 11395
+    window.ID2_SITE_USER_ID = 0;
 
     //Подключаем loader
     function connectLoader() {
@@ -1404,11 +1392,10 @@
         window.ActionAuthButtonExternal.init({
             appid: APP_ID,
             emid: EMV_ID,
-            user: iduser,
+            user: null,
             loginblock: "panelcontainer",
             theme: "ss",
             supportlink: "https://id2.action-media.ru/Feedback",
-            {{--reglink: '<?php echo $reglink;?>',--}}
             mode: "prod",
             onUserChange: onUserChange,
             onTokenChange: onTokenChange,
@@ -1423,99 +1410,57 @@
     }
 
     function onUserChange(a) {
-        console.log("onUserChange", a)
-        // console.log("aaaaa: ", a)
-        // id2user = window.ActionAuthButtonExternal.getUser()
-        // console.log("id2user: ", id2user)
-        // console.log(a["id"])
+        // console.log("onUserChange", a)
 
         window.ID2_SITE_USER_ID = a["id"]
-        // $.session.set("user_id", ID2_SITE_USER_ID)
-        // console.log(window.ID2_SITE_USER_ID)
-
-
-        // document.getElementById("name").value = a["firstName"]
-        // document.getElementById("email").value = a["email"]
-
-        // событие посещения страницы
-        window.ActionEvents.saveaction([window.ID2_SITE_USER_ID, "visit", document.location.href, "", "15", 15])
 
         if (window.ID2_SITE_USER_ID) {
+
+            // событие посещения страницы
+            window.ActionEvents.saveaction([window.ID2_SITE_USER_ID, "visit", document.location.href, "", "15", 15])
+
             document.body.querySelector('a.passport-link').href = "https://profpasport.ru/specialist/" + window.ID2_SITE_USER_ID
         }
     }
 
     function onTokenChange(a) {
-        console.log("onTokenChange", a)
+        // console.log("onTokenChange", a)
 
         window.userIdToken = window.ActionAuthButtonExternal.getTokenValue()
-        // window.ActionEvents.saveaction([window.ID2_SITE_USER_ID, "visit", document.location.href, "", "15", 15])
-
-        if (window.userIdToken) {
-            // console.info("111!!!" + window.userIdToken)
-
-            return
-
-            // $.ajax({
-            //     url: "../new-id2/getUserAccess.php",
-            //     headers: {
-            //         "authorization": window.userIdToken,
-            //     },
-            //     data: "rand=" + window.userIdToken,
-            //     dataType: "",
-            //     beforeSend: function (R) {
-            //     },
-            //     success: function (data) {
-            //         var ID2userAccess = jQuery.parseJSON(data)
-            //         console.info(ID2userAccess)
-            //     },
-            //     error: function (R) {
-            //         console.info("SERVER ANSVER ??: ", R)
-            //     },
-            // })
-
-            // $.ajax({
-            //     url: "../new-id2/getUserInfo.php",
-            //     headers: {
-            //         "authorization": window.userIdToken,
-            //     },
-            //     data: "rand=" + window.userIdToken,
-            //     dataType: "",
-            //     beforeSend: function (R) {
-            //     },
-            //     success: function (data) {
-            //         var ID2userIndo = jQuery.parseJSON(data)
-            //         var autosend = 0
-            //         console.info(ID2userIndo)
-            //         sessionStorage.user = ID2userIndo
-            //         $(".userId").val(window.ID2_SITE_USER_ID)
-            //         $("#bitrixid").val(window.ID2_SITE_USER_ID)
-            //
-            //         $("#name").val(ID2userIndo["firstName"] + " " + ID2userIndo["lastName"])
-            //         $(".name_o").text(ID2userIndo["firstName"])
-            //         $("#email").val(ID2userIndo["email"])
-            //         $("#phone").val(ID2userIndo["phone"])
-            //
-            //         $("#bitrixid2").val(window.ID2_SITE_USER_ID)
-            //         $("#name2").val(ID2userIndo["firstName"] + " " + ID2userIndo["lastName"])
-            //         $("#email2").val(ID2userIndo["email"])
-            //         $("#phone2").val(ID2userIndo["phone"])
-            //
-            //         if (autosend & ($(".name").val() != "") & ($(".email").val() != "") & ($(".phone").val() != "")) sendCRM()
-            //
-            //         document.getElementById("name").value = ID2userIndo["firstName"] + " " + ID2userIndo["lastName"]
-            //         document.getElementById("email").value = ID2userIndo["email"]
-            //     },
-            //     error: function (R) {
-            //         console.info("USER INFO ??: ", R)
-            //     },
-            // })
-        }
-
     }
 
     connectLoader()
 
 </script>
+<!-- ID2 -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m, e, t, r, i, k, a) {
+        m[i] = m[i] || function() {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+            if (document.scripts[j].src === r) {
+                return;
+            }
+        }
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(91257495, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/91257495" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
 </body>
 </html>
