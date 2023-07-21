@@ -1382,12 +1382,6 @@
     var iduser = null
     var id2user = {}
 
-    function onActionEventsLoad() {
-        window.ActionEvents.init({
-            publicationCode: 1005,
-        })
-    }
-
     //Подключаем loader
     function connectLoader() {
         var script = document.createElement("script")
@@ -1418,10 +1412,14 @@
             mode: "prod",
             onUserChange: onUserChange,
             onTokenChange: onTokenChange,
-
         })
+    }
 
-
+    //отправка событий
+    function onActionEventsLoad() {
+        window.ActionEvents.init({
+            publicationCode: EMV_ID,
+        })
     }
 
     function onUserChange(a) {
