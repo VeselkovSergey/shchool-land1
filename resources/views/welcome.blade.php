@@ -842,7 +842,7 @@
                     </div>
                 </div>
                 <div class="w-100 flex-center mt-100">
-                    <a class="button-2" href="https://profpasport.ru/specialist/" target="_blank">Перейти в паспорт навыков</a>
+                    <a class="passport-link button-2" href="#" target="_blank">Перейти в паспорт навыков</a>
                 </div>
             </div>
 
@@ -1423,6 +1423,7 @@
     }
 
     function onUserChange(a) {
+        console.log("onUserChange", a)
         // console.log("aaaaa: ", a)
         // id2user = window.ActionAuthButtonExternal.getUser()
         // console.log("id2user: ", id2user)
@@ -1438,9 +1439,14 @@
 
         // событие посещения страницы
         window.ActionEvents.saveaction([window.ID2_SITE_USER_ID, "visit", document.location.href, "", "15", 15])
+
+        if (window.ID2_SITE_USER_ID) {
+            document.body.querySelector('a.passport-link').href = "https://profpasport.ru/specialist/" + window.ID2_SITE_USER_ID
+        }
     }
 
     function onTokenChange(a) {
+        console.log("onTokenChange", a)
 
         window.userIdToken = window.ActionAuthButtonExternal.getTokenValue()
         // window.ActionEvents.saveaction([window.ID2_SITE_USER_ID, "visit", document.location.href, "", "15", 15])
