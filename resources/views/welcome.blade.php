@@ -594,7 +594,7 @@
 
             </div>
             <div class="w-40-100 mt-130">
-                <img src="./img/main-block.svg" alt="">
+                <img src="./img.first_lend/main-block.svg" alt="">
             </div>
         </div>
         <div class="pos-abs top-0 w-100 h-80 z--1" style="background-color: rgba(56, 52, 48, 1)">-</div>
@@ -604,7 +604,7 @@
         <div class="flex-wrap px-150-0" style="justify-content: space-between;">
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
-                    <img src="./img/icon1.svg" alt="">
+                    <img src="./img.first_lend/icon1.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">
                     Применение правил новых
@@ -617,7 +617,7 @@
             </article>
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
-                    <img src="./img/icon2.svg" alt="">
+                    <img src="./img.first_lend/icon2.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">
                     Оформление и сверка
@@ -630,7 +630,7 @@
             </article>
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
-                    <img src="./img/icon3.svg" alt="">
+                    <img src="./img.first_lend/icon3.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">Составите первичные учетные документы без ошибок. Проведете
                     внутриформенную проверку, чтобы
@@ -642,7 +642,7 @@
             <article class="w-100 flex-column-center">
                 <div class="w-33">
                     <div class="h-px-175 mb-30">
-                        <img src="./img/icon4.svg" alt="">
+                        <img src="./img.first_lend/icon4.svg" alt="">
                     </div>
                     <h4 class="text-center mb-30 font-size-18">Переход на смарт-контроль</h4>
                     <p class="text-center font-size-15 px-20">Отработаете правила СМАРТ-контроля и сможете подготовить
@@ -671,7 +671,7 @@
                 </div>
                 <div class="w-25-100 pos-relative h-px-260">
                     <div class="h-px-300 pos-abs top--40">
-                        <img src="./img/people1.svg" alt="">
+                        <img src="./img.first_lend/people1.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -748,7 +748,7 @@
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="flex-center p-10">
                         <div class="w-px-280">
-                            <img src="./img/exp_1.svg" alt="">
+                            <img src="./img.first_lend/exp_1.svg" alt="">
                         </div>
                     </div>
                     <div class="p-10 flex-column h-100">
@@ -764,7 +764,7 @@
                 <article class="w-px-300 border-radius-10 flex-column"
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="w-px-280 p-10">
-                        <img src="./img/exp_2.svg" alt="">
+                        <img src="./img.first_lend/exp_2.svg" alt="">
                     </div>
                     <div class="p-10 flex-column h-100">
                         <h4 class="font-size-24">Алексей Сосновский</h4>
@@ -776,7 +776,7 @@
                 <article class="w-px-300 border-radius-10 flex-column"
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="w-px-280 p-10">
-                        <img src="./img/exp_3.svg" alt="">
+                        <img src="./img.first_lend/exp_3.svg" alt="">
                     </div>
                     <div class="p-10 flex-column h-100">
                         <h4 class="font-size-24">Юлия Казанцева</h4>
@@ -791,19 +791,19 @@
                     <div class="pr-150-0">
                         <h3 class="font-size-54 mb-15">Цифровой паспорт ключевых навыков</h3>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 --active cp" data-img="1"
-                             data-img-src="./img/passport1.gif">
+                             data-img-src="./img.first_lend/passport1.gif">
                             <p class="font-size-18">
                                 Для каждого специалиста разрабатываем паспорт навыков и вектор карьерного роста
                             </p>
                         </div>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="2"
-                             data-img-src="./img/passport2.gif">
+                             data-img-src="./img.first_lend/passport2.gif">
                             <p class="font-size-18">
                                 Учитываем должность, специфику работы, размер и тип учреждения
                             </p>
                         </div>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="3"
-                             data-img-src="./img/passport3.gif">
+                             data-img-src="./img.first_lend/passport3.gif">
                             <p class="font-size-18">
                                 Паспорт ежемесячно показывает, какие компетенции начинают устаревать из-за прошедших
                                 изменений
@@ -815,19 +815,19 @@
                     <div class="slider-1 --active --current" data-img="1">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="./img/passport1.gif" alt="">
+                            <img src="./img.first_lend/passport1.gif" alt="">
                         </div>
                     </div>
                     <div class="slider-1" data-img="2">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="./img/passport2.gif" alt="">
+                            <img src="./img.first_lend/passport2.gif" alt="">
                         </div>
                     </div>
                     <div class="slider-1" data-img="3">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="./img/passport3.gif" alt="">
+                            <img src="./img.first_lend/passport3.gif" alt="">
                         </div>
                     </div>
                 </div>
