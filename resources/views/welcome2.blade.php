@@ -616,12 +616,17 @@
                 <h4 class="text-center mb-30 font-size-18">
                     Работа с контрактами по 44-ФЗ
                 </h4>
+                <p class="text-center font-size-15 px-20">Научитесь готовить и вносить сведения в реестр по разным
+                    основаниям. Разберетесь, как правильно рассчитывать сроки для внесения сведений в реестр
+                    контрактов</p>
             </article>
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
                     <img src="./img/icon3.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">Корпоративные закупки для заказчиков по 223-ФЗ</h4>
+                <p>Готовые инструменты для корпоративных закупок по 223-ФЗ. Подготовите требования к участникам и
+                    составите заявки.</p>
             </article>
             <article class="w-100 flex-column-center">
                 <div class="w-33">
@@ -630,6 +635,8 @@
                     </div>
                     <h4 class="text-center mb-30 font-size-18">Организация закупок малого объема у единственного
                         поставщика</h4>
+                    <p>Быстро разберётесь во всех новых основаниях закупки, согласуете ее и отработаете новое на
+                        тренажёрах</p>
             </article>
             <article class="w-100 flex-column-center">
                 <div class="w-33">
@@ -637,6 +644,8 @@
                         <img src="./img/icon5.svg" alt="">
                     </div>
                     <h4 class="text-center mb-30 font-size-18">Противодействие коррупции в бюджетных учреждениях</h4>
+                    <p>Узнаете все о предупреждении коррупции в вашем учреждении и составите антикоррупционную политику,
+                        получите антикоррупционные чек-листы и памятки</p>
                 </div>
             </article>
         </div>
@@ -656,7 +665,7 @@
                 <div class="w-65-100 mr-a font-size-24">
                     Я — Мария Федюкович, руководитель Высшей школы Госзакупок приглашаю вас на новый урок
                     <br>
-                    <b>Я — Мария Федюкович, руководитель Высшей школы Госзакупок приглашаю вас на новый урок</b>
+                    <b>«Как проверить товар и сопроводительные документы на приемке»</b>
                 </div>
                 <div class="w-25-100 pos-relative h-px-260">
                     <div class="h-px-300 pos-abs top--40">
@@ -846,10 +855,6 @@
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Продвинутый •</div>
                 <h4 class="font-size-26 w-90">Как работать с контрактами по 44-ФЗ</h4>
-            </article>
-            <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
-                <div class="mb-10 font-size-20">Продвинутый •</div>
-                <h4 class="font-size-26 w-90">Главный бухгалтер госсектора (код В) - 2024</h4>
             </article>
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Продвинутый •</div>
