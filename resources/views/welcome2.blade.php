@@ -120,6 +120,10 @@
             background-color: black;
         }
 
+        .color-white {
+            color: white;
+        }
+
         @for($i = 0; $i <= 500; $i++)
         .p-{{$i}}                          {
             padding: {{$i}}px;
@@ -596,7 +600,7 @@
 
             </div>
             <div class="w-40-100 mt-130">
-                <img src="./img.second_lend/main-block.svg" alt="">
+                <img src="./img.second_first/main-block.svg" alt="">
             </div>
         </div>
         <div class="pos-abs top-0 w-100 h-80 z--1" style="background-color: rgba(56, 52, 48, 1)">-</div>
@@ -606,7 +610,7 @@
         <div class="flex-wrap px-150-0" style="justify-content: space-evenly;">
             <article class="w-33-100 flex-column mb-20">
                 <div class="h-px-175 mb-30">
-                    <img src="./img.second_lend/icon1.svg" alt="">
+                    <img src="./img.second_first/icon1.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">
                     Цифровые навыки в госзакупках
@@ -616,7 +620,7 @@
             </article>
             <article class="w-33-100 flex-column mb-20">
                 <div class="h-px-175 mb-30">
-                    <img src="./img.second_lend/icon2.svg" alt="">
+                    <img src="./img.second_first/icon2.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">
                     Работа с контрактами по 44-ФЗ
@@ -627,7 +631,7 @@
             </article>
             <article class="w-33-100 flex-column mb-20">
                 <div class="h-px-175 mb-30">
-                    <img src="./img.second_lend/icon3.svg" alt="">
+                    <img src="./img.second_first/icon3.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">Корпоративные закупки для заказчиков по 223-ФЗ</h4>
                 <p class="text-center font-size-15 px-20">Готовые инструменты для корпоративных закупок по 223-ФЗ. Подготовите требования к участникам и
@@ -635,7 +639,7 @@
             </article>
             <article class="w-33-100 flex-column-center mb-20">
                 <div class="h-px-175 mb-30">
-                    <img src="./img.second_lend/icon4.svg" alt="">
+                    <img src="./img.second_first/icon4.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">Организация закупок малого объема у единственного
                     поставщика</h4>
@@ -644,7 +648,7 @@
             </article>
             <article class="w-33-100 flex-column-center mb-20">
                 <div class="h-px-175 mb-30">
-                    <img src="./img.second_lend/icon5.svg" alt="">
+                    <img src="./img.second_first/icon5.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">Противодействие коррупции в бюджетных учреждениях</h4>
                 <p class="text-center font-size-15 px-20">Узнаете все о предупреждении коррупции в вашем учреждении и составите антикоррупционную политику,
@@ -671,7 +675,7 @@
                 </div>
                 <div class="w-25-100 pos-relative h-px-260">
                     <div class="h-px-300 pos-abs top--40">
-                        <img src="./img.second_lend/people1.svg" alt="">
+                        <img src="./img.second_first/people1.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -742,7 +746,7 @@
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="flex-center p-10">
                         <div class="w-px-280">
-                            <img src="./img.second_lend/exp_1.svg" alt="">
+                            <img src="./img.second_first/exp_1.svg" alt="">
                         </div>
                     </div>
                     <div class="p-10 flex-column h-100">
@@ -758,7 +762,7 @@
                 <article class="w-px-300 border-radius-10 flex-column"
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="w-px-280 p-10">
-                        <img src="./img.second_lend/exp_2.svg" alt="">
+                        <img src="./img.second_first/exp_2.svg" alt="">
                     </div>
                     <div class="p-10 flex-column h-100">
                         <h4 class="font-size-24">Дмитрий Бомбырь</h4>
@@ -772,7 +776,7 @@
                 <article class="w-px-300 border-radius-10 flex-column"
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="w-px-280 p-10">
-                        <img src="./img.second_lend/exp_3.svg" alt="">
+                        <img src="./img.second_first/exp_3.svg" alt="">
                     </div>
                     <div class="p-10 flex-column h-100">
                         <h4 class="font-size-24">Надежда Лещенко</h4>
@@ -790,19 +794,19 @@
                     <div class="pr-150-0">
                         <h3 class="font-size-54 mb-15">Цифровой паспорт ключевых навыков</h3>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 --active cp" data-img="1"
-                             data-img-src="./img.second_lend/passport1.gif">
+                             data-img-src="./img.second_first/passport1.gif">
                             <p class="font-size-18">
                                 Для каждого специалиста разрабатываем паспорт навыков и вектор карьерного роста
                             </p>
                         </div>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="2"
-                             data-img-src="./img.second_lend/passport2.gif">
+                             data-img-src="./img.second_first/passport2.gif">
                             <p class="font-size-18">
                                 Учитываем должность, специфику работы, размер и тип учреждения
                             </p>
                         </div>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="3"
-                             data-img-src="./img.second_lend/passport3.gif">
+                             data-img-src="./img.second_first/passport3.gif">
                             <p class="font-size-18">
                                 Паспорт ежемесячно показывает, какие компетенции начинают устаревать из-за прошедших
                                 изменений
@@ -814,19 +818,19 @@
                     <div class="slider-1 --active --current" data-img="1">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="./img.second_lend/passport1.gif" alt="">
+                            <img src="./img.second_first/passport1.gif" alt="">
                         </div>
                     </div>
                     <div class="slider-1" data-img="2">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="./img.second_lend/passport2.gif" alt="">
+                            <img src="./img.second_first/passport2.gif" alt="">
                         </div>
                     </div>
                     <div class="slider-1" data-img="3">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="./img.second_lend/passport3.gif" alt="">
+                            <img src="./img.second_first/passport3.gif" alt="">
                         </div>
                     </div>
                 </div>
