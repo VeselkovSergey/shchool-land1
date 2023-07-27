@@ -1344,8 +1344,8 @@
 
 <!-- ID2 -->
 <script type="text/javascript">
-    var APP_ID = 174
-    var EMV_ID = 1005
+    var APP_ID = 10149
+    var EMV_ID = 1213
     window.ID2_SITE_USER_ID = 0
 
     //Подключаем loader
