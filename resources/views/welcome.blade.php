@@ -120,6 +120,10 @@
             background-color: black;
         }
 
+        .color-white {
+            color: white;
+        }
+
         @for($i = 0; $i <= 500; $i++)
         .p-{{$i}} {
             padding: {{$i}}px;
@@ -438,6 +442,11 @@
 
         .m-a {
             margin: auto;
+        }
+
+        .mx-a {
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .mr-a {
@@ -875,6 +884,93 @@
             style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(240, 237, 203, 1); border-radius: 50px; top: 1020px;right: 50px;"></span>
         <span
             style="display: inline-block; width: 15px; height: 15px; position: absolute; background-color: rgba(224, 25, 24, 1); border-radius: 50px; bottom: -8px;right: 350px; z-index: 1;"></span>
+    </section>
+    <section class="w-100 pt-50-0" style="background-color: white;">
+        <style>
+            .crazy-img {
+                width: 216px;
+                height: 216px;
+            }
+            @media screen and (max-width: 768px) {
+                .crazy-img {
+                    width: 168px;
+                    height: 168px;
+                }
+            }
+        </style>
+        <article class="w-75-100 border-radius-25 mx-a mb-20 delete-after-date" data-delete-date="08/07/2023 10:00:00" style="background-color: rgba(249, 248, 244, 1);">
+            <div class="flex-wrap p-30">
+                <div class="w-30-100 flex-center">
+                    <div class="pos-relative">
+                        <div class="border-radius-50 h-px-70 p-5 flex-column-center w-px-70 color-white pos-abs" style="background-color: #7268f2; left: -30px;">
+                            <div><b>07</b></div>
+                            <div><b>авг</b></div>
+                            <div>10:00</div>
+                        </div>
+                        <div>
+                            <img class="crazy-img border-radius-120" style="" src="https://finacademy.budgetnik.ru/webcontent/images/photos/Author_5eb2f56b25d14a72a201cfb770ef0207_20230724T165429.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-70-100">
+                    <div class="m-20-0">
+                        <h2 class="mb-20 font-size-28">Расчеты с пододчетниками и МОЛ: как и по каким документам вести учет</h2>
+                        <p class="font-size-18"><i><b>Кузенкова Татьяна</b>, главный бухгалтер Некоммерческого фонда реструктуризации предприятий и развития финансовых институтов,  консультант по вопросам учета и отчетности государственного сектора</i></p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="w-75-100 border-radius-25 mx-a mb-20 delete-after-date" data-delete-date="08/10/2023 12:00:00" style="background-color: rgba(249, 248, 244, 1);">
+            <div class="flex-wrap p-30">
+                <div class="w-30-100 flex-center">
+                    <div class="pos-relative">
+                        <div class="border-radius-50 h-px-70 p-5 flex-column-center w-px-70 color-white pos-abs" style="background-color: #7268f2; left: -30px;">
+                            <div><b>10</b></div>
+                            <div><b>авг</b></div>
+                            <div>12:00</div>
+                        </div>
+                        <div>
+                            <img class="crazy-img border-radius-120" style="" src="https://finacademy.budgetnik.ru/webcontent/images/photos/Author_2da6fd4d04a6413eb06d8bee4c966739_20230724T170143.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-70-100">
+                    <div class="m-20-0">
+                        <h2 class="mb-20 font-size-28">КВР и КОСГУ: разбор ситуаций, где возникают вопросы по кодам для учета</h2>
+                        <p class="font-size-18"><i><b>Володина Елена Викентиевна</b>, Государственный советник 2 класса г. Москвы</i></p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="w-75-100 border-radius-25 mx-a delete-after-date" data-delete-date="08/17/2023 11:00:00" style="background-color: rgba(249, 248, 244, 1);">
+            <div class="flex-wrap p-30">
+                <div class="w-30-100 flex-center">
+                    <div class="pos-relative">
+                        <div class="border-radius-50 h-px-70 p-5 flex-column-center w-px-70 color-white pos-abs" style="background-color: #7268f2; left: -30px;">
+                            <div><b>17</b></div>
+                            <div><b>авг</b></div>
+                            <div>11:00</div>
+                        </div>
+                        <div>
+                            <img class="crazy-img border-radius-120" style="" src="https://finacademy.budgetnik.ru/webcontent/images/photos/Author_31c69a81e49e458c9f791599fbea1c10_20230606T112153.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-70-100">
+                    <div class="m-20-0">
+                        <h2 class="mb-20 font-size-28">Забалансовый учет по новым правилам</h2>
+                        <p class="font-size-18"><i><b>Елена Кравченко</b>, Член методического совета по бюджетному (бухгалтерскому) учету и отчетности при Минфине Республики Удмуртия</i></p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <script>
+            document.body.querySelectorAll('.delete-after-date').forEach((deleteBlock) => {
+                if ((new Date(deleteBlock.dataset.deleteDate)).getTime() < (new Date()).getTime()) {
+                    deleteBlock.remove()
+                }
+            })
+        </script>
     </section>
     <section class="w-100 py-100 pos-relative" style="background-color: white;">
         <div class="px-35-0">
