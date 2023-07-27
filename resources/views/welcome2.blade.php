@@ -864,27 +864,6 @@
         <span
             style="display: inline-block; width: 15px; height: 15px; position: absolute; background-color: rgba(224, 25, 24, 1); border-radius: 50px; bottom: -8px;right: 350px; z-index: 1;"></span>
     </section>
-{{--    <section class="w-100 py-100 pos-relative" style="background-color: white;">--}}
-{{--        <div class="px-35-0">--}}
-{{--            <article class="w-100 mb-40 open-list-wrapper cp">--}}
-{{--                <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">--}}
-{{--                    <h3 class="font-size-36 p-50 open-list" data-open-list="3">Пройдите промежуточный тест из аттестации--}}
-{{--                        главбухов</h3>--}}
-{{--                    <div class="hide p-50 pt-35 font-size-20 open-list-data flex-center"--}}
-{{--                         style="background-color: white;" data-open-list="3">--}}
-{{--                        <iframe src="https://academia.school.budgetnik.ru/" frameborder="0" class="w-100"--}}
-{{--                                style="height: 1000px"></iframe>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </article>--}}
-{{--        </div>--}}
-{{--        <span--}}
-{{--            style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(219, 25, 13, 1); border-radius: 0 0 50px 50px; top: 70px;left: 80px; rotate: 130deg;"></span>--}}
-{{--        <span--}}
-{{--            style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(236, 139, 0, 1); border-radius: 50px; top: 520px;right: 100px;"></span>--}}
-{{--        <span--}}
-{{--            style="display: inline-block;width: 15px;height: 15px;position: absolute;background-color: rgba(11, 7, 8, 1);border-radius: 50px;bottom: 50px;left: 300px;"></span>--}}
-{{--    </section>--}}
     <footer class="h-px-300 w-100 flex-center p-0-20" style="background-color: rgba(56, 52, 48, 1); color: white;">
         <div class="w-50-100">
             <div class="pl-100-0">
