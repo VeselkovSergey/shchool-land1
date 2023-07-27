@@ -598,7 +598,7 @@
     </section>
     <section class="mb-80 pos-relative">
         <h3 class="font-size-36 mb-100 ml-150">Какие навыки получите</h3>
-        <div class="flex-wrap px-150-0" style="justify-content: space-between;">
+        <div class="flex-wrap px-150-0" style="justify-content: space-evenly;">
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
                     <img src="./img/icon1.svg" alt="">
@@ -625,28 +625,25 @@
                     <img src="./img/icon3.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">Корпоративные закупки для заказчиков по 223-ФЗ</h4>
-                <p>Готовые инструменты для корпоративных закупок по 223-ФЗ. Подготовите требования к участникам и
+                <p class="text-center font-size-15 px-20">Готовые инструменты для корпоративных закупок по 223-ФЗ. Подготовите требования к участникам и
                     составите заявки.</p>
             </article>
-            <article class="w-100 flex-column-center">
-                <div class="w-33">
-                    <div class="h-px-175 mb-30">
-                        <img src="./img/icon4.svg" alt="">
-                    </div>
-                    <h4 class="text-center mb-30 font-size-18">Организация закупок малого объема у единственного
-                        поставщика</h4>
-                    <p>Быстро разберётесь во всех новых основаниях закупки, согласуете ее и отработаете новое на
-                        тренажёрах</p>
-            </article>
-            <article class="w-100 flex-column-center">
-                <div class="w-33">
-                    <div class="h-px-175 mb-30">
-                        <img src="./img/icon5.svg" alt="">
-                    </div>
-                    <h4 class="text-center mb-30 font-size-18">Противодействие коррупции в бюджетных учреждениях</h4>
-                    <p>Узнаете все о предупреждении коррупции в вашем учреждении и составите антикоррупционную политику,
-                        получите антикоррупционные чек-листы и памятки</p>
+            <article class="w-33-100 flex-column-center">
+                <div class="h-px-175 mb-30">
+                    <img src="./img/icon4.svg" alt="">
                 </div>
+                <h4 class="text-center mb-30 font-size-18">Организация закупок малого объема у единственного
+                    поставщика</h4>
+                <p class="text-center font-size-15 px-20">Быстро разберётесь во всех новых основаниях закупки, согласуете ее и отработаете новое на
+                    тренажёрах</p>
+            </article>
+            <article class="w-33-100 flex-column-center">
+                <div class="h-px-175 mb-30">
+                    <img src="./img/icon5.svg" alt="">
+                </div>
+                <h4 class="text-center mb-30 font-size-18">Противодействие коррупции в бюджетных учреждениях</h4>
+                <p class="text-center font-size-15 px-20">Узнаете все о предупреждении коррупции в вашем учреждении и составите антикоррупционную политику,
+                    получите антикоррупционные чек-листы и памятки</p>
             </article>
         </div>
         <span
@@ -682,7 +679,8 @@
             style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(7, 108, 123, 1); border-radius: 50px; bottom: -15px;left: 200px;"></span>
     </section>
     <section class="mb-80">
-        <h3 class="font-size-42 text-center mb-50">Как предостеречь себя от ошибок по инвентаризации</h3>
+        <h3 class="font-size-42 text-center mb-50">Как проверить товар и сопроводительные
+            <br>документы на приемке</h3>
         <div class="flex-center">
             <button class="button-2" onclick="ModalWindow(document.getElementById('lesson1').innerHTML)">Пройти урок
             </button>
@@ -697,21 +695,15 @@
             <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
                 <h4 class="font-size-36 p-50 open-list" data-open-list="1">Новые форматы интерактивных заданий •</h4>
                 <div class="hide p-50 pt-35 font-size-20 open-list-data flex-center" data-open-list="1">
-                    <p class="mb-35">
-                        <b>Тренировка.</b> Заполните матрицу централизации
-                        Мы составили матрицу централизации для лайтового перехода. Собрали в ней все дела, которые
-                        помогут учреждению сохранить работу бухгалтерам. Попытайтесь заполнить матрицу. Разнесите
-                        действия по степени важности: красный блок — сделать обязательно, желтый — необходимо для
-                        реализации первого блока. Зеленый — действия необязательные, но они помогут легче пережить
-                        перемены.
-                        Удачной тренировки!
+                    <p class="mb-35 font-size-25">
+                        <b>Тренировка.</b> Прочитайте вопросы в интерактивном квизе и выберите правильный ответ.
                     </p>
                     <iframe
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen="" frameborder="0" height="650" scrolling="no"
-                        src="//e.profkiosk.ru/media/36a6392b-0726-4826-a27f-8d39689c3c31/"
-                        title="video-1d62b6d1-835c-4eeb-95e4-83c8ed260153" width="670" data-gtm-yt-inspected-13="true"
-                        id="iFrameResizer0" style="overflow: auto; height: 705px;"> 
+                        allowfullscreen="" frameborder="0" scrolling="no"
+                        src="https://view.genial.ly/645b6d2772f0f1001872a8ed"
+                        title="video-9e732d35-a98a-4dae-b59f-91a8b041e6f4" width="1200" height="675" data-gtm-yt-inspected-13="true"
+                        id="iFrameResizer1" style="overflow: auto;"> 
                     </iframe>
                 </div>
             </div>
@@ -872,27 +864,27 @@
         <span
             style="display: inline-block; width: 15px; height: 15px; position: absolute; background-color: rgba(224, 25, 24, 1); border-radius: 50px; bottom: -8px;right: 350px; z-index: 1;"></span>
     </section>
-    <section class="w-100 py-100 pos-relative" style="background-color: white;">
-        <div class="px-35-0">
-            <article class="w-100 mb-40 open-list-wrapper cp">
-                <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
-                    <h3 class="font-size-36 p-50 open-list" data-open-list="3">Пройдите промежуточный тест из аттестации
-                        главбухов</h3>
-                    <div class="hide p-50 pt-35 font-size-20 open-list-data flex-center"
-                         style="background-color: white;" data-open-list="3">
-                        <iframe src="https://academia.school.budgetnik.ru/" frameborder="0" class="w-100"
-                                style="height: 1000px"></iframe>
-                    </div>
-                </div>
-            </article>
-        </div>
-        <span
-            style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(219, 25, 13, 1); border-radius: 0 0 50px 50px; top: 70px;left: 80px; rotate: 130deg;"></span>
-        <span
-            style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(236, 139, 0, 1); border-radius: 50px; top: 520px;right: 100px;"></span>
-        <span
-            style="display: inline-block;width: 15px;height: 15px;position: absolute;background-color: rgba(11, 7, 8, 1);border-radius: 50px;bottom: 50px;left: 300px;"></span>
-    </section>
+{{--    <section class="w-100 py-100 pos-relative" style="background-color: white;">--}}
+{{--        <div class="px-35-0">--}}
+{{--            <article class="w-100 mb-40 open-list-wrapper cp">--}}
+{{--                <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">--}}
+{{--                    <h3 class="font-size-36 p-50 open-list" data-open-list="3">Пройдите промежуточный тест из аттестации--}}
+{{--                        главбухов</h3>--}}
+{{--                    <div class="hide p-50 pt-35 font-size-20 open-list-data flex-center"--}}
+{{--                         style="background-color: white;" data-open-list="3">--}}
+{{--                        <iframe src="https://academia.school.budgetnik.ru/" frameborder="0" class="w-100"--}}
+{{--                                style="height: 1000px"></iframe>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </article>--}}
+{{--        </div>--}}
+{{--        <span--}}
+{{--            style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(219, 25, 13, 1); border-radius: 0 0 50px 50px; top: 70px;left: 80px; rotate: 130deg;"></span>--}}
+{{--        <span--}}
+{{--            style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(236, 139, 0, 1); border-radius: 50px; top: 520px;right: 100px;"></span>--}}
+{{--        <span--}}
+{{--            style="display: inline-block;width: 15px;height: 15px;position: absolute;background-color: rgba(11, 7, 8, 1);border-radius: 50px;bottom: 50px;left: 300px;"></span>--}}
+{{--    </section>--}}
     <footer class="h-px-300 w-100 flex-center p-0-20" style="background-color: rgba(56, 52, 48, 1); color: white;">
         <div class="w-50-100">
             <div class="pl-100-0">
@@ -961,347 +953,93 @@
         }
     </style>
     <div class="lesson1">
-        <h2>Что поменялось в закупках в 2023 году и к чему готовиться</h2>
+        <h2>Как проверить товар и сопроводительные документы на приемке</h2>
         <p>
-            На этом уроке разберетесь, что поменялось в закупках в 2023 году, а что только планирует поменяться. После
-            каждого изменения узнаете, как к нему подготовиться.
-        </p>
-        <h3>Как работать с реестром контрактов по новым правилам с 1 июля 2023 года</h3>
-        <p>
-            С 1 июля расширили перечень сведений для реестра контрактов. Допустите ошибку – сведения не пройдут
-            контроль, в итоге дойдет до штрафа. В этой части урока вы научитесь вносить сведения в реестр контрактов по
-            новым правилам так, чтобы они проходили контроль с первого раза. А еще узнаете, что нового проверит
-            контролер в ваших сведениях.
+            На этом уроке разберетесь, как провести приемку товара и научитесь проверять любой сопроводительный
+            документ. В конце урока отработаете навыки на эксклюзивном тренажере от экспертов Школы.
         </p>
         <p>
-            Для начала посмотрите видео с экспертом Федерального Казначейства Ольгой Кудако. В видео узнаете, какие
-            новые сведения необходимо вносить в реестр контрактов с 1 июля, и в какие сроки.
+            Мы будем говорить о документах, которыми обычно сопровождают поставку товаров в рамках госконтракта.
+            Смотрите образцы документов и пояснения к ним. Быстро сориентируетесь, в какую строчку документа смотреть на
+            реальной приемке.
         </p>
-        <div class="flex-center">
-            <iframe id="YT_1690039716371" frameborder="0" allowfullscreen="1"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    title="Изменения в работе с реестром контрактов с 1 июля 2023 года" width="688" height="400"
-                    src="https://www.youtube.com/embed/lJsMdtvt7Kk?wmode=opaque&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fschool.gzakypki.ru&amp;widgetid=1"
-                    data-gtm-yt-inspected-11="true" scrolling="no" style="overflow: auto;"></iframe>
-        </div>
         <p>
-            А теперь попробуйте самостоятельно определить крайний и оптимальный сроки для внесения сведения в реестр
-            контрактов по новым правилам.
-        </p>
-        <div class="flex-center" style="height: 400px">
-            <iframe id="frame" class="frame" allow="autoplay; fullscreen" style="border:0px;width:100%;height:100%"
-                    allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
-                    src="https://learningapps.org/show.php?id=pa6v789wk23" frameborder="0" width="100%"
-                    height="100%"></iframe>
-        </div>
-        <p>
-            Со сроками разобрались. А теперь в интерактивном тренажере выберите сведения, которые внесете в реестр
-            контрактов с 1 июля 2023 года.
-        </p>
-        <div class="flex-center" style="height: 400px">
-            <iframe id="frame" class="frame" allow="autoplay; fullscreen" style="border:0px;width:100%;height:100%"
-                    allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
-                    src="https://learningapps.org/show.php?id=p5a6pfemk23" frameborder="0" width="100%"
-                    height="100%"></iframe>
-        </div>
-        <h3>Другие изменения в Законе 44-ФЗ</h3>
-        <p>
-            В мае для заказчиков заработали 11 новых правил по закону об упрощении закупок. Основное изменение –
-            законодатели увеличили лимиты для котировки и электронных закупок у едпоставщика. Это произошло из-за <a
-                href="http://www.1gzakaz.ru/#/document/99/1301437595//" target="_blank">Закона № 154-ФЗ от
-                28.04.2023</a>, изменения работают с 8 мая. В презентации ниже смотрите, что изменилось в правилах
-            закупок из-за нового закона.
+            <b>Товарная накладная ТОРГ-12.</b> Это унифицированная форма первичного документа. Она утверждена
+            постановлением Госкомстата от 25.12.1998 № 132. Поставщик может ее дополнять на свое усмотрение при
+            необходимости. Поэтому, если вы увидите в накладной дополнительные строчки и реквизиты, — не пугайтесь, это
+            нормально. Главное, чтобы там была отражена вся необходимая вам информация для приемки. Какая именно —
+            смотрите в образце 1.
         </p>
         <div class="flex-center">
             <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen="" frameborder="0" height="315" scrolling="no"
-                    src="https://school.gzakypki.ru/interactive/doc/4c7fd931-b067-4bc2-8338-1b157fc6cc84/index.html"
-                    title="video-7e4d0800-df86-44cb-9667-a2f94d4c5250" width="560" data-gtm-yt-inspected-11="true"
-                    id="iFrameResizer2" style="overflow: auto; height: 502px;"> 
+                    allowfullscreen="" frameborder="0" height="900" scrolling="no"
+                    src="https://academy.gzakypki.ru/interactive/doc/5107e247-50d4-45cd-95a4-d2d5e14258a0/index.html"
+                    title="video-0b4c3dba-9dad-4acd-bebc-65f3f49367c1" width="560" data-gtm-yt-inspected-13="true"
+                    id="iFrameResizer0" style="overflow: auto; height: 943px;"> 
             </iframe>
         </div>
         <p>
-            Теперь смотрите ниже, что еще поменялось в закупках в 2023 году и советы, как применять новые правила. На
-            данный момент, таких изменений — 17, но список новинок постоянно обновляется.
+            <b>УПД.</b> Поставщик вправе использовать в работе любой документ: как товарную накладную по форме №
+            ТОРГ-12, так и универсальный передаточный документ (УПД). Минус УПД в том, что его форма рекомендуемая.
+            Разные поставщики могут разработать свои формы УПД с необходимыми только им реквизитами. Вам придется более
+            тщательно проверять правильность заполнения всех обязательных реквизитов УПД, которые поступают от
+            поставщиков. Что проверить в УПД, смотрите на образце 2.
         </p>
-        <p>
-            <b>Изменение 1. Обязали заказчиков закупать минимальную долю российских товаров в повышенном размере.</b>
-            Для некоторых товаров с минимальной долей предусмотрели повышенный процент. Например, для устройств хранения
-            данных по ОКПД2 26.20.2 размер минимальной доли российских товаров с 1 января 2023 года — 50 процентов.
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Проверьте закупки в плане-графике, при необходимости пересчитайте минимальную долю.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 2. Продлили на 2023 год правила для безлимитного запроса котировок.</b> Минобрнауки,
-            государственные вузы и научные организации могут закупать ряд товаров, работ и услуг через электронный
-            запрос котировок, независимо от НМЦК и годового объема закупок (<a
-                href="https://vip.1gzakaz.ru/#/document/99/350462747/">распоряжение Правительства от 26.05.2022 №
-                1316-р</a>). Полный перечень вы можете скачать в допматериалах к уроку.
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Если подпадаете под перечисленных выше заказчиков, то вы можете проводить закупки в сокращенные сроки.
-                    Напомним, что извещение об электронном запросе котировок нужно разместить <b>за четыре рабочих дня</b>
-                    до даты истечения срока подачи заявок.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 3. Утвердили перечень промтоваров, при закупке которых нужно установить аванс 80 процентов.</b>
-            С 4 января 2023 года <a
-                href="https://school.gzakypki.ru/programs/208252/150e96bc-0b0e-4fc0-84da-04a603559117/cda09fcf-75a3-4ecf-b23d-3adc6c838ec3">федеральные
-                заказчики обязаны</a> устанавливать аванс 80 при закупки промтоваров из
-            перечня, если был установлен запрет на допуск (<a href="https://vip.1gzakaz.ru/#/document/99/1300421088/">постановление
-                Правительства от 24.12.2022 № 2411</a>). Правило действует для контрактов, которые заключены в 2023–2024
-            годах. Перечень вы можете скачать в допматериалах к уроку.
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Проверьте тексты контрактов и извещений. Если есть что-то, что вы закупаете из года в год, надо будет
-                    обновить тексты документов, которые размещаете в составе извещений.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 4. Дополнили информацию, которую нужно включать в отчет о закупках у СМП и СОНО.</b> Объем
-            финобеспечения на лекарства для медицинского применения и медизделия нужно указывать в отчете о закупках у
-            СМП и СОНО. Информацию о сумме таких закупок включите во вторую позицию раздела II и третью позицию раздела
-            III формы отчета.
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Проконсультируйте специалиста, который готовит отчет о закупках у СМП и СОНО.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 5. Дополнили основания для закупок у едпоставщика по пункту 8.</b> С 1 января 2023 года
-            заказчики вправе заключить контракт с едпоставщиком на услуги по обращению с <b>отходами I и II классов
-                опасности</b> (<a
-                href="https://vip.1gzakaz.ru/#/document/99/352187400/">подп. «в» п. 2 ст. 1 Закона от 04.11.2022 №
-                420-ФЗ</a>).
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Доведите информацию до сотрудников отдела закупок и контрактной службы.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 6. Продлили право менять существенные условия строительных контрактов.</b> Заказчики вправе
-            менять
-            существенные условия контрактов, предмет которых – выполнение работ по строительству, реконструкции,
-            капитальному ремонту, сносу объекта капитального строительства, проведению работ по сохранению объектов
-            культурного наследия, если выполнены условия:
-        <ul>
-            <li>контракт заключен на срок менее одного года;</li>
-            <li>изменения не приводят к увеличению срока исполнения контракта или цены контракта более чем на 30
-                процентов;
-            </li>
-            <li>при исполнении контракта возникли не зависящие от сторон обстоятельства, которые повлекли невозможность
-                исполнить сделку;
-            </li>
-            <li>подготовлено письменное обоснование изменения на основании решения Правительства, органа власти субъекта
-                РФ, местной администрации.
-            </li>
-        </ul>
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Доведите информацию до сотрудников отдела закупок и контрактной службы.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 7. Участникам конкурса дали возможность подать предложение ниже нуля и предложить цену за право
-                заключения контракта.</b> У участников конкурса появилась возможность спуститься ниже нуля и предложить
-            цену за
-            право заключения контракта (<a href="https://vip.1gzakaz.ru/#/document/99/350237367/ZAP2KE63KS/">подп. «а»
-                п. 14 ст. 2 Закона от 16.04.2022 № 104-ФЗ</a>).
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Проверьте тексты контрактов и извещений. Если есть что-то, что вы закупаете из года в год, надо будет
-                    обновить тексты документов, которые размещаете в составе извещений.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 8. Разрешили заключать контракт с едпоставщиком по части 12 статьи 93, даже если была подана
-                всего
-                одна заявка.</b> Оператор электронной площадки будет направлять заказчику даже единственное товарное
-            предложение
-            участника, если оно соответствует требованиям извещения заказчика, и заказчик сможет заключить контракт с
-            таким единственным участником (<a href="https://vip.1gzakaz.ru/#/document/99/350921911/XA00M762MV/">подп.
-                «б» п. 7 ст. 2 Закона от 28.06.2022 № 231-ФЗ</a>).
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Если создали комиссию, то обяжите членов комиссии включить в протокол подведения итогов единственного
-                    участника. Напомним, что заказчик вправе не утверждать комиссию при закупке у едпоставщика (<a
-                        href="https://vip.1gzakaz.ru/#/document/99/499011838/XA00M2O2M2/">ч. 1</a> ст. 39
-                    Закона № 44-ФЗ, <a href="https://vip.1gzakaz.ru/#/document/99/573661129/">письмо Минфина от 12.02.2021 №
-                        24-06-08/9591</a>). Если комиссию не утвердили,
-                    проконсультируйте специалиста, который готовит протокол подведения итогов.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 9. Дополнили сведения об исполнении контракта в части требований об уплате неустойки.</b> В
-            сведениях
-            об исполнении контракта необходимо указывать сумму требований об уплате неустоек (<a
-                href="https://vip.1gzakaz.ru/#/document/99/352243686/XA00M9O2NH/">пп. «з»</a> п. 20 изменений из
-            постановления № 1946).
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Скорректируйте обязанности специалиста, который вносит информацию об исполнении контракта. Добавьте
-                    обязанность размещать информацию о неустойках в ЕИС.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 10. Утвердили перечень товаров, при закупке которых в описании объекта нужно указывать
-                экологические требования.</b> При описании объекта закупки из специального перечня заказчики по 44-ФЗ
-            должны
-            предъявлять экологические требования и указывать долю вторичного сырья, которое использовали при
-            производстве товара. В перечень вошли пять групп товаров, в том числе покрытия из резиновой крошки,
-            тротуарная плитка, контейнеры, урны для мусора, удобрения и грунт, а также бумажные полотенца и салфетки
-            (<a href="http://www.1gzakaz.ru/#/document/99/351176886//">постановление Правительства от 08.07.2022 №
-                1224</a>).
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Обяжите специалиста, который описывает объект закупки, указывать экологические требования.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 11.</b> Исключили требование формировать протокол об отказе заключать контракт с участником,
-            который
-            не подтвердил добросовестность при демпинге (<a
-                href="https://vip.1gzakaz.ru/#/document/99/350237367/ZAP1RDU3EJ/">п. 9 ст. 2 Закона от 16.04.2022 №
-                104-ФЗ</a>). Участника признает
-            уклонистом не комиссия по закупкам, а руководитель организации. Протокол в данной ситуации не формируйте.
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Скорректируйте тексты должностных инструкций сотрудников и положения о комиссиях, если они предусмотрены
-                    в вашем учреждении. Исключите требование формировать протокол об отказе заключать контракт с участником,
-                    который не подтвердил добросовестность при демпинге.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 12. Убрали верхний порог цены в закупке на повышение.</b> Отменили верхний потолок цены на
-            право
-            заключить контракт. Когда участники аукциона снижают цену контракта до нуля, уже не заказчик платит
-            поставщику за исполнение, а поставщик платит заказчику за право заключить контракт. Верхний порог цены
-            такого контракта составляет 100 млн руб. А с 1 января 2023 года верхнего порога не будет, то есть цена может
-            быть любой
-            (<a href="http://www.1gzakaz.ru/#/document/99/350237367/ZAP28HS3ER/">п. 15, ст. 2 Федерального закона от
-                16.04.2022 № 104-ФЗ</a>).
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Проверьте тексты контрактов и извещений, особенно
-                    по систематическим электронным аукционам. Если есть что-то, что вы закупаете из года в год, надо будет
-                    обновить тексты документов, которые размещаете в составе извещений.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 13. Уточнили, что считается конфликтом интересов.</b> Это когда должностное лицо заказчика или
-            его
-            близкий родственник сам участвует в закупке как физлицо или как исполнительный орган участника закупки.
-            Владение более чем 10 процентами акций участника закупки тоже будет считаться конфликтом интересов (<a
-                href="https://vip.1gzakaz.ru/#/document/99/350686456/XA00M2U2M0/">п. 2 ст.
-                2 Федерального закона от 11.06.2022 № 160-ФЗ</a>).
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Скорректируйте тексты должностных инструкций сотрудников и положения о комиссиях, если они предусмотрены
-                    в вашем учреждении. Пропишите, какие ситуации будете считать конфликтом интересов.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 14. Обязали принимать меры по предупреждению конфликта интересов.</b> Это касается руководителя
-            заказчика, членов комиссии по осуществлению закупок, руководителя и работника контрактной службы, а также
-            контрактного управляющего (<a href="https://vip.1gzakaz.ru/#/document/99/350686456/XA00M802MO/">подп. «а»,
-                п. 3 ст. 2 Закона от 11.06.2022 № 160-ФЗ</a>).
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Обяжите членов комиссии по закупкам незамедлительно сообщать заказчику, принявшему решение о создании
-                соответствующей комиссии, о возникновении у него конфликта интересов. А заказчик, в свою очередь, обязан
-                будет отстранить такое лицо от участия в рассмотрении материалов закупки.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменение 15. Назвали тех, кто не может входить в комиссию по закупкам.</b> В законе появился перечень
-            лиц,
-            которые не могут входить в состав комиссии по осуществлению закупок. Опять же из-за конфликта интересов в
-            состав комиссии не могут входит физлица, которых привлекали к закупке в качестве экспертов, физлица, имеющие
-            личную заинтересованность в определении поставщика, акционеров — участников закупки и должностных лиц
-            органов контроля (<a href="https://vip.1gzakaz.ru/#/document/99/350686456/XA00M6C2MG/">п. 4 ст. 2 Закона от
-                11.06.2022 № 160-ФЗ</a>).
-        </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Просмотрите регламенты работы контрактной службы, комиссий и антикоррупционное положение учреждения.
-                    Подробно детализируйте, кого запрещаете включать в состав комиссии.</h3>
-                <span class="sovet"></span>
-            </div>
-        </div>
-        <p>
-            <b>Изменения 16. Ввели новый случай закупки у едпоставщика.</b> Вводится новый случай закупки у едпоставщика
-            —
-            заключение контракта на оказание услуг по подготовке космонавтов, по организации и обеспечению запусков
-            космических аппаратов и управлению ими в полете, по созданию (разработке, изготовлению и испытанию)
-            космической техники (<a href="https://vip.1gzakaz.ru/#/document/99/350237367/XA00MAK2NA/">п. 18 ст. 2 Закона
-                от 16.04.2022 № 104-ФЗ</a>).
-        </p>
-        <p>Проверьте по чек-листу, какие локальные акты и документы необходимо скорректировать в связи с
-            изменениями.</p>
         <div class="flex-center">
             <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen="" frameborder="0" height="315" scrolling="no"
-                    src="https://school.gzakypki.ru/interactive/doc/ccc1cd7a-4f24-42e0-b426-229c337e5d5f/index.html"
-                    title="video-a95c9a27-7103-452f-9c7b-416f80aad6c1" width="560" data-gtm-yt-inspected-11="true"
-                    id="iFrameResizer3" style="overflow: auto; height: 1055px;"> 
+                    allowfullscreen="" frameborder="0" height="422" scrolling="no"
+                    src="https://academy.gzakypki.ru/interactive/doc/6943dda9-c4d6-4c4b-b7b9-57292d7ebf2a/index.html"
+                    title="video-9bfd2068-3973-470e-9f95-e5c990493f71" width="560" data-gtm-yt-inspected-13="true"
+                    id="iFrameResizer1" style="overflow: auto; height: 424px;"> 
             </iframe>
         </div>
         <p>
-            <b>Изменения 17.</b>С 5 декабря 2022 года к участникам закупки предъявляют новое требование об отсутствии
-            статуса
-            иностранного агента. Заявки от иноагентов заказчики отклоняют за несоответствие единым требованиям по пункту
-            <a href="http://www.1gzakaz.ru/#/document/99/499011838/ZAP1SBI3EH/">10.1</a> части 1 статьи 31 Закона №
-            44-ФЗ (федеральные законы
-            <a href="https://vip.1gzakaz.ru/#/document/99/351175770/">от 14.07.2022 № 255-ФЗ</a>, <a
-                href="https://vip.1gzakaz.ru/#/document/99/1300131646/">от 05.12.2022 №
-                498-ФЗ</a>).
+            <b>Счет-фактура.</b> Даже если ваш поставщик использует упрощенную систему налогообложения, он все равно
+            может (но не обязан) выставить вам счет-фактуру, просто не выделяет сумму НДС, а делает пометку или ставит
+            штамп «Без налога (НДС)» (п. 5 ст. 168 НК, письма Минфина от 26.05.2015 № 03-07-14/30264 и ФНС от 04.02.2010
+            № ШС-22-3/85). Счет-фактуру составляют по типовой форме, утвержденной постановлением Правительства от
+            26.12.2011 № 1137. Что проверить в счет-фактуре от поставщика, смотрите в образце 3.
         </p>
-        <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
-                <h3>Доведите информацию до сотрудников отдела закупок и закупочной комиссии.</h3>
-                <span class="sovet"></span>
-            </div>
+        <div class="flex-center">
+            <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="" frameborder="0" height="470" scrolling="no"
+                    src="https://academy.gzakypki.ru/interactive/doc/2d920799-a5f6-4d25-b31b-7f785aae02d2/index.html"
+                    title="video-82b4ef79-59a6-46b6-9abb-a063903aed21" width="560" data-gtm-yt-inspected-13="true"
+                    id="iFrameResizer2" style="overflow: auto; height: 474px;"> 
+            </iframe>
         </div>
-
-
+        <p>
+            <b>Счет.</b> Особого веса этот документ не имеет. Бухгалтерия обычно оплачивает товар по счетам-фактурам. Но счета
+            тоже часто прикладывают в общий пакет документов. Смотрите, как выглядит счет и что в нем сверить.
+        </p>
+        <p>
+            Наименование товара во всех приемочных документах должно совпадать с наименованием товара по условия
+            контракта.
+        </p>
+        <p>
+            А теперь предлагаем применить полученные знания и поучаствовать в настоящей приемке товара. Наше задание
+            основано на реальных событиях – деле № …. Ваша задача – сравнить товар по условиям контракта с тем товарам,
+            который вам привезли и принять решение – принимать такой товар или вернуть его поставщику. За каждый
+            правильный ответ получите фрагмент слова, которое загадала редакция.
+        </p>
+        <div class="flex-center">
+            <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="" frameborder="0" height="400" scrolling="no"
+                    src="https://view.genial.ly/645bb05d9752cf0012c7a50c"
+                    title="video-2127d46d-a000-4a9b-98dc-2a9219e63c27" width="560" data-gtm-yt-inspected-13="true"
+                    id="iFrameResizer3" style="overflow: auto;"> 
+            </iframe>
+        </div>
         <h3>Дополнительные материалы</h3>
-        <div><a target="_blank" href="https://school.gzakypki.ru/webcontent/courses/150e96bc0b0e4fc084da04a603559117/Kratkaya%20instrukcia%20polsovatelya_20221111T103721.pdf">Инструкция по перерегистрации в ЕИС</a></div>
-        <div><a target="_blank" href="https://school.gzakypki.ru/webcontent/courses/150e96bc0b0e4fc084da04a603559117/Prikaz%20o%20predostavlenii%20EP_20220523T115711_20221111T111054.docx">Приказ о предоставлении полномочий по использовани электронной подписи</a></div>
-        <div><a target="_blank" href="https://school.gzakypki.ru/webcontent/courses/150e96bc0b0e4fc084da04a603559117/Perechni%20tovarov_%20rabot%20i%20uslug%20kotorie%20mogut%20zakupat%20cherez%20elektronnii%20zapros%20kotirovok_20230315T121108.docx">Перечни товаров, работ и услуг которые могут закупать через электронный запрос катировок.</a></div>
-        <div><a target="_blank" href="https://school.gzakypki.ru/webcontent/courses/150e96bc0b0e4fc084da04a603559117/Perechen%20promtovarov%20pri%20zakupke%20kotorih%20federalnie%20zakazchiki%20obyazani%20ustanovit%20avans_20230315T121108.docx">Перечень промтоваров при закупке которых федеральные заказчики обязаны установить аванс 80</a></div>
-        <div><a target="_blank" href="https://school.gzakypki.ru/storage/text/2059c1e7-ebdd-4262-920c-414146937051.docx">Изменения в реестре контрактов с 1 июля 2023 года</a></div>
-
+        <div><a target="_blank"
+                href="https://academy.gzakypki.ru/webcontent/courses/8378106e1aaf4dbda3d0353f4039c075/Dopsoglashenie%20o%20prodlenie%20sroka%20stroiki_20220921T170230_20221102T154713.docx">Допсоглашение
+                о продлении сроков контракта</a></div>
+        <div><a target="_blank"
+                href="https://academy.gzakypki.ru/webcontent/courses/8378106e1aaf4dbda3d0353f4039c075/Tablica%20sroki%20vnesenia%20svedeniy%20v%20EIS_20221116T102750.docx">Таблица.
+                Сроки внесения сведений в ЕИС для заказчиков</a></div>
+        <div><a target="_blank"
+                href="https://academy.gzakypki.ru/webcontent/courses/8378106e1aaf4dbda3d0353f4039c075/Elektronnoe%20actirovanie%202022-2023_20221220T120637.pptx">Электронное
+                актирование. Новации 2022-2023</a></div>
     </div>
 </template>
 
