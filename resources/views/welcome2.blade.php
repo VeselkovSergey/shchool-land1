@@ -592,25 +592,25 @@
                     <div><b>Госзакупок</b></div>
                 </div>
                 <h1 class="mb-35 font-size-20">Новые программы для учеников Высшей школы Госзакупок</h1>
-                <h2 class="mb-90 font-size-42">Новинка осени —
-                    программа Специалист в сфере закупок — 2024</h2>
-                <p class="font-size-20">Пройдите обучение по программе «Специалист по закупкам —2024» и освоите все
-                    новые правила работы в контрактной системе с учетом мораторных поправок в закон. Получите
-                    официальное удостоверение, необходимые навыки в работе.</p>
+                <h2 class="mb-90 font-size-42">Обновленная программа Специалист в сфере закупок — 2024</h2>
+                <p class="font-size-20 pb-20">Начните обучение в Высшей школе Госзакупок по обновленной программе “Специалист
+                    в сфере закупок - 2024” и еще 10 дополнительным программам по 44-ФЗ и 223-ФЗ. Освойте цифровые
+                    навыки в работе с ЕИС, структурированным контрактом, реестрами и цифровым рублем. Развивайтесь и
+                    будьте востребованным в профессии.</p>
 
             </div>
             <div class="w-40-100 mt-130">
-                <img src="./img.second_first/main-block.svg" alt="">
+                <img src="./img.second_lend/main-block.svg" alt="">
             </div>
         </div>
         <div class="pos-abs top-0 w-100 h-80 z--1" style="background-color: rgba(56, 52, 48, 1)">-</div>
     </section>
     <section class="mb-80 pos-relative">
-        <h3 class="font-size-36 mb-100 ml-150">Какие навыки получите</h3>
+        <h3 class="font-size-36 mb-100 ml-150">Формируйте план обучения и получайте новые навыки в работе</h3>
         <div class="flex-wrap px-150-0" style="justify-content: space-evenly;">
             <article class="w-33-100 flex-column mb-20">
                 <div class="h-px-175 mb-30">
-                    <img src="./img.second_first/icon1.svg" alt="">
+                    <img src="./img.second_lend/icon1.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">
                     Цифровые навыки в госзакупках
@@ -620,7 +620,7 @@
             </article>
             <article class="w-33-100 flex-column mb-20">
                 <div class="h-px-175 mb-30">
-                    <img src="./img.second_first/icon2.svg" alt="">
+                    <img src="./img.second_lend/icon2.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">
                     Работа с контрактами по 44-ФЗ
@@ -631,7 +631,7 @@
             </article>
             <article class="w-33-100 flex-column mb-20">
                 <div class="h-px-175 mb-30">
-                    <img src="./img.second_first/icon3.svg" alt="">
+                    <img src="./img.second_lend/icon3.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">Корпоративные закупки для заказчиков по 223-ФЗ</h4>
                 <p class="text-center font-size-15 px-20">Готовые инструменты для корпоративных закупок по 223-ФЗ. Подготовите требования к участникам и
@@ -639,7 +639,7 @@
             </article>
             <article class="w-33-100 flex-column-center mb-20">
                 <div class="h-px-175 mb-30">
-                    <img src="./img.second_first/icon4.svg" alt="">
+                    <img src="./img.second_lend/icon4.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">Организация закупок малого объема у единственного
                     поставщика</h4>
@@ -648,7 +648,7 @@
             </article>
             <article class="w-33-100 flex-column-center mb-20">
                 <div class="h-px-175 mb-30">
-                    <img src="./img.second_first/icon5.svg" alt="">
+                    <img src="./img.second_lend/icon5.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">Противодействие коррупции в бюджетных учреждениях</h4>
                 <p class="text-center font-size-15 px-20">Узнаете все о предупреждении коррупции в вашем учреждении и составите антикоррупционную политику,
@@ -665,20 +665,24 @@
             Урок из новой программы,
             <br>который вам стоит пройти уже сейчас!
         </h3>
-        <div>
+        <div class="mb-50">
             <div class="border-radius-30 px-100 flex-center"
                  style="background-color: white; color: rgba(69, 65, 60, 1);">
                 <div class="w-65-100 mr-a font-size-24">
                     Я — Мария Федюкович, руководитель Высшей школы Госзакупок приглашаю вас на новый урок
                     <br>
-                    <b>«Как проверить товар и сопроводительные документы на приемке»</b>
+                    <b>«Как заказчику провести электронную приемку»</b>
                 </div>
                 <div class="w-25-100 pos-relative h-px-260">
                     <div class="h-px-300 pos-abs top--40">
-                        <img src="./img.second_first/people1.svg" alt="">
+                        <img src="./img.second_lend/people1.svg" alt="">
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="flex-center">
+            <button class="button-2" onclick="ModalWindow(document.getElementById('lesson1').innerHTML)">Пройти урок
+            </button>
         </div>
         <span
             style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(243, 228, 181, 1); border-radius: 0 0 50px 50px; top: 0;right: 10px; rotate: -40deg;"></span>
@@ -687,33 +691,34 @@
         <span
             style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(7, 108, 123, 1); border-radius: 50px; bottom: -15px;left: 200px;"></span>
     </section>
-    <section class="mb-80">
-        <h3 class="font-size-42 text-center mb-50">Как проверить товар и сопроводительные
-            <br>документы на приемке</h3>
-        <div class="flex-center">
-            <button class="button-2" onclick="ModalWindow(document.getElementById('lesson1').innerHTML)">Пройти урок
-            </button>
-        </div>
-    </section>
     <section class="w-100 mb-100">
         <h3 class="mb-80 font-size-42 text-center">
             Что нового в Высшей школе Госзакупок
-            <br>в 2024 году?
         </h3>
         <article class="w-100 mb-40 open-list-wrapper cp">
             <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
-                <h4 class="font-size-36 p-50 open-list" data-open-list="1">Новые форматы интерактивных заданий •</h4>
-                <div class="hide p-50 pt-35 font-size-20 open-list-data flex-center" data-open-list="1">
-                    <p class="mb-35 font-size-25">
-                        <b>Тренировка.</b> Прочитайте вопросы в интерактивном квизе и выберите правильный ответ.
+                <h4 class="font-size-36 p-50 open-list" data-open-list="1">12 готовых программ для обучения по 44-ФЗ и 223-ФЗ •</h4>
+                <div class="hide p-50 pt-35 font-size-25 open-list-data" data-open-list="1">
+                    <p class="mb-35">
+                        На обучение вам дается целый год и доступ ко всем программам Высшей школы Госзакупок. Вы сами формируете свой учебный план и решаете какие навыки хотите подтянуть.
                     </p>
-                    <iframe
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen="" frameborder="0" scrolling="no"
-                        src="https://view.genial.ly/645b6d2772f0f1001872a8ed"
-                        title="video-9e732d35-a98a-4dae-b59f-91a8b041e6f4" width="1200" height="675" data-gtm-yt-inspected-13="true"
-                        id="iFrameResizer1" style="overflow: auto;"> 
-                    </iframe>
+                    <b>Программы, которые вам доступны уже сейчас:</b>
+                    <div>
+                        <ol>
+                            <li class="mb-10">Противодействие коррупции в бюджетных учреждениях</li>
+                            <li class="mb-10">Госзакупки для юриста</li>
+                            <li class="mb-10">Как заработать на тендерах и госзакупках с нуля</li>
+                            <li class="mb-10">Экстренные закупки у едпоставщика: новые права заказчика</li>
+                            <li class="mb-10">Электронная приемка: при участии Федерального Казначейства</li>
+                            <li class="mb-10">Специалист в сфере закупок</li>
+                            <li class="mb-10">Организация корпоративных закупок</li>
+                            <li class="mb-10">Подготовка и аттестация контрактных управляющих на соответствие квалификации "специалист-эксперт в сфере закупок”</li>
+                            <li class="mb-10">Внесение сведений в реестр контрактов в ЕИС</li>
+                            <li class="mb-10">Legal design: новые решения для судебной работы по 44-ФЗ и 223-ФЗ</li>
+                            <li class="mb-10">Как работать с претензиями в адрес поставщиков по 44-ФЗ</li>
+                            <li class="mb-10">Как проводить закупки для проведения строительных работ и кап. ремонта</li>
+                        </ol>
+                    </div>
                 </div>
             </div>
         </article>
@@ -746,7 +751,7 @@
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="flex-center p-10">
                         <div class="w-px-280">
-                            <img src="./img.second_first/exp_1.svg" alt="">
+                            <img src="./img.second_lend/exp_1.svg" alt="">
                         </div>
                     </div>
                     <div class="p-10 flex-column h-100">
@@ -762,7 +767,7 @@
                 <article class="w-px-300 border-radius-10 flex-column"
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="w-px-280 p-10">
-                        <img src="./img.second_first/exp_2.svg" alt="">
+                        <img src="./img.second_lend/exp_2.svg" alt="">
                     </div>
                     <div class="p-10 flex-column h-100">
                         <h4 class="font-size-24">Дмитрий Бомбырь</h4>
@@ -776,7 +781,7 @@
                 <article class="w-px-300 border-radius-10 flex-column"
                          style="background-color: rgba(249, 248, 244, 1);">
                     <div class="w-px-280 p-10">
-                        <img src="./img.second_first/exp_3.svg" alt="">
+                        <img src="./img.second_lend/exp_3.svg" alt="">
                     </div>
                     <div class="p-10 flex-column h-100">
                         <h4 class="font-size-24">Надежда Лещенко</h4>
@@ -794,19 +799,19 @@
                     <div class="pr-150-0">
                         <h3 class="font-size-54 mb-15">Цифровой паспорт ключевых навыков</h3>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 --active cp" data-img="1"
-                             data-img-src="./img.second_first/passport1.gif">
+                             data-img-src="./img.second_lend/passport1.gif">
                             <p class="font-size-18">
                                 Для каждого специалиста разрабатываем паспорт навыков и вектор карьерного роста
                             </p>
                         </div>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="2"
-                             data-img-src="./img.second_first/passport2.gif">
+                             data-img-src="./img.second_lend/passport2.gif">
                             <p class="font-size-18">
                                 Учитываем должность, специфику работы, размер и тип учреждения
                             </p>
                         </div>
                         <div class="p-15 mb-5 border-radius-10 button-slider-1 cp" data-img="3"
-                             data-img-src="./img.second_first/passport3.gif">
+                             data-img-src="./img.second_lend/passport3.gif">
                             <p class="font-size-18">
                                 Паспорт ежемесячно показывает, какие компетенции начинают устаревать из-за прошедших
                                 изменений
@@ -818,19 +823,19 @@
                     <div class="slider-1 --active --current" data-img="1">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="./img.second_first/passport1.gif" alt="">
+                            <img src="./img.second_lend/passport1.gif" alt="">
                         </div>
                     </div>
                     <div class="slider-1" data-img="2">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="./img.second_first/passport2.gif" alt="">
+                            <img src="./img.second_lend/passport2.gif" alt="">
                         </div>
                     </div>
                     <div class="slider-1" data-img="3">
                         <div class="border-radius-20"
                              style="border: 1px solid rgba(217, 217, 217, 1); overflow: hidden;">
-                            <img src="./img.second_first/passport3.gif" alt="">
+                            <img src="./img.second_lend/passport3.gif" alt="">
                         </div>
                     </div>
                 </div>
@@ -843,7 +848,7 @@
     </section>
     <section class="w-100 pos-relative" style="background-color: rgba(56, 52, 48, 1); color: white;">
         <div class="px-150-0 py-100">
-            <h3 class="font-size-36 mb-40">НОВЫЕ ПРОГРАММЫ<br>в Высшей школе Госзакупок в 2024 году</h3>
+            <h3 class="font-size-36 mb-40">БУДУЩИЕ ПРОГРАММЫ<br>в Высшей школе Госзакупок, которые вам тоже будут доступны</h3>
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Продвинутый •</div>
                 <h4 class="font-size-26 w-90">Организация закупок малого объема у единственного поставщика</h4>
