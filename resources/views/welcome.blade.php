@@ -607,7 +607,7 @@
         <div class="pos-abs top-0 w-100 h-80 z--1" style="background-color: rgba(56, 52, 48, 1)">-</div>
     </section>
     <section class="mb-80 pos-relative">
-        <h3 class="font-size-36 mb-100 ml-150">Формируйте план обучения и получайте новые навыки в работе</h3>
+        <h3 class="font-size-36 mb-100 ml-150-0">Формируйте план обучения и получайте новые навыки в работе</h3>
         <div class="flex-wrap px-150-0" style="justify-content: space-evenly;">
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
@@ -703,7 +703,7 @@
     </section>
     <section class="w-100 mb-100">
         <h3 class="mb-80 font-size-42 text-center">
-            Что нового в Школе Главбуха госучреждения?
+            Что нового в Школе Главбуха гос&shy;учреж&shy;дения?
         </h3>
         <article class="w-100 mb-40 open-list-wrapper cp">
             <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
@@ -968,21 +968,23 @@
             })
         </script>
     </section>
-    <footer class="h-px-300 w-100 flex-center p-0-20" style="background-color: rgba(56, 52, 48, 1); color: white;">
-        <div class="w-50-100">
-            <div class="pl-100-0">
-                <div class="mb-20">
-                    Нажимая на кнопку, вы даете свое согласие на обработку персональных данных
-                    © НОЧУ ОДПО Актион, медиагруппа Актион-МЦФЭР, 2021
+    <footer class="h-px-300 w-100 flex-center" style="background-color: rgba(56, 52, 48, 1); color: white;">
+        <div class="flex-center p-0-20">
+            <div class="w-50-100">
+                <div class="pl-100-0">
+                    <div class="mb-20">
+                        Нажимая на кнопку, вы даете свое согласие на обработку персональных данных
+                        © НОЧУ ОДПО Актион, медиагруппа Актион-МЦФЭР, 2021
+                    </div>
+                    <div><a target="_blank" href="https://id2.action-media.ru/l/politika_pd?id=2">Политика обработки персональных данных</a></div>
                 </div>
-                <div><a target="_blank" href="https://id2.action-media.ru/l/politika_pd?id=2">Политика обработки персональных данных</a></div>
             </div>
-        </div>
-        <div class="w-50-100">
-            <p class="pl-100-0">
-                По всем вопросам звонок бесплатный<br>
-                <b>8 (800) 511-76-94</b>
-            </p>
+            <div class="w-50-100">
+                <p class="pl-100-0">
+                    По всем вопросам звонок бесплатный<br>
+                    <b>8 (800) 511-76-94</b>
+                </p>
+            </div>
         </div>
     </footer>
 </main>
