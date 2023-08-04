@@ -592,14 +592,12 @@
                     <div><b>Главбуха госучреждения</b></div>
                 </div>
                 <h1 class="mb-35 font-size-20">Новые программы для учеников Школы Главбуха госучреждения</h1>
-                <h2 class="mb-90 font-size-42">Новинка осени — программа «Главный бухгалтер госсектора (код В) —
+                <h2 class="mb-90 font-size-42">Обновленная программа «Главный бухгалтер госсектора (код В) —
                     2024»</h2>
-                <p class="font-size-20">Финансисты госсектора должны соответствовать профстандарту «Бухгалтер». А
-                    профстандарт требует, чтобы
-                    главбухи ежегодно повышали квалификацию. Докажите, что выполняете это требование. Пройдите обучение,
-                    получите официальное удостоверение и подтвердите свои знания. Получите цифровой паспорт
-                    профессиональных навыков, одобренный органами власти, специалистами Минфина и Федерального
-                    казначейства. </p>
+                <p class="font-size-20">Пройдите аттестацию в Школе Главбуха госучреждения еще 28 + дополнительные
+                    программы для бухгалтера и главбуха. Освойте цифровые навыки в работе бухгалтерии, навыки
+                    планирования и финансового анализа в госсекторе. Подготовьтесь к совершенно новой инвентаризации и
+                    будьте востребованным специалистом при глобальной централизации учета.</p>
 
             </div>
             <div class="w-40-100 mt-130">
@@ -609,55 +607,62 @@
         <div class="pos-abs top-0 w-100 h-80 z--1" style="background-color: rgba(56, 52, 48, 1)">-</div>
     </section>
     <section class="mb-80 pos-relative">
-        <h3 class="font-size-36 mb-100 ml-150">Какие навыки получите</h3>
-        <div class="flex-wrap px-150-0" style="justify-content: space-between;">
+        <h3 class="font-size-36 mb-100 ml-150">Формируйте план обучения и получайте новые навыки в работе</h3>
+        <div class="flex-wrap px-150-0" style="justify-content: space-evenly;">
+            <article class="w-33-100 flex-column">
+                <div class="h-px-175 mb-30">
+                    <img src="./img.first_lend/icon4.svg" alt="">
+                </div>
+                <h4 class="text-center mb-30 font-size-18">
+                    Цифровизация бухгалтерии
+                </h4>
+                <p class="text-center font-size-15 px-20">
+                    Работа в ГИИС «Электронный бюджет». Интеграция ЕИС и 1С, настройка в бухгалтерской программе расширенной аналитики. Учет операций в цифровых рублях и переход на автоматизированный смарт контроль
+                </p>
+            </article>
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
                     <img src="./img.first_lend/icon1.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">
-                    Применение правил новых
-                    <br>федеральных стандартов
-                    <br>в госсекторе
+                    Инвентаризация активов и обязательств
                 </h4>
-                <p class="text-center font-size-15 px-20">Изучите новые стандарты учета и отчетности. Сможете
-                    сопоставить стандарты с инструкциями,
-                    скорректировать проводки и снизить риск искажения учета</p>
+                <p class="text-center font-size-15 px-20">
+                    Инвентаризация имущества по обновленному стандарту. Оформление новых форм инвентаризационных описей. Списание имущества, которое не отвечает критериям актива. Оформление результатов инвентаризации в 1С
+                </p>
+            </article>
+            <article class="w-33-100 flex-column">
+                <div class="h-px-175 mb-30">
+                    <img src="./img.first_lend/icon3.svg" alt="">
+                </div>
+                <h4 class="text-center mb-30 font-size-18">
+                    Планирование и финансовый анализ в госсекторе
+                </h4>
+                <p class="text-center font-size-15 px-20">
+                    Расчет нормативных затрат и себестоимость платных услуг. Обоснование расходов в плане ФХД или бюджетной смете. Перераспределение экономии. Финансовый анализ деятельности учреждения. Расчеты показателей в специальных приложениях
+                </p>
             </article>
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
                     <img src="./img.first_lend/icon2.svg" alt="">
                 </div>
                 <h4 class="text-center mb-30 font-size-18">
-                    Оформление и сверка
-                    <br>первичных документов
-                    <br>в госучреждении
+                    Первичные учетные документы и регистры в госучреждении
                 </h4>
-                <p class="text-center font-size-15 px-20">Составите первичные учетные документы без ошибок. Проведете
-                    внутриформенную проверку, чтобы исключить
-                    ошибки</p>
+                <p class="text-center font-size-15 px-20">
+                    Оформление новых электронных первичных документов. Составление графика документооборота и организация внутреннего контроля первички
+                </p>
             </article>
             <article class="w-33-100 flex-column">
                 <div class="h-px-175 mb-30">
-                    <img src="./img.first_lend/icon3.svg" alt="">
+                    <img src="./img.first_lend/icon5.svg" alt="">
                 </div>
-                <h4 class="text-center mb-30 font-size-18">Составите первичные учетные документы без ошибок. Проведете
-                    внутриформенную проверку, чтобы
-                    исключить ошибки</h4>
-                <p class="text-center font-size-15 px-20">Попрактикуетесь классифицировать имущество учреждения по видам
-                    и критериям актива. Сможете правильно
-                    оценивать, принимать к учету, обесценивать и списывать объекты</p>
-            </article>
-            <article class="w-100 flex-column-center">
-                <div class="w-33">
-                    <div class="h-px-175 mb-30">
-                        <img src="./img.first_lend/icon4.svg" alt="">
-                    </div>
-                    <h4 class="text-center mb-30 font-size-18">Переход на смарт-контроль</h4>
-                    <p class="text-center font-size-15 px-20">Отработаете правила СМАРТ-контроля и сможете подготовить
-                        бухгалтерию к этому новому
-                        бизнес-процессу</p>
-                </div>
+                <h4 class="text-center mb-30 font-size-18">
+                    Отчетность в госучреждении
+                </h4>
+                <p class="text-center font-size-15 px-20">
+                    Составление отчетных форм и и консолидированной отчетности. Проверка показателей по контрольным соотношениям. Формирование аналитической пояснительной записки.Критерии достоверности бухгалтерской (бюджетной) отчетности
+                </p>
             </article>
         </div>
         <span
@@ -670,13 +675,13 @@
             Урок из новой программы,
             <br>который вам стоит пройти уже сейчас!
         </h3>
-        <div>
+        <div class="mb-50">
             <div class="border-radius-30 px-100 flex-center"
                  style="background-color: white; color: rgba(69, 65, 60, 1);">
                 <div class="w-65-100 mr-a font-size-24">
                     Я — Марина Уткина, руководитель Школы Главбуха госучреждения приглашаю вас на новый урок
                     <br>
-                    <b>«Как составить идеальную учетную политику»</b>
+                    <b>«Новые требования к аналитике: как теперь вести учет по дате исполнения»</b>
                 </div>
                 <div class="w-25-100 pos-relative h-px-260">
                     <div class="h-px-300 pos-abs top--40">
@@ -685,6 +690,10 @@
                 </div>
             </div>
         </div>
+        <div class="flex-center">
+            <button class="button-2" onclick="ModalWindow(document.getElementById('lesson1').innerHTML)">Пройти урок
+            </button>
+        </div>
         <span
             style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(243, 228, 181, 1); border-radius: 0 0 50px 50px; top: 0;right: 10px; rotate: -40deg;"></span>
         <span
@@ -692,38 +701,40 @@
         <span
             style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(7, 108, 123, 1); border-radius: 50px; bottom: -15px;left: 200px;"></span>
     </section>
-    <section class="mb-80">
-        <h3 class="font-size-42 text-center mb-50">Как предостеречь себя от ошибок по инвентаризации</h3>
-        <div class="flex-center">
-            <button class="button-2" onclick="ModalWindow(document.getElementById('lesson1').innerHTML)">Пройти урок
-            </button>
-        </div>
-    </section>
     <section class="w-100 mb-100">
         <h3 class="mb-80 font-size-42 text-center">
-            Что нового в Школе Главбуха госучреждения
-            <br>в 2024 году?
+            Что нового в Школе Главбуха госучреждения?
         </h3>
         <article class="w-100 mb-40 open-list-wrapper cp">
             <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
-                <h4 class="font-size-36 p-50 open-list" data-open-list="1">Новые форматы интерактивных заданий •</h4>
+                <h4 class="font-size-36 p-50 open-list" data-open-list="1">28 готовых программ для обучения бухгалтеру и главбуху •</h4>
                 <div class="hide p-50 pt-35 font-size-20 open-list-data flex-center" data-open-list="1">
                     <p class="mb-35">
-                        <b>Тренировка.</b> Заполните матрицу централизации
-                        Мы составили матрицу централизации для лайтового перехода. Собрали в ней все дела, которые
-                        помогут учреждению сохранить работу бухгалтерам. Попытайтесь заполнить матрицу. Разнесите
-                        действия по степени важности: красный блок — сделать обязательно, желтый — необходимо для
-                        реализации первого блока. Зеленый — действия необязательные, но они помогут легче пережить
-                        перемены.
-                        Удачной тренировки!
+                        На обучение вам дается целый год и доступ ко всем программам Школы Главбуха госучреждения. Вы сами формируете свой учебный план и решаете какие навыки хотите подтянуть.
                     </p>
-                    <iframe
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen="" frameborder="0" height="650" scrolling="no"
-                        src="//e.profkiosk.ru/media/36a6392b-0726-4826-a27f-8d39689c3c31/"
-                        title="video-1d62b6d1-835c-4eeb-95e4-83c8ed260153" width="670" data-gtm-yt-inspected-13="true"
-                        id="iFrameResizer0" style="overflow: auto; height: 705px;"> 
-                    </iframe>
+                    <b>Вам уже доступно 28 программ. Рейтинг самых популярных у наших учеников:</b>
+                    <div>
+                        <ol>
+                            <li class="mb-10">Закрытие отчетного периода в «1С: Бухгалтерия государственного учреждения»</li>
+                            <li class="mb-10">Инструменты Excel, которые помогут бухгалтеру работать быстрее и сократить ошибки</li>
+                            <li class="mb-10">Главбух госсектора по подготовке консолидированной бюджетной отчетности (код D)</li>
+                            <li class="mb-10">Санкционирование расходов в программе 1С для бюджетных (автономных) учреждений</li>
+                            <li class="mb-10">Составление и представление финансовой отчетности экономического субъекта (код В)</li>
+                            <li class="mb-10">Расчеты с подотчетными лицами в учреждении бюджетной сферы</li>
+                            <li class="mb-10">Подготовка и аттестация бухгалтеров учреждений на соответствие квалификации "Ведение бухгалтерского учета" (код А)</li>
+                            <li class="mb-10">Экономист по планированию финансово-хозяйственной деятельности госучреждения</li>
+                            <li class="mb-10">Бухгалтер по зарплате государственного (муниципального) учреждения</li>
+                            <li class="mb-10">Бухгалтерская отчетность в 1С: инструменты, как найти и обезвредить ошибки</li>
+                            <li class="mb-10">Бухгалтер госсектора. «Ведение бухгалтерского учета» (код А)</li>
+                            <li class="mb-10">Алгоритм расчетов и выплат сотрудникам по новым правилам в программе «1С: Зарплата и кадры государственного учреждения»</li>
+                            <li class="mb-10">Бухгалтер-кассир в государственном (муниципальном) учреждении</li>
+                            <li class="mb-10">Единый налоговый платеж: все настройки и отчеты в программе «1С: Бухгалтерия государственного учреждения»</li>
+                            <li class="mb-10">Основные средства и материальные запасы: кейсы по приему имущества к бухучету</li>
+                            <li class="mb-10">Идеальная учетная политика: как составить, чтобы вести учет удобно и без нарушений</li>
+                            <li class="mb-10">Бухгалтер по банковским операциям в государственном (муниципальном) учреждении</li>
+                        </ol>
+                    </div>
+                    <b>И еще 11 полезных программ!</b>
                 </div>
             </div>
         </article>
@@ -849,33 +860,18 @@
     </section>
     <section class="w-100 pos-relative" style="background-color: rgba(56, 52, 48, 1); color: white;">
         <div class="px-150-0 py-100">
-            <h3 class="font-size-36 mb-40">НОВЫЕ ПРОГРАММЫ<br>в Школе Главбуха госучреждения в 2024</h3>
+            <h3 class="font-size-36 mb-40">БУДУЩИЕ ПРОГРАММЫ<br>в Школе Главбуха госучреждения</h3>
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Продвинутый •</div>
-                <h4 class="font-size-26 w-90">Основные средства и материальные запасы: кейсы по приему имущества к
-                    бухучету</h4>
+                <h4 class="font-size-26 w-90">Новые первичные документы для учета нефинансовых активов в программе «1С: Бухгалтерия государственного учреждения», 40 часов, 1 месяц</h4>
             </article>
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Продвинутый •</div>
-                <h4 class="font-size-26 w-90">Специалист по внутреннему контролю в учреждении</h4>
+                <h4 class="font-size-26 w-90">Внутренний финансовый аудит в бюджетной сфере, 72 часа, 1 месяц</h4>
             </article>
             <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
                 <div class="mb-10 font-size-20">Продвинутый •</div>
-                <h4 class="font-size-26 w-90">Новая цифровая бухгалтерия в бюджетной сфере: планирование, отчетность,
-                    контроль</h4>
-            </article>
-            <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
-                <div class="mb-10 font-size-20">Базовый •</div>
-                <h4 class="font-size-26 w-90">Безвозмездная передача имущества: учет у передающей и принимающей стороны
-                    в программе 1С</h4>
-            </article>
-            <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
-                <div class="mb-10 font-size-20">Продвинутый •</div>
-                <h4 class="font-size-26 w-90">Главный бухгалтер госсектора (код В) - 2024</h4>
-            </article>
-            <article class="mb-15 p-40 border-radius-15" style="background-color: rgba(133, 204, 255, 1);">
-                <div class="mb-10 font-size-20">Продвинутый •</div>
-                <h4 class="font-size-26 w-90">Бухгалтер госсектора (код А) - 2024</h4>
+                <h4 class="font-size-26 w-90">Инвентаризация активов и обязательств в государственном (муниципальном) учреждении, 14 дней, 40 часов</h4>
             </article>
         </div>
         <span
@@ -885,7 +881,7 @@
         <span
             style="display: inline-block; width: 15px; height: 15px; position: absolute; background-color: rgba(224, 25, 24, 1); border-radius: 50px; bottom: -8px;right: 350px; z-index: 1;"></span>
     </section>
-    <section class="w-100 pt-50-0" style="background-color: white;">
+    <section class="w-100 pt-50-0 pb-20" style="background-color: white;">
         <style>
             .crazy-img {
                 width: 216px;
@@ -972,24 +968,6 @@
             })
         </script>
     </section>
-    <section class="w-100 py-100 pos-relative" style="background-color: white;">
-        <div class="px-35-0">
-            <article class="w-100 mb-40 open-list-wrapper cp">
-                <div class="mx-100-0 border-radius-15" style="background-color: rgba(69, 65, 60, 1); color: white;">
-                    <h3 class="font-size-36 p-50 open-list" data-open-list="3">Пройдите тест и мы сформируем индивидуальный план обучения</h3>
-                    <div class="hide p-50 pt-35 font-size-20 open-list-data flex-center" style="background-color: white;" data-open-list="3">
-                        <iframe src="https://academia.school.budgetnik.ru/" frameborder="0" class="w-100" style="height: 1000px" ></iframe>
-                    </div>
-                </div>
-            </article>
-        </div>
-        <span
-            style="display: inline-block; width: 80px; height: 40px; position: absolute; background-color: rgba(219, 25, 13, 1); border-radius: 0 0 50px 50px; top: 70px;left: 80px; rotate: 130deg;"></span>
-        <span
-            style="display: inline-block; width: 30px; height: 30px; position: absolute; background-color: rgba(236, 139, 0, 1); border-radius: 50px; top: 520px;right: 100px;"></span>
-        <span
-            style="display: inline-block;width: 15px;height: 15px;position: absolute;background-color: rgba(11, 7, 8, 1);border-radius: 50px;bottom: 50px;left: 300px;"></span>
-    </section>
     <footer class="h-px-300 w-100 flex-center p-0-20" style="background-color: rgba(56, 52, 48, 1); color: white;">
         <div class="w-50-100">
             <div class="pl-100-0">
@@ -1044,120 +1022,107 @@
             margin-top: -53px;
             background-size: contain;
         }
+        .sovet {
+             content: '';
+             position: absolute;
+             background-image: url(https://cdn.action-mcfr.ru/editor/schools/ic-tips.svg);
+             width: 110px;
+             height: 110px;
+             right: -42px;
+             top: -50px;
+             background-size: contain;
+         }
     </style>
     <div class="lesson1">
-        <h2>Как предостеречь себя от ошибок по инвентаризации</h2>
+        <h2>Новые требования к аналитике: как теперь вести учет по дате исполнения</h2>
         <p>
-            В этом уроке попрактикуетесь формировать порядок инвентаризации с привязкой к своему учреждению. Узнаете,
-            какие опасности кроются в некорректных формулировках по срокам проверок и документальному оформлению
-            операций, как не мучиться с обесценением активов, но выполнить нормы стандарта. Смотрите видеолекцию
-            Александра Опальского и дополнительные вопросы главбуха в телемосте с экспертом.
+            Теперь у вас есть новое требование к аналитическому учету. Расчеты по доходам и расходам надо отражать в разрезе дат исполнения. Поправки в Инструкцию №157н ввели в действие в апреле 2023 года приказом № 192н. Однако новые правила надо применять с 1 января 2023 года. Так что придется срочно править учет. В этом уроке на популярных примерах потренируетесь отражать допаналитику. Определите, к каким счетам учета следует ее добавить. Узнаете, где взять информацию по дате исполнения, и как ее проставить.
         </p>
-        <h3>Теория. Когда и как можно обхитрить контролеров</h3>
+        <h3>Для каких счетов применять новый уровень аналитики</h3>
         <p>
-            В первом видео узнаете, что указать в правилах обязательной и дополнительной инвентаризации. А также — как
-            обезопасить себя от претензий контролеров, если в учреждении нечего обесценивать.
-        </p>
-        <h4>Видеолекция Александра Опальского</h4>
-        <div class="flex-center">
-            <iframe id="YT_1688907286156" frameborder="0" allowfullscreen="1"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    title="Как предостеречь себя от ошибок по инвентаризации" width="688" height="385"
-                    src="https://www.youtube.com/embed/1FKMQmFa78k?wmode=opaque&amp;enablejsapi=1&amp;origin=https%3A%2F%2Ffinacademy.budgetnik.ru&amp;widgetid=1"
-                    data-gtm-yt-inspected-13="true" scrolling="no" style="overflow: auto;"></iframe>
-        </div>
-        <p>
-            <b>Тренировка: заполните правила обесценения активов.</b> Вспомните, что вам рассказал преподаватель, и
-            попробуйте сами сформировать отрывок из правил инвентаризации.
-        </p>
-        <div class="flex-center">
-            <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen="" frameborder="0" height="680" scrolling="no"
-                    src="https://e.profkiosk.ru/media/d0334c27-4fb6-4cb1-8b33-7a0d92bf5cbc/"
-                    title="video-a8806404-90f8-428b-8a99-977da5b9d873" width="670" data-gtm-yt-inspected-13="true"
-                    id="iFrameResizer0" style="overflow: auto; height: 867px;"> 
-            </iframe>
-        </div>
-        <p>
-            <b>Повторим главное по теме.</b> Не пишите в учетной политике обязательные случаи инвентаризации. Ведь они
-            уже утверждены в СГС «Концептуальные основы бухучета и отчетности» (утв. <a target="_blank"
-                                                                                        href="https://finacademy.budgetnik.ru/programs/208177/f5ec472f-d3d6-4285-a1e9-f7aa330eee78/15a2bbae-5eba-4fb0-860c-10a93d3b930b">приказом
-                Минфина от 31.12.2016 №
-                256н</a>). В учетке укажите, как будете действовать в своем учреждении.
-            Если описали определенную процедуру, связанную с инвентаризацией, подтверждайте ее первичными учетными
-            документами.Если будут расхождения между порядком инвентаризации и документальным оформлением операций,
-            контролеры могут указать на нарушения учетки.
+            Раньше у вас было требование вести аналитику на счетах бухучета в разрезе контрагентов (групп контрагентов) и правовых оснований (п. 3 Инструкции 157н). С 1 января 2023 года добавился еще один уровень — дата исполнения (приказ Минфина России от 21.12.2022 № 192н).
         </p>
         <div class="flex">
-            <div class="m-a w-75 p-50 pos-relative" style="border: solid 2px #474d5e;">
-                <span class="apple"></span>
-                <h3>Пример, как подтвердить порядок инвентаризации документами</h3>
-                <p>
-                    Бухгалтерия прописала в учетной политике, что каждый месяц проводит инвентаризацию кассы. В этом
-                    случае необходимо ежемесячно оформлять
-                    <a target="_blank"
-                       href="https://finacademy.budgetnik.ru/storage/text/3f3e660d-6205-473f-8ebf-2a25ea13ee88.xlsx">инвентаризационную
-                        опись бланков строгой отчетности и денежных документов (ф. 0504086)</a>. Описи могут затребовать
-                    ревизоры во время проверки.
-                </p>
+            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
+                <h3>Пересмотрите свои операции по начислению дебиторки по доходам, кредиторки по обязательствам, которые провели с начала года, и по всем укажите предельную дату исполнения. Расчеты 2022 года и ранее не корректируйте</h3>
+                <span class="sovet"></span>
             </div>
         </div>
         <p>
-            Во время годовой инвентаризации применяйте стандарт «Обесценение активов» (утв. <a target="_blank"
-                                                                                               href="https://finacademy.budgetnik.ru/programs/208177/f5ec472f-d3d6-4285-a1e9-f7aa330eee78/15a2bbae-5eba-4fb0-860c-10a93d3b930b">приказом
-                Минфина от 31.12.2016 № 259н</a>). Если нет объектов, которые нужно обесценивать, пропишите в
-            инвентаризационной описи, что признаков обесценения не обнаружено.
+            Давайте разберемся, к каким счетам добавлять углубленную аналитику, ведь прямо в Инструкции № 157н они не прописаны. Поскольку новая норма касается доходов и расходов, аналитику по дате исполнения нужно добавить к счетам: 205.00 «Расчеты по доходам»; 206.00 «Расчеты по выданным авансам»; 208.00 «Расчеты с подотчетными лицами»; 209.00 «Расчеты по ущербу и иным доходам»; 302.00 «Расчеты по принятым обязательствам»; 303.00 «Расчеты по платежам в бюджеты».
         </p>
-        <h3>Практика. Телемост эксперта и главбуха</h3>
-        <p>Смотрите, какие вопросы по инвентаризации волнуют практиков в телемосте между автором курса Александром
-            Опальским (Москва) и главбухом Юлией Казанцевой (Челябинск). В конце урока пишите в комментариях, какие еще
-            вопросы остались у вас к эксперту. Разберем их на школьном онлайн-уроке.</p>
-        <h4>Видео. Вопросы главбуха по теме урока</h4>
         <div class="flex-center">
-            <iframe id="YT_1688907286160" frameborder="0" allowfullscreen="1"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    title="Как прописать правила о событиях после отчетной даты, чтобы избежать противоречий"
-                    width="688"
-                    height="315"
-                    src="https://www.youtube.com/embed/tMgdEhlS3fM?wmode=opaque&amp;enablejsapi=1&amp;origin=https%3A%2F%2Ffinacademy.budgetnik.ru&amp;widgetid=2"
-                    data-gtm-yt-inspected-13="true" scrolling="no" style="overflow: auto;"></iframe>
+            <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" scrolling="no" src="https://finacademy.budgetnik.ru/interactive/doc/d6604275-1af5-47bb-9bae-fa903b5b94fe/index.html" title="video-30733e5c-bf87-4f53-8e0d-dd8a553f6dd3" width="560" data-gtm-yt-inspected-17="true" id="iFrameResizer0" style="overflow: auto; height: 1055px;"> </iframe>
+        </div>
+        <div class="flex">
+            <div class="m-a w-75 p-50 pos-relative" style="  border-top: 1px solid #549ffa; border-bottom: 1px solid #549ffa;">
+                <h3>Если нет возможности установить конкретную дату исполнения задолженности или обязательства, укажите значение «31.12.2999»</h3>
+                <span class="sovet"></span>
+            </div>
         </div>
         <p>
-            <b>Тренировка: сформируйте свой пакет документов.</b> Во втором тренажере попытайтесь самостоятельно
-            составить полный порядок инвентаризации.
+            Показатель даты исполнения проставляйте в операциях начисления. Например, так:
         </p>
         <p>
-            <i>Вы можете сразу сохранить документ на своем компьютере. Для этого есть кнопка «Загрузить». Или на время
-                свернуть его в уроке и заполнить позже. Тогда нажмите на кнопку «Закрыть».</i>
+            <i>
+                Дебет 0.401.20.226 (0.109.Х0.226) Кредит 0.302.26.73Х
+            </i>
         </p>
-        <style>
-            .container {
-                position: relative;
-                width: 100%;
-                height: 0;
-                padding-bottom: 55%;
-            }
-
-            .video {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
-        </style>
-        <div class="flex-center container">
-            <iframe class="video"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen="" frameborder="0" scrolling="yes"
-                    src="//e.profkiosk.ru/media/456f6fec-da33-4d05-b523-ed0879132e5f/"
-                    title="video-2f17bff0-d7e7-4add-b31f-6410212b1ffb" width="670" id="iFrameResizer1"
-                    style="overflow: auto; min-height: 233px;">
-            </iframe>
+        <p>
+            <i>
+                — 31 мая приняты к учету расходы (в аналитике счета 0.302.00 следует указать предельную дату оплаты, установленную контрактом, — «15 июня 2023 года»).
+            </i>
+        </p>
+        <h3>Где взять информацию по дате исполнения</h3>
+        <p>
+            Ищите дату исполнения в документах, которые связаны с определенной хозоперацией. Например, дата погашения задолженности есть условиях договора; сроки по платежам в бюджет — в Налоговом кодексе. Для расчетов с подотчетниками в локальном акте фиксируют, в течение какого периода они должны представить авансовый отчет.
+        </p>
+        <h4>Схема 1. Начисляете зарплату или стипендию: счет 302.00</h4>
+        <div>
+            <img src="https://api.school.glavbukh.ru/api/v2/file_download?id=4d45761a-9c0c-4739-9aa3-c4280c8af659" alt="">
         </div>
         <p>
-            Подкрепите скорректированные правила инвентаризации к документам, которые сделали на предыдущих уроках.
+            Обратите внимание, что для депонированных сумм дата исполнения будет 31.12.2999.
         </p>
+        <h4>Схема 1. Выдали деньги под отчет: счет 208.00</h4>
+        <div>
+            <img src="https://api.school.glavbukh.ru/api/v2/file_download?id=d995b60c-7583-49b3-a1a5-e668c22dacb2" alt="">
+        </div>
+        <p>
+            <a href="https://finacademy.budgetnik.ru/storage/text/c801fe7b-a410-4b61-a797-0456018b63a8.doc">Скачайте все схемы, с помощью которых сможете определить дату исполнения.</a> Смотрите презентацию с примерами из бухгалтерской практики.
+        </p>
+        <div class="flex-center">
+            <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" scrolling="no" src="https://finacademy.budgetnik.ru/interactive/doc/6def2aac-a353-47aa-949a-40bad3fd6d6f/index.html" title="video-8b666d6d-a2aa-4c7c-89ab-7c489281774e" width="560" data-gtm-yt-inspected-17="true" id="iFrameResizer1" style="overflow: auto; height: 502px;"> </iframe>
+        </div>
+        <p>
+            По схемам и презентации вы сможете понять принцип действий, как проставлять в учете расширенную аналитику по дате исполнения.
+        </p>
+        <h3>Самое важное</h3>
+        <p>
+            <ul>
+                <li class="mb-10">С 1 января 2023 года в аналитике расчетов по доходам и расходам добавился еще один уровень — «дата исполнения»</li>
+                <li class="mb-10">Ищите дату исполнения в документах, которые связаны с определенным счетом</li>
+                <li class="mb-10">Укажите дату исполнения, когда оформляете операции начисления</li>
+            </ul>
+        </p>
+        <h3>Дополнительные материалы</h3>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/o%20suschestvennosty%20uchetnoy%20politiki_20220525T154043_20221011T123639_20221114T161211.docx">Профессиональное суждение бухгалтера о существенности изменений учетной политики</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/profsuzhdenie%20spod_20220525T154043_20221011T123639_20221114T161211.docx">Профессиональное суждение бухгалтера о событиях после очередной даты</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/oshibka%20v%20zarplate_20220525T154043_20221011T123639_20221114T161211.doc">Образец профессионального суждения бухгалтера об ошибке в зарплате</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/s%20zabalanca%20na%20zabalans_20220525T154043_20221011T123639_20221114T161211.doc">Профсуждение о переводе запасов с забаланса на баланс</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/profsuzhd%20matzapasy_20220525T154043_20221011T123639_20221114T161211.doc">Образец профессионального суждения бухгалтера о единице учета матзапасов</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/poffsuzhd%20fin%20arenda_20220525T154043_20221011T123639_20221114T161211.doc">Образец профсуждения о договоре финансовой аренды</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/standart%20arenda_20220525T154043_20221011T123639_20221114T161211.doc">Образец профсуждения о договоре, который не попадает под стандарт Аренда</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/arenda%20objecty_20220525T154043_20221011T123639_20221114T161211.doc">Профессиональное суждение бухгалтера по объектам аренды</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/arenda%20bezvozmezn_20220525T154043_20221011T123639_20221114T161211.docx">Образец профессионального суждения бухгалтера о договоре безвозмездного пользования</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/proffsuzhd%20oper%20arenda_20220525T154043_20221011T123639_20221114T161212.doc">Образец профсуждения о договоре операционной аренды</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/profsuzhd%20obescen_20220525T154043_20221011T123639_20221114T161212.docx">Профсуждение о стоимости при обесценении ОС</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/srok%20profsuzhd_20220525T154043_20221011T123639_20221114T161212.doc">Образец профессионального суждения бухгалтера о сроке полезного использования имущества</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/ocen%20pokazatel_20220525T154043_20221011T123639_20221114T161212.doc">Профессиональное суждение бухгалтера о величине оценочного показателя</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/spaved%20stoimost_20220525T154043_20221011T123639_20221114T161212.doc">Образец профессионального суждения бухгалтера о справедливой стоимости при безвозмездной передаче</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/primer%20arenda%20po%20objecatam_20220525T154043_20221011T123639_20221114T161212.doc">Пример, как оформить «профессиональное суждение бухгалтера» по объектам аренды</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/Reservy_20211018T181614_20221114T172334.docx">Новый стандарт «Резервы»</a></div>
+        <div><a target="_blank" href="https://finacademy.budgetnik.ru/webcontent/courses/78ce12a66d254babaec006b2d30b938a/DolgosrochnyeDogovory_20211018T183533_20221114T172334.docx">Новый стандарт «Долгосрочные договоры»</a></div>
     </div>
 </template>
 
